@@ -1,0 +1,48 @@
+{
+    "name": "dark-theme",
+    "displayName": "IrishBruse's Dark Theme",
+    "description": "VS Code's default dark theme, but just a little bit better.",
+    "version": "0.2.0",
+    "publisher": "irishbruse",
+    "license": "MIT",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dunstontc/dark-plus-syntax.git"
+    },
+    "scripts": {
+        "build": "node index.js",
+        "watch": "watch \"npm run build\" src",
+        "publish": "vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "configurationDefaults": {
+        "[dark-theme]": {
+            "editor.semanticHighlighting.enabled": true
+        }
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "IrishBruse's Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "glob": "^7.2.0",
+        "watch": "^1.0.2",
+        "write-json-file": "^2.2.0"
+    },
+    "galleryBanner": {
+        "color": "#569cd6",
+        "theme": "dark"
+    },
+    "icon": "assets/128.png"
+}
