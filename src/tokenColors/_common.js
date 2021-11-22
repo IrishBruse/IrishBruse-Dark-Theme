@@ -1,17 +1,7 @@
 export default [
-    // Text
-    {
-        "scope": [
-            "text",
-        ],
-        "settings": {
-            "foreground": "#D4D4D4",
-        },
-    },
     // Definitions class/struct etc
     {
         "scope": [
-            "storage.type.variable",
             "storage.type.modifier",
             "entity.name.type.class",
             "entity.name.type.struct",
@@ -46,7 +36,6 @@ export default [
         "scope": [
             "variable.other.object.field",
             "entity.name.variable.local",
-            "comment.block.documentation string.quoted.double",
         ],
         "settings": {
             "foreground": "#9cdcfe"
@@ -93,16 +82,6 @@ export default [
             "foreground": "#d7ba7d",
         },
     },
-    // Strings
-    {
-        "scope": [
-            "string.quoted.double",
-            "string.quoted.single",
-        ],
-        "settings": {
-            "foreground": "#ce9178",
-        },
-    },
     //Constant numbers
     {
         "scope": [
@@ -147,7 +126,9 @@ export default [
     },
     // Errors
     {
-        "scope": "token.error-token",
+        "scope": [
+            "token.error-token"
+        ],
         "settings": {
             "foreground": "#ff00ff",
         },

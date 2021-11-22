@@ -68,7 +68,9 @@ export default [
     },
     // Code block language type
     {
-        "scope": "fenced_code.block.language",
+        "scope": [
+            "fenced_code.block.language"
+        ],
         "settings": {
             "foreground": "#4ec9b0"
         },

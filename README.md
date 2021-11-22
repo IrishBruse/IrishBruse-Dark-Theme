@@ -6,10 +6,10 @@
 
 Fork and complete recoloring to suit my liking of dark-plus-syntax
 
-## Languages with direct support
-- C# 10 support (`Editor › Semantic Highlighting: Enabled` & `Csharp › Semantic Highlighting: Enabled`)
+## Languages with customized support
+- C# 10
 - C
-- GoLang
+- Go
 - html
 - CSS
 - json

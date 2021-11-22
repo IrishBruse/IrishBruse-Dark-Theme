@@ -17,33 +17,31 @@ export default [
         "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
         "editorGutter.deletedBackground": "#d16969",
         "editorOverviewRuler.deletedForeground": "#d16969", // Overview ruler marker color for deleted content.
-        // ========================================================================
+        // Statusbar
+        "statusBar.background": "#000000",
+        "statusBar.debuggingBackground": "#cc6633",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.noFolderBackground": "#68217a",
+        "statusBar.noFolderForeground": "#ffffff",
         // Error, Warning, & Info
-        // ========================================================================
         // Error
         "editorError.foreground": "#d16969", // Error squiggles
-        // "editorError.border": "#d16969",
         "editorOverviewRuler.errorForeground": "#d16969", // Overview ruler marker color for errors.
         // Warning
         "editorWarning.foreground": "#d7ba7d", // Warning squiggles
-        // "editorWarning.border": "#d7ba7d",
         "editorOverviewRuler.warningForeground": "#d7ba7d", // Overview ruler marker color for warnings.
         // Info
         "editorInfo.foreground": "#9cdcfe", // Info squiggles
-        // "editorInfo.border": "#9cdcfe",
         "editorOverviewRuler.infoForeground": "#d4d4d4", // Overview ruler marker color for infos.
-        // ========================================================================
         // Git Colors
-        // ========================================================================
         "gitDecoration.modifiedResourceForeground": "#608b4e",
         "gitDecoration.addedResourceForeground": "#608b4e",
         "gitDecoration.deletedResourceForeground": "#d7ba7d",
         "gitDecoration.untrackedResourceForeground": "#d7ba7d",
         "gitDecoration.ignoredResourceForeground": "#808080",
         "gitDecoration.conflictingResourceForeground": "#d16969",
-        // ========================================================================
         // Terminal Colors
-        // ========================================================================
         "terminal.selectionBackground": "#add6ff26",
         "terminalCursor.foreground": "#808080",
         "terminal.background": "#1e1e1e",

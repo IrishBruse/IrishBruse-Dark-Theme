@@ -11,6 +11,7 @@
         "url": "https://github.com/dunstontc/dark-plus-syntax.git"
     },
     "scripts": {
+        "prebuild": "node codegen.js",
         "build": "node index.js",
         "watch": "watch \"npm run build\" src",
         "publish": "vsce publish"
@@ -22,7 +23,7 @@
         "Themes"
     ],
     "configurationDefaults": {
-        "[dark-theme]": {
+        "[csharp]": {
             "editor.semanticHighlighting.enabled": true
         }
     },
@@ -32,6 +33,16 @@
                 "label": "IrishBruse's Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-theme.json"
+            }
+        ],
+        "semanticTokenScopes": [
+            {
+                "language": "csharp",
+                "scopes": {
+                    "accessor": [
+                        "storage.modifier.cs"
+                    ]
+                }
             }
         ]
     },
