@@ -44,7 +44,7 @@ export default [
             "punctuation.definition.list.begin",
         ],
         "settings": {
-            "foreground": "#569cd6",
+            "foreground": "<keyword>",
         },
     },
     // Headings
@@ -55,7 +55,7 @@ export default [
             "punctuation.definition.heading.markdown",
         ],
         "settings": {
-            "foreground": "#569cd6"
+            "foreground": "<keyword>"
         },
     },
     {
@@ -63,16 +63,16 @@ export default [
             "punctuation.definition.heading.markdown",
         ],
         "settings": {
-            "foreground": "#8a76cc"
+            "foreground": "<controlflow>"
         },
     },
     // Code block language type
     {
         "scope": [
-            "fenced_code.block.language"
+            "fenced_code.block.language.markdown"
         ],
         "settings": {
-            "foreground": "#4ec9b0"
+            "foreground": "<accessor>"
         },
     },
     // Brackets & Seperator
@@ -83,9 +83,10 @@ export default [
             "punctuation.definition.string.begin.markdown",
             "punctuation.definition.string.end.markdown",
             "punctuation.definition.metadata.markdown",
+            "punctuation.definition.constant.markdown",
         ],
         "settings": {
-            "foreground": "#505050"
+            "foreground": "<darkgray>"
         },
     },
     {
@@ -94,7 +95,7 @@ export default [
             "markup.underline.link.markdown",
         ],
         "settings": {
-            "foreground": "#569cd6"
+            "foreground": "<keyword>"
         },
     },
     // String
@@ -105,7 +106,16 @@ export default [
             "string.other.link.description.title.markdown",
         ],
         "settings": {
-            "foreground": "#ce9178",
+            "foreground": "<string>",
+        },
+    },
+    // Link Titles
+    {
+        "scope": [
+            "string.other.link.title.markdown"
+        ],
+        "settings": {
+            "foreground": "<local>"
         },
     },
 ]

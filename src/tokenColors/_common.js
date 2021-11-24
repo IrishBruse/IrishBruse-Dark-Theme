@@ -8,7 +8,7 @@ export default [
             "entity.name.type.alias",
         ],
         "settings": {
-            "foreground": "#4ec9b0",
+            "foreground": "<definition>",
         },
     },
     // Generics Type & control flow keywords
@@ -16,10 +16,9 @@ export default [
         "scope": [
             "storage.type.generic",
             "entity.name.type.type-parameter",
-            "storage.type",
         ],
         "settings": {
-            "foreground": "#4ec9b0"
+            "foreground": "<definition>"
         },
     },
     // Definitions class/struct etc
@@ -28,17 +27,16 @@ export default [
             "storage.modifier",
         ],
         "settings": {
-            "foreground": "#c94e67",
+            "foreground": "<accessor>",
         },
     },
     // Local Fields
     {
         "scope": [
             "variable.other.object.field",
-            "entity.name.variable.local",
         ],
         "settings": {
-            "foreground": "#9cdcfe"
+            "foreground": "<local>"
         },
     },
     // Control flow
@@ -47,7 +45,7 @@ export default [
             "keyword.control",
         ],
         "settings": {
-            "foreground": "#8a76cc"
+            "foreground": "<controlflow>"
         },
     },
     // Method/Function definition name
@@ -56,7 +54,7 @@ export default [
             "entity.name.function",
         ],
         "settings": {
-            "foreground": "#dcdcaa"
+            "foreground": "<method>"
         },
     },
     // primatives and (null,new,this)
@@ -67,7 +65,7 @@ export default [
             "keyword.type",
         ],
         "settings": {
-            "foreground": "#569cd6"
+            "foreground": "<keyword>"
         },
     },
     // Escape
@@ -79,7 +77,7 @@ export default [
             "constant.character.escape",
         ],
         "settings": {
-            "foreground": "#d7ba7d",
+            "foreground": "<escape>",
         },
     },
     //Constant numbers
@@ -89,7 +87,15 @@ export default [
             "keyword.other.unit",
         ],
         "settings": {
-            "foreground": "#b5cea8",
+            "foreground": "<number>",
+        },
+    },
+    {
+        "scope": [
+            "variable.other.constant.property",
+        ],
+        "settings": {
+            "fontStyle": "bold",
         },
     },
     // Comments
@@ -101,7 +107,7 @@ export default [
             "comment.block",
         ],
         "settings": {
-            "foreground": "#505050",
+            "foreground": "<darkgray>",
         },
     },
     {
@@ -110,27 +116,31 @@ export default [
             "comment.block.documentation",
         ],
         "settings": {
-            "foreground": "#707070",
+            "foreground": "<gray>",
         },
     },
     // Punctuation
     {
         "scope": [
             "keyword.operator",
-            "punctuation.squarebracket",
-            "punctuation.definition.typeparameters",
+            "entity.name.function.member.overload.cs",
         ],
         "settings": {
-            "foreground": "#707070",
+            "foreground": "<gray>",
         },
     },
     // Errors
     {
         "scope": [
+            "invalid.unimplemented",
+            "invalid.illegal",
+            "invalid.deprecated",
+            "invalid.broken",
             "token.error-token"
         ],
         "settings": {
-            "foreground": "#ff00ff",
+            "foreground": "<error>",
+            "fontStyle": "italic strokethrough",
         },
     },
 ]

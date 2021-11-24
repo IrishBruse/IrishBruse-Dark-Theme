@@ -1,39 +1,40 @@
 export default [
+    // This covers all tags in html and javascript
     // Attributes
     {
         "scope": [
-            "entity.other.attribute-name.html",
+            "entity.other.attribute-name",
         ],
         "settings": {
-            "foreground": "#9cdcfe"
+            "foreground": "<local>"
         },
     },
     // < > />
     {
         "scope": [
-            "punctuation.definition.tag.begin.html",
-            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.begin",
+            "punctuation.definition.tag.end",
         ],
         "settings": {
-            "foreground": "#505050"
+            "foreground": "<darkgray>"
         },
     },
     // Tags
     {
         "scope": [
-            "entity.name.tag.html",
+            "entity.name.tag",
         ],
         "settings": {
-            "foreground": "#569cd6"
+            "foreground": "<keyword>"
         },
     },
     // Attributes
     {
         "scope": [
-            "invalid.deprecated.entity.other.attribute-name.html",
+            "invalid.deprecated.entity.other.attribute-name",
         ],
         "settings": {
-            "foreground": "#9cdcfe",
+            "foreground": "<local>",
             "fontStyle": "italic",
         },
     },

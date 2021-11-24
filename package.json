@@ -1,8 +1,8 @@
 {
     "name": "dark-theme",
     "displayName": "IrishBruse's Dark Theme",
-    "description": "VS Code's default dark theme, but just a little bit better.",
-    "version": "0.2.0",
+    "description": "My custom dark theme influenced by dark-plus-theme.",
+    "version": "1.0.0",
     "publisher": "irishbruse",
     "license": "MIT",
     "type": "module",
@@ -10,11 +10,18 @@
         "type": "git",
         "url": "https://github.com/dunstontc/dark-plus-syntax.git"
     },
+    "watch": {
+        "build": {
+            "patterns": "src",
+            "extensions": "js",
+            "ignore": "src/tokenColors/typescript.js"
+        }
+    },
     "scripts": {
         "prebuild": "node codegen.js",
         "build": "node index.js",
-        "watch": "watch \"npm run build\" src",
-        "publish": "vsce publish"
+        "publish": "vsce publish",
+        "watch": "npm-watch"
     },
     "engines": {
         "vscode": "^1.15.0"
@@ -34,25 +41,14 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-theme.json"
             }
-        ],
-        "semanticTokenScopes": [
-            {
-                "language": "csharp",
-                "scopes": {
-                    "accessor": [
-                        "storage.modifier.cs"
-                    ]
-                }
-            }
         ]
     },
     "devDependencies": {
-        "glob": "^7.2.0",
-        "watch": "^1.0.2",
+        "npm-watch": "^0.11.0",
         "write-json-file": "^2.2.0"
     },
     "galleryBanner": {
-        "color": "#569cd6",
+        "color": "#8a76cc",
         "theme": "dark"
     },
     "icon": "assets/128.png"

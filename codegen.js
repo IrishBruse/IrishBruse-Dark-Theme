@@ -12,6 +12,22 @@ for (let i = 0; i < dirs.length; i++) {
     files.forEach(file => {
         let name = file.replace(".js", "");
         let path = dirs[i] + name;
+
+        //Duplicate javascript for typescript
+        if (name === "javascript") {
+            var tsPath = path.replace("javascript", "typescript");
+            var data = fs.readFileSync(path + ".js", "utf-8");
+
+            data = data.replaceAll(".js", ".ts");
+
+            fs.writeFileSync(tsPath + ".js", "// Auto generated from javascript.js changes will be lost\n\n" + data)
+
+            if (files.includes(name + ".js") == false) {
+                moduleNames.push("typescript");
+                modulePaths.push(tsPath);
+            }
+        }
+
         moduleNames.push(name);
         modulePaths.push(path);
     });

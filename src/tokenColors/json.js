@@ -4,7 +4,7 @@ export default [
             "support.type.property-name.json",
         ],
         "settings": {
-            "foreground": "#9cdcfe",
+            "foreground": "<local>",
         },
     },
     {
@@ -15,7 +15,18 @@ export default [
             "punctuation.definition.array.end.json",
         ],
         "settings": {
-            "foreground": "#505050",
+            "foreground": "<darkgray>",
+        },
+    },
+    // Strings
+    {
+        "scope": [
+            "string.quoted.double.json",
+            "string.quoted.single.json",
+            "string.template.json",
+        ],
+        "settings": {
+            "foreground": "<string>",
         },
     },
 ]
