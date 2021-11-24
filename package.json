@@ -2,7 +2,7 @@
     "name": "dark-theme",
     "displayName": "IrishBruse's Dark Theme",
     "description": "My custom dark theme influenced by dark-plus-theme.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "irishbruse",
     "license": "MIT",
     "type": "module",

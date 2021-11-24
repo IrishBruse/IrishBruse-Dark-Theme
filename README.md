@@ -5,17 +5,17 @@
 # Screenshots
 
 ### CSharp
-<img src="./assets/Cs.png" alt="logo">
-
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Cs.png" alt="logo">
+test
 ---
 
 ### Json
-<img src="./assets/Markdown.png" alt="logo">
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Markdown.png" alt="logo">
 
 ---
 
 ### Go
-<img src="./assets/Go.png" alt="logo">
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Go.png" alt="logo">
 
 ---
 

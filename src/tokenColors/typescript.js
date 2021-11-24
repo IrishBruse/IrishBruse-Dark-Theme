@@ -33,6 +33,7 @@ export default [
             "meta.import.ts string.quoted.single.ts",
             "meta.import.ts string.quoted.double.ts",
             "meta.brace.angle.ts",
+            "punctuation.separator.comma.ts",
         ],
         "settings": {
             "foreground": "<darkgray>",

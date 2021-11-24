@@ -31,6 +31,7 @@ export default [
             "meta.import.js string.quoted.single.js",
             "meta.import.js string.quoted.double.js",
             "meta.brace.angle.js",
+            "punctuation.separator.comma.js",
         ],
         "settings": {
             "foreground": "<darkgray>",
