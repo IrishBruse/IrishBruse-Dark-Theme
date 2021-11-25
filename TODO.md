@@ -1,6 +1,7 @@
 # TODOS
 
-- fix js let keywords from green to blue
+- [x] fix js let keywords from green to blue
+- [ ] fix js 
 
 ## Languages Done
 - [x] C#

@@ -12,7 +12,7 @@
 			"editorIndentGuide.activeBackground": "#606060",
 			"editorIndentGuide.background": "#404040",
 			"activityBarBadge.background": "#007acc",
-			"sideBarTitle.foreground": "#bbbbbb",
+			"sideBarTitle.foreground": "#dddddd",
 			"editor.foldBackground": "#00000000",
 			"editorGutter.addedBackground": "#608b4e",
 			"editorOverviewRuler.addedForeground": "#608b4e",
@@ -252,7 +252,8 @@
 		},
 		{
 			"scope": [
-				"meta.embedded.line.ts"
+				"meta.embedded.line.ts",
+				"meta.object-literal.key.ts string.quoted.double.ts"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -530,7 +531,8 @@
 		},
 		{
 			"scope": [
-				"meta.embedded.line.js"
+				"meta.embedded.line.js",
+				"meta.object-literal.key.js string.quoted.double.js"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+- Fix js key color to match json
+- Brighter normal text
+
 ## 1.0.2
 - Tidy up of syntax rules
 - Added logo

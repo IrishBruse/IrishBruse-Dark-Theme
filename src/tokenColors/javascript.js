@@ -29,6 +29,7 @@ export default [
     {
         "scope": [
             "meta.embedded.line.js",
+            "meta.object-literal.key.js string.quoted.double.js",
         ],
         "settings": {
             "foreground": "<local>",

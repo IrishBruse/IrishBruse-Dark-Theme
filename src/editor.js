@@ -9,7 +9,7 @@ export default [
         "editorIndentGuide.activeBackground": "<gray>",
         "editorIndentGuide.background": "#404040",
         "activityBarBadge.background": "#007acc",
-        "sideBarTitle.foreground": "#bbbbbb",
+        "sideBarTitle.foreground": "#dddddd",
         "editor.foldBackground": "#00000000",
         "editorGutter.addedBackground": "<green>",
         "editorOverviewRuler.addedForeground": "<green>", // Overview ruler marker color for added content.
