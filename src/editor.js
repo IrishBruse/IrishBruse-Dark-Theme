@@ -26,7 +26,7 @@ export default [
         "editorOverviewRuler.warningForeground": "<escape>", // Overview ruler marker color for warnings.
         // Info
         "editorInfo.foreground": "<local>", // Info squiggles
-        "editorOverviewRuler.infoForeground": "#d4d4d4", // Overview ruler marker color for infos.
+        "editorOverviewRuler.infoForeground": "<local>", // Overview ruler marker color for infos.
         // Git Colors
         "gitDecoration.modifiedResourceForeground": "<green>",
         "gitDecoration.addedResourceForeground": "<green>",

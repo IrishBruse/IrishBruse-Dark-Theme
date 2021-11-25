@@ -2,17 +2,19 @@ export default [
     // < > />
     {
         "scope": [
-            "punctuation.definition.tag.begin",
-            "punctuation.definition.tag.end",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.html",
+            "punctuation.definition.tag.end.html",
         ],
         "settings": {
-            "foreground": "<darkgray>"
+            "foreground": "<gray>"
         },
     },
     // Tags
     {
         "scope": [
-            "entity.name.tag",
+            "entity.name.tag.localname.html",
+            "entity.name.tag.html",
         ],
         "settings": {
             "foreground": "<keyword>"
@@ -21,7 +23,7 @@ export default [
     // Attributes
     {
         "scope": [
-            "invalid.deprecated.entity.other.attribute-name",
+            "invalid.deprecated.entity.other.attribute-name.html",
         ],
         "settings": {
             "foreground": "<local>",
@@ -56,6 +58,7 @@ export default [
     {
         "scope": [
             "text.html.derivative entity.other.attribute-name.html",
+            "entity.other.attribute-name.localname.html",
         ],
         "settings": {
             "foreground": "<local>"

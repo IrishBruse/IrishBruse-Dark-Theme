@@ -26,7 +26,7 @@
         "watch": "npm-watch"
     },
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Themes"

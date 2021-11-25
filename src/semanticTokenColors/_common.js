@@ -1,5 +1,10 @@
 export default [
     {
-        // Use this when it gets better
+        "interface": "<definition>",
+        "class": "<definition>",
+        "operator": "<gray>",
+        "namespace": "<gray>",
+        "variable.local:c": "<local>",
+        "controlKeyword": "<controlflow>",
     },
 ]

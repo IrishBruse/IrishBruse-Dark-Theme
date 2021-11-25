@@ -11,36 +11,13 @@ export default [
             "meta.interpolation.cs punctuation.parenthesis.close.cs",
         ],
         "settings": {
-            "foreground": "<darkgray>"
+            "foreground": "<gray>"
         },
     },
     {
         "scope": [
             "string.quoted.double.cs comment.block.documentation.cs",
             "source.cs entity.name.variable.local.cs",
-        ],
-        "settings": {
-            "foreground": "<local>"
-        },
-    },
-    // Namespaces
-    {
-        "scope": [
-            "entity.name.type.namespace.cs",
-            "punctuation.squarebracket.open.cs",
-            "punctuation.squarebracket.close.cs",
-            "entity.name.tag.localname.cs",
-            "entity.other.attribute-name.localname.cs"
-        ],
-        "settings": {
-            "foreground": "<darkgray>",
-        },
-    },
-    // String interopoltion variables
-    {
-        "scope": [
-            "meta.interpolation.cs",
-            "meta.tag.cs string.quoted.double.cs",
         ],
         "settings": {
             "foreground": "<local>"
@@ -55,20 +32,21 @@ export default [
             "foreground": "<number>"
         },
     },
-    // Strings
+    // String interopoltion variables
     {
         "scope": [
-            "string.quoted.double.cs",
-            "string.quoted.single.cs",
-            "string.template.cs",
+            "meta.interpolation.cs",
+            "meta.tag.cs string.quoted.double.cs",
         ],
         "settings": {
-            "foreground": "<string>",
+            "foreground": "<local>"
         },
     },
+    // Defs
     {
         "scope": [
             "storage.type.cs",
+            "source.cs entity.name.type",
         ],
         "settings": {
             "foreground": "<definition>",

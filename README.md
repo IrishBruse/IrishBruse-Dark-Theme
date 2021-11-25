@@ -1,26 +1,22 @@
 <div align="center">
-    <img src="./assets/128.png" alt="logo">
+    <img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/128.png" alt="logo">
 </div>
 
 # Screenshots
 
 ### CSharp
-<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Cs.png" alt="logo">
-test
----
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Langs/cs.png" alt="logo">
 
-### Json
-<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Markdown.png" alt="logo">
-
----
+### Markdown
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Langs/md.png" alt="logo">
 
 ### Go
-<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Go.png" alt="logo">
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Langs/go.png" alt="logo">
 
 ---
 
 My Custom Theme i use in vscode with colors from the dark theme in  
-vscode and darp plus syntax but with more colors to better explain  
+vscode and dark-plus-syntax but with more colors to better explain  
 the type of syntax it is
 
 ## Languages with customized support
@@ -31,12 +27,13 @@ the type of syntax it is
 - JavaScript/TypeScript
 - C
 - CSS
-- HTML
+- HTML/XML
 - Java
 
 ## Resources & References
 
 - [dark-plus-syntax](https://github.com/dunstontc/dark-plus-syntax)
+- Built in vscode dark theme
 
 ## Contributing
 

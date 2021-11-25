@@ -15,7 +15,7 @@ export default [
             "punctuation.definition.array.end.json",
         ],
         "settings": {
-            "foreground": "<darkgray>",
+            "foreground": "<gray>",
         },
     },
     // Strings

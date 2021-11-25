@@ -72,7 +72,7 @@ export default [
             "fenced_code.block.language.markdown"
         ],
         "settings": {
-            "foreground": "<accessor>"
+            "foreground": "<definition>"
         },
     },
     // Brackets & Seperator
@@ -86,7 +86,7 @@ export default [
             "punctuation.definition.constant.markdown",
         ],
         "settings": {
-            "foreground": "<darkgray>"
+            "foreground": "<gray>"
         },
     },
     {

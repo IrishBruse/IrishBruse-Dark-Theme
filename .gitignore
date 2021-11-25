@@ -4,3 +4,7 @@ Icon?
 node_modules/**
 
 **/obj/
+
+**/gen_*.js
+semanticTokenColors.js
+tokenColors.js

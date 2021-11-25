@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2
+- Tidy up of syntax rules
+- Added logo
+- Updated screenshots
+
 ## 1.0.1
 - Fixed HTML String colors
 - Added v-bind support

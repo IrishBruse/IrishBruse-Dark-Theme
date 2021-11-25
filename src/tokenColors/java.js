@@ -1,77 +1,53 @@
 export default [
-    // Namespaces
     {
         "scope": [
-            "storage.modifier.import.java",
-        ],
-        "settings": {
-            "foreground": "<darkgray>",
-        },
-    },
-    // String interopoltion variables
-    {
-        "scope": [
+            "punctuation.separator.java",
+            "variable.language.wildcard.java",
             "keyword.other.documentation.javadoc.java",
+            "punctuation.bracket.square.java",
+            "punctuation.separator.period.java",
+            "punctuation.separator.delimiter.java",
         ],
         "settings": {
-            "foreground": "<local>"
-        },
-    },
-    // Definition
-    {
-        "scope": [
-            "storage.type.java",
-            "storage.type.object.array.java",
-            "entity.name.type.enum.java",
-        ],
-        "settings": {
-            "foreground": "<definition>",
-        },
-    },
-    // String interpolation
-    {
-        "scope": [
-            "punctuation.definition.string.begin.java",
-            "punctuation.definition.string.end.java",
-            "punctuation.definition.interpolation.begin.java",
-            "punctuation.definition.interpolation.end.java",
-            "string.quoted.double.java",
-        ],
-        "settings": {
-            "foreground": "<string>"
+            "foreground": "<gray>",
         },
     },
     {
         "scope": [
-            "string.quoted.double.java comment.block.documentation.java",
-            "variable.other.definition.java",
-        ],
-        "settings": {
-            "foreground": "<local>"
-        },
-    },
-    // Keywords
-    {
-        "scope": [
-            "storage.type.primitive.java",
+            "source.java storage.type.primitive",
             "keyword.control.new.java",
-            "variable.language.java",
-            "storage.type.primitive.array.java",
-            "storage.type.annotation.java", "punctuation.definition.annotation.java",
+            "meta.class.identifier.java",
+            "variable.language.this.java",
         ],
         "settings": {
             "foreground": "<keyword>",
         },
     },
-    // Ternery
     {
         "scope": [
-            "keyword.control.ternary.java",
-            "comment.block.javadoc.java",
-            "comment.block.java",
+            "meta.definition.variable.java",
+            "source.java entity.name.type",
         ],
         "settings": {
-            "foreground": "<gray>",
+            "foreground": "<definition>",
+        },
+    },
+    {
+        "scope": [
+            "variable.other.definition.java",
+            "meta.declaration.annotation.java",
+            "storage.type.annotation.java",
+        ],
+        "settings": {
+            "foreground": "<local>",
+        },
+    },
+    {
+        "scope": [
+            "source.java storage.modifier",
+        ],
+        "settings": {
+            "foreground": "<keyword>",
         },
     },
 ]

@@ -1,70 +1,65 @@
 export default [
+    // Namespace
+    {
+        "scope": [
+            "meta.import.js string.quoted.double.js",
+            "meta.import.js string.quoted.single.js",
+        ],
+        "settings": {
+            "foreground": "<gray>",
+        },
+    },
     // String interpolation
     {
         "scope": [
-            "storage.type.js",
-            "storage.type.class.js",
-            "keyword.control.import.js",
-            "keyword.operator.new.js",
-            "variable.language.this",
-            "keyword.control.from.js",
-            "support.type.primitive.js"
+            "string.template.js",
         ],
         "settings": {
-            "foreground": "<keyword>"
+            "foreground": "<string>"
         },
     },
     {
         "scope": [
-            "storage.type.function.js",
-            "support.type.object.module.js",
+            "meta.template.expression.js",
         ],
         "settings": {
-            "foreground": "<accessor>",
+            "foreground": "<gray>",
         },
     },
     {
         "scope": [
-            "storage.type.function.arrow.js",
-            "meta.brace.square.js",
-            "punctuation.definition.block.js",
-            "meta.import.js string.quoted.single.js",
-            "meta.import.js string.quoted.double.js",
-            "meta.brace.angle.js",
-            "punctuation.separator.comma.js",
-        ],
-        "settings": {
-            "foreground": "<darkgray>",
-        },
-    },
-    {
-        "scope": [
-            "meta.definition.variable.js",
-            "meta.object-literal.key.js string.quoted.double.js",
+            "meta.embedded.line.js",
         ],
         "settings": {
             "foreground": "<local>",
         },
     },
+    // Documentation
     {
         "scope": [
-            "entity.other.inherited-class.js",
-            "entity.name.type.js",
+            "comment.block.documentation.js",
         ],
         "settings": {
-            "foreground": "<definition>",
+            "foreground": "<gray>",
         },
     },
-    // Strings
+    // Function Keyword
     {
         "scope": [
-            "meta.array.literal.js string.quoted.double.js",
-            "meta.array.literal.js string.quoted.single.js",
-            "meta.block.js string.quoted.double.js",
-            "meta.block.js string.quoted.single.js",
+            "storage.type.function.js",
         ],
         "settings": {
-            "foreground": "<string>",
+            "foreground": "<accessor>",
+        },
+    },
+    // Keyword
+    {
+        "scope": [
+            "source.js storage.type",
+            "keyword.operator.new.js",
+        ],
+        "settings": {
+            "foreground": "<keyword>",
         },
     },
 ]

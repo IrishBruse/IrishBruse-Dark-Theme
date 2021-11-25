@@ -2,32 +2,52 @@ export default [
     // Namespaces
     {
         "scope": [
-            "entity.name.package.go",
+            "entity.name.package",
         ],
         "settings": {
             "foreground": "<gray>",
         },
     },
-    // Comma
+    // Function Keyword
     {
         "scope": [
-            "punctuation.other.comma.go",
-            "punctuation.definition.bracket.square.go",
+            "keyword.function.go",
         ],
         "settings": {
-            "foreground": "<darkgray>",
+            "foreground": "<accessor>",
         },
     },
-    // Strings
+    // Func Calls
     {
         "scope": [
-            "string.quoted.rune.go",
+            "source.go support.function",
         ],
         "settings": {
-            "foreground": "<string>",
+            "foreground": "<method>",
         },
     },
-    // variable assignment
+    // Keywords
+    {
+        "scope": [
+            "constant.language.go",
+            "source.go keyword",
+            "source.go storage.type",
+            "keyword.operator.address.go",
+        ],
+        "settings": {
+            "foreground": "<keyword>",
+        },
+    },
+    // Defs
+    {
+        "scope": [
+            "source.go entity.name.type",
+        ],
+        "settings": {
+            "foreground": "<definition>",
+        },
+    },
+    // Locals
     {
         "scope": [
             "variable.other.assignment.go",
@@ -36,67 +56,4 @@ export default [
             "foreground": "<local>",
         },
     },
-    // Escape
-    {
-        "scope": [
-            "constant.other.rune.go",
-        ],
-        "settings": {
-            "foreground": "<escape>",
-        },
-    },
-    // Functions
-    {
-        "scope": [
-            "support.function.builtin.go",
-            "support.function.go",
-        ],
-        "settings": {
-            "foreground": "<method>"
-        },
-    },
-    // Functions
-    {
-        "scope": [
-            "keyword.function.go",
-        ],
-        "settings": {
-            "foreground": "<accessor>"
-        },
-    },
-    // Keywords
-    {
-        "scope": [
-            "keyword.operator.address.go",
-            "keyword.struct.go",
-            "storage.type.boolean.go",
-            "storage.type.string.go",
-            "storage.type.numeric.go",
-            "keyword.import.go",
-            "keyword.package.go",
-        ],
-        "settings": {
-            "foreground": "<keyword>",
-        },
-    },
-    // Strings
-    {
-        "scope": [
-            "string.quoted.double.go",
-            "string.quoted.single.go",
-            "string.template.go",
-        ],
-        "settings": {
-            "foreground": "<string>",
-        },
-    },
-    // Defs
-    {
-        "scope": [
-            "entity.name.type.go",
-        ],
-        "settings": {
-            "foreground": "<definition>",
-        },
-    },
-];
+]

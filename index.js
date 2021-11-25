@@ -20,11 +20,11 @@ semanticTokenColors.forEach(module => {
 
 var theme = {
     "name": "IrishBruse's Dark Theme",
-    "type": "dark",
+    "type": 'dark',
     "colors": ui_colors,
     "tokenColors": tokenColorsTokens,
     "semanticHighlighting": false,
-    // "semanticTokenColors": semanticTokenColorsTokens,
+    "semanticTokenColors": semanticTokenColorsTokens,
 };
 
 var text = JSON.stringify(theme);
@@ -43,8 +43,7 @@ text = text.replaceAll("<number>", "#b5cea8");
 text = text.replaceAll("<error>", "<red>");
 
 // General Colors
-text = text.replaceAll("<darkgray>", "#505050");
-text = text.replaceAll("<gray>", "#707070");
+text = text.replaceAll("<gray>", "#606060");
 text = text.replaceAll("<red>", "#d16969");
 text = text.replaceAll("<green>", "#608b4e");
 

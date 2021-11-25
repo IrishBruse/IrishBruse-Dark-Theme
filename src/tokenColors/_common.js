@@ -1,27 +1,70 @@
 export default [
-    // Definitions class/struct etc
+    // Comments
     {
         "scope": [
-            "storage.type.modifier",
-            "entity.name.type.class",
-            "entity.name.type.struct",
-            "entity.name.type.alias",
+            "comment",
+            "comment.block.documentation",
         ],
         "settings": {
-            "foreground": "<definition>",
+            "foreground": "<gray>",
         },
     },
-    // Generics Type & control flow keywords
+    // Keywords
     {
         "scope": [
-            "storage.type.generic",
-            "entity.name.type.type-parameter",
+            "keyword.type",
+            "keyword.other",
         ],
         "settings": {
-            "foreground": "<definition>"
+            "foreground": "<keyword>",
         },
     },
-    // Definitions class/struct etc
+    // Function/Method
+    {
+        "scope": [
+            "entity.name.function",
+        ],
+        "settings": {
+            "foreground": "<method>",
+        },
+    },
+    // Strings
+    {
+        "scope": [
+            "string.quoted",
+        ],
+        "settings": {
+            "foreground": "<string>",
+        },
+    },
+    // Escape
+    {
+        "scope": [
+            "constant.character.escape",
+        ],
+        "settings": {
+            "foreground": "<escape>",
+        },
+    },
+    // Constants
+    {
+        "scope": [
+            "constant.numeric",
+        ],
+        "settings": {
+            "foreground": "<number>",
+        },
+    },
+    // Placeholders
+    {
+        "scope": [
+            "constant.other.placeholder",
+        ],
+        "settings": {
+            "foreground": "<local>",
+        },
+    },
+    // Storage type
     {
         "scope": [
             "storage.modifier",
@@ -30,117 +73,32 @@ export default [
             "foreground": "<accessor>",
         },
     },
-    // Local Fields
+    // Operators
     {
         "scope": [
-            "variable.other.object.field",
+            "keyword.operator",
+            "punctuation.terminator",
         ],
         "settings": {
-            "foreground": "<local>"
+            "foreground": "<gray>",
         },
     },
-    // Control flow
+    // Control Flow
     {
         "scope": [
             "keyword.control",
         ],
         "settings": {
-            "foreground": "<controlflow>"
+            "foreground": "<controlflow>",
         },
     },
-    // Method/Function definition name
+    // Definition
     {
         "scope": [
-            "entity.name.function",
-        ],
-        "settings": {
-            "foreground": "<method>"
-        },
-    },
-    // primatives and (null,new,this)
-    {
-        "scope": [
-            "keyword.other",
             "constant.language",
-            "keyword.type",
         ],
         "settings": {
-            "foreground": "<keyword>"
-        },
-    },
-    // Escape
-    {
-        "scope": [
-            "meta.selector",
-            "constant.character",
-            "constant.other.symbol",
-            "constant.character.escape",
-        ],
-        "settings": {
-            "foreground": "<escape>",
-        },
-    },
-    //Constant numbers
-    {
-        "scope": [
-            "constant.numeric.decimal",
-            "keyword.other.unit",
-        ],
-        "settings": {
-            "foreground": "<number>",
-        },
-    },
-    {
-        "scope": [
-            "variable.other.constant.property",
-        ],
-        "settings": {
-            "fontStyle": "bold",
-        },
-    },
-    // Comments
-    {
-        "scope": [
-            "punctuation.terminator.statement",
-            "punctuation.definition.comment",
-            "keyword.operator.assignment",
-            "comment.block",
-        ],
-        "settings": {
-            "foreground": "<darkgray>",
-        },
-    },
-    {
-        "scope": [
-            "comment.line.double-slash",
-            "comment.block.documentation",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
-    // Punctuation
-    {
-        "scope": [
-            "keyword.operator",
-            "entity.name.function.member.overload.cs",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
-    // Errors
-    {
-        "scope": [
-            "invalid.unimplemented",
-            "invalid.illegal",
-            "invalid.deprecated",
-            "invalid.broken",
-            "token.error-token"
-        ],
-        "settings": {
-            "foreground": "<error>",
-            "fontStyle": "italic strokethrough",
+            "foreground": "<keyword>",
         },
     },
 ]

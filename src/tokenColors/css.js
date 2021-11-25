@@ -3,6 +3,7 @@ export default [
         "scope": [
             "constant.numeric.css",
             "entity.other.keyframe-offset.percentage.css",
+            "source.css keyword.other.unit",
         ],
         "settings": {
             "foreground": "<number>",
@@ -12,6 +13,8 @@ export default [
         "scope": [
             "entity.name.tag.css",
             "entity.other.attribute-name.class.css",
+            "entity.name.tag.wildcard.css",
+            "entity.other.attribute-name.css",
         ],
         "settings": {
             "foreground": "<keyword>"
@@ -25,11 +28,12 @@ export default [
             "punctuation.section.property-list.end.bracket.curly.css",
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
-            "meta.selector.css",
+            "punctuation.definition.entity.begin.bracket.square.css",
+            "punctuation.definition.entity.end.bracket.square.css",
             "comment.block.css",
         ],
         "settings": {
-            "foreground": "<darkgray>",
+            "foreground": "<gray>",
         },
     },
     // Strings
@@ -71,7 +75,7 @@ export default [
             "punctuation.section.property-list.end.bracket.curly.scss",
         ],
         "settings": {
-            "foreground": "<darkgray>",
+            "foreground": "<gray>",
         },
     },
     // Important keyword
