@@ -90,13 +90,4 @@ export default [
             "foreground": "<method>",
         },
     },
-    // Namespace
-    {
-        "scope": [
-            "meta.import.js",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
 ]

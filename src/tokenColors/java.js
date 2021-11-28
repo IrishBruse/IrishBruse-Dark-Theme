@@ -4,9 +4,7 @@ export default [
             "punctuation.separator.java",
             "variable.language.wildcard.java",
             "keyword.other.documentation.javadoc.java",
-            "punctuation.bracket.square.java",
-            "punctuation.separator.period.java",
-            "punctuation.separator.delimiter.java",
+            "punctuation.terminator.java",
         ],
         "settings": {
             "foreground": "<gray>",
@@ -18,6 +16,9 @@ export default [
             "source.java keyword.control",
             "meta.class.identifier.java",
             "source.java variable.language",
+            "source.java keyword.other",
+            "source.java storage.modifier",
+            "source.java constant.language",
         ],
         "settings": {
             "foreground": "<keyword>",
@@ -42,6 +43,16 @@ export default [
             "foreground": "<local>",
         },
     },
+    // Strings
+    {
+        "scope": [
+            "string.quoted.double.java",
+            "string.quoted.single.java",
+        ],
+        "settings": {
+            "foreground": "<string>",
+        },
+    },
     {
         "scope": [
             "storage.modifier.extends",
@@ -53,10 +64,26 @@ export default [
     },
     {
         "scope": [
-            "constant.numeric.decimal.java",
+            "source.java constant.numeric",
         ],
         "settings": {
             "foreground": "<number>",
+        },
+    },
+    {
+        "scope": [
+            "source.java keyword.operator",
+        ],
+        "settings": {
+            "foreground": "<operator>",
+        },
+    },
+    {
+        "scope": [
+            "source.java entity.name.function",
+        ],
+        "settings": {
+            "foreground": "<method>",
         },
     },
 ]

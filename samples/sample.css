@@ -1,0 +1,116 @@
+.fullscreen {
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    color: black;
+    font-weight: bold;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.fullscreen > table {
+    table-layout: fixed;
+    empty-cells: hide;
+    width: 100vw;
+}
+
+.fullscreen > table tr {
+    height: 1px; /* ignore but needed for cells to fill height */
+}
+
+.fullscreen > table tr > td {
+    height: inherit; /* ignore but needed for cells to fill height */
+}
+
+.sideline {
+    background-color: lightgray;
+    z-index: -1;
+    top: 0;
+    position: absolute;
+    width: 2px;
+    height: 100vh;
+}
+
+.cell {
+    border-radius: 1rem;
+    min-height: 100%;
+}
+
+.topTimeslot {
+    text-align: left;
+    padding: 0 0.65rem;
+}
+
+.middleTimeslot {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bottomTimeslot {
+    display: flex;
+    position: relative;
+    padding: 0 0.65rem;
+    bottom: 0;
+}
+
+.dayContainer {
+    width: 100%;
+}
+
+.dayTitle {
+    text-align: center;
+    margin: auto;
+}
+
+.bottomTimeslot > div {
+    flex-grow: 1;
+}
+
+.red {
+    background-color: #d05e52;
+}
+
+.green {
+    background-color: #96b695;
+}
+
+.blue {
+    background-color: #54b9f7;
+}
+
+.yellow {
+    background-color: #f4d03f;
+}
+
+.pink {
+    background-color: #cc99cc;
+}
+
+.orange {
+    background-color: #f7b891;
+}
+
+.gray {
+    background-color: rgb(196, 196, 196);
+}
+
+.lightgray {
+    background-color: rgb(230, 230, 230);
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.print {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}

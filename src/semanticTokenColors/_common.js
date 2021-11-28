@@ -5,6 +5,8 @@ export default [
         "operator": "<operator>",
         "operatorOverloaded": "<operator>",
 
+        "modifier": "<modifier>",
+
         "function": "<method>",
         "method": "<method>",
 

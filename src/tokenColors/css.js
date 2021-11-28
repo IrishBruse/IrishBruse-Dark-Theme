@@ -22,14 +22,6 @@ export default [
     },
     {
         "scope": [
-            "punctuation.section.keyframes.begin.bracket.curly.css",
-            "punctuation.section.keyframes.end.bracket.curly.css",
-            "punctuation.section.property-list.begin.bracket.curly.css",
-            "punctuation.section.property-list.end.bracket.curly.css",
-            "punctuation.section.function.begin.bracket.round.css",
-            "punctuation.section.function.end.bracket.round.css",
-            "punctuation.definition.entity.begin.bracket.square.css",
-            "punctuation.definition.entity.end.bracket.square.css",
             "comment.block.css",
         ],
         "settings": {
@@ -41,6 +33,7 @@ export default [
         "scope": [
             "string.quoted.double.css",
             "string.quoted.single.css",
+            "meta.property-value.css",
             "constant.other.color.rgb-value.hex.css",
             "string.template.css",
         ],
@@ -73,9 +66,10 @@ export default [
     {
         "scope": [
             "punctuation.section.property-list.end.bracket.curly.scss",
+            "keyword.operator.combinator.css",
         ],
         "settings": {
-            "foreground": "<gray>",
+            "foreground": "<operator>",
         },
     },
     // Important keyword

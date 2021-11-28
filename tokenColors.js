@@ -9,6 +9,7 @@ import java from "./src/tokenColors/java.js";
 import javascript from "./src/tokenColors/javascript.js";
 import json from "./src/tokenColors/json.js";
 import markdown from "./src/tokenColors/markdown.js";
+import markup from "./src/tokenColors/markup.js";
 import _common from "./src/tokenColors/_common.js";
 
 
@@ -24,5 +25,6 @@ export default [
 	javascript,
 	json,
 	markdown,
+	markup,
 	_common,
 ]

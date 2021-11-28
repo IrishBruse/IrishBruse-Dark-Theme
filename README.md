@@ -20,15 +20,17 @@ vscode and dark-plus-syntax but with more colors to better explain
 the type of syntax it is
 
 ## Languages with customized support
-- C#
-- Go
-- Markdown
-- Json
-- JavaScript/TypeScript
-- C
-- CSS
-- HTML/XML
-- Java
+- C#          (1.0.0)
+- Go          (1.0.0)
+- Markdown    (1.0.0)
+- Json        (1.0.0)
+- JavaScript  (1.0.0)
+- TypeScript  (1.0.0)
+- C           (1.0.0)
+- CSS         (1.0.0)
+- HTML/XML    (1.0.0)
+- Java        (1.0.0)
+- Vue         (1.1.0)
 
 ## Resources & References
 

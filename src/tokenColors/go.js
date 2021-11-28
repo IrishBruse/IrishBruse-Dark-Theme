@@ -21,6 +21,7 @@ export default [
     {
         "scope": [
             "source.go support.function",
+            "source.go entity.name.function",
         ],
         "settings": {
             "foreground": "<method>",
@@ -54,6 +55,26 @@ export default [
         ],
         "settings": {
             "foreground": "<local>",
+        },
+    },
+    // Strings
+    {
+        "scope": [
+            "source.go string.quoted.double",
+            "source.go string.quoted.single",
+        ],
+        "settings": {
+            "foreground": "<string>",
+        },
+    },
+    // Escape
+    {
+        "scope": [
+            "constant.character.escape.go",
+            "constant.other.placeholder.go",
+        ],
+        "settings": {
+            "foreground": "<escape>",
         },
     },
 ]

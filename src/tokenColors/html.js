@@ -10,16 +10,6 @@ export default [
             "foreground": "<gray>"
         },
     },
-    // Tags
-    {
-        "scope": [
-            "entity.name.tag.localname.html",
-            "entity.name.tag.html",
-        ],
-        "settings": {
-            "foreground": "<keyword>"
-        },
-    },
     // Attributes
     {
         "scope": [
@@ -52,16 +42,6 @@ export default [
         ],
         "settings": {
             "foreground": "<definition>",
-        },
-    },
-    // Attributes
-    {
-        "scope": [
-            "text.html.derivative entity.other.attribute-name.html",
-            "entity.other.attribute-name.localname.html",
-        ],
-        "settings": {
-            "foreground": "<local>"
         },
     },
 ]
