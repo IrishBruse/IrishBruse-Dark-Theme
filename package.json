@@ -3,12 +3,13 @@
     "displayName": "IrishBruse's Dark Theme",
     "description": "My custom dark theme influenced by dark-plus-theme.",
     "version": "1.0.3",
-    "publisher": "irishbruse",
+    "author": "IrishBruse",
+    "publisher": "IrishBruse",
     "license": "MIT",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dunstontc/dark-plus-syntax.git"
+        "url": "https://github.com/IrishBruse/IrishBruse-Dark-Theme"
     },
     "watch": {
         "build": {
@@ -28,20 +29,41 @@
     "engines": {
         "vscode": "^1.60.0"
     },
-    "categories": [
-        "Themes"
-    ],
     "configurationDefaults": {
         "[csharp]": {
             "editor.semanticHighlighting.enabled": true
         }
     },
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "dark",
+        "C#",
+        "irish",
+        "dotnet",
+        "theme",
+        "color-theme"
+    ],
     "contributes": {
         "themes": [
             {
                 "label": "IrishBruse's Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-theme.json"
+            }
+        ],
+        "semanticTokenScopes": [
+            {
+                "language": "csharp",
+                "scopes": {
+                    "plainKeyword.accessor": [
+                        "storage.modifier.cs"
+                    ]
+                }
             }
         ]
     },

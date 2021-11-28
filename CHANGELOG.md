@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+- added specific colors for enums and structs
+- coloring uses more sematic coloring (so be sure to enable it)
+
 ## 1.0.3
 - Fix js key color to match json
 - Brighter normal text

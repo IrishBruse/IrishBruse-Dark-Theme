@@ -39,7 +39,7 @@ for (let i = 0; i < dirs.length; i++) {
 
         duplicateLangs.forEach(lang => {
             //Duplicate javascript for typescript
-            if (name === lang.from.name) {
+            if (name === lang.from.name && path.includes("semanticTokenColors") == false) {
                 var tsPath = path.replace(lang.from.name, "gen_" + lang.to.name);
                 var data = fs.readFileSync(path + ".js", "utf-8");
 

@@ -15,9 +15,9 @@ export default [
     {
         "scope": [
             "source.java storage.type.primitive",
-            "keyword.control.new.java",
+            "source.java keyword.control",
             "meta.class.identifier.java",
-            "variable.language.this.java",
+            "source.java variable.language",
         ],
         "settings": {
             "foreground": "<keyword>",
@@ -44,10 +44,19 @@ export default [
     },
     {
         "scope": [
-            "source.java storage.modifier",
+            "storage.modifier.extends",
+            "storage.modifier.implements",
         ],
         "settings": {
-            "foreground": "<keyword>",
+            "foreground": "<modifier>",
+        },
+    },
+    {
+        "scope": [
+            "constant.numeric.decimal.java",
+        ],
+        "settings": {
+            "foreground": "<number>",
         },
     },
 ]

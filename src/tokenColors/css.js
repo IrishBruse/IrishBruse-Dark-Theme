@@ -84,7 +84,7 @@ export default [
             "keyword.other.important.css",
         ],
         "settings": {
-            "foreground": "<accessor>",
+            "foreground": "<modifier>",
         },
     },
     {

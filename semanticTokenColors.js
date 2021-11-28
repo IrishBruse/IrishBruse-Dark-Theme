@@ -1,10 +1,12 @@
-import gen_typescript from "./src/semanticTokenColors/gen_typescript.js";
-import gen_xml from "./src/semanticTokenColors/gen_xml.js";
+import csharp from "./src/semanticTokenColors/csharp.js";
+import java from "./src/semanticTokenColors/java.js";
+import javascript from "./src/semanticTokenColors/javascript.js";
 import _common from "./src/semanticTokenColors/_common.js";
 
 
 export default [
-	gen_typescript,
-	gen_xml,
+	csharp,
+	java,
+	javascript,
 	_common,
 ]

@@ -609,7 +609,7 @@ class PennyFarthing extends Bicycle {
 
     public PennyFarthing(int startCadence, int startSpeed) {
         // Call the parent constructor with super
-        super(startCadence, startSpeed, 0, "PennyFarthing");
+        super (startCadence, startSpeed, 0, "PennyFarthing");
     }
 
     // You should mark a method you're overriding with an @annotation.

@@ -1,14 +1,4 @@
 export default [
-    // Namespace
-    {
-        "scope": [
-            "meta.import.js string.quoted.double.js",
-            "meta.import.js string.quoted.single.js",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
     // String interpolation
     {
         "scope": [
@@ -35,10 +25,19 @@ export default [
             "foreground": "<local>",
         },
     },
+    {
+        "scope": [
+            "string.quoted.double.js",
+            "string.quoted.single.js",
+        ],
+        "settings": {
+            "foreground": "<string>",
+        },
+    },
     // Documentation
     {
         "scope": [
-            "comment.block.documentation.js",
+            "source.js comment.block.documentation",
         ],
         "settings": {
             "foreground": "<gray>",
@@ -47,20 +46,57 @@ export default [
     // Function Keyword
     {
         "scope": [
-            "storage.type.function.js",
+            "source.js storage.type.function",
         ],
         "settings": {
-            "foreground": "<accessor>",
+            "foreground": "<modifier>",
         },
     },
     // Keyword
     {
         "scope": [
             "source.js storage.type",
-            "keyword.operator.new.js",
+            "source.js keyword.operator.new",
+            "source.js constant.language.boolean",
         ],
         "settings": {
             "foreground": "<keyword>",
+        },
+    },
+    {
+        "scope": [
+            "source.js keyword.control",
+        ],
+        "settings": {
+            "foreground": "<control>",
+        },
+    },
+    // Operators
+    {
+        "scope": [
+            "source.js keyword.operator",
+            "source.js punctuation.accessor"
+        ],
+        "settings": {
+            "foreground": "<operator>",
+        },
+    },
+    // Method call
+    {
+        "scope": [
+            "source.js entity.name.function",
+        ],
+        "settings": {
+            "foreground": "<method>",
+        },
+    },
+    // Namespace
+    {
+        "scope": [
+            "meta.import.js",
+        ],
+        "settings": {
+            "foreground": "<gray>",
         },
     },
 ]

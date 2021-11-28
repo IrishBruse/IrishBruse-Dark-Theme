@@ -63,7 +63,7 @@ export default [
             "punctuation.definition.heading.markdown",
         ],
         "settings": {
-            "foreground": "<controlflow>"
+            "foreground": "<control>"
         },
     },
     // Code block language type

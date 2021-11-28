@@ -1,10 +1,15 @@
 export default [
     {
-        "interface": "<definition>",
-        "class": "<definition>",
-        "operator": "<gray>",
+        "comment": "<gray>",
+
+        "operator": "<operator>",
+        "operatorOverloaded": "<operator>",
+
+        "function": "<method>",
+        "method": "<method>",
+
         "namespace": "<gray>",
-        "variable.local:c": "<local>",
-        "controlKeyword": "<controlflow>",
+        "number": "<number>",
+        "string": "<string>",
     },
 ]

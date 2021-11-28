@@ -14,7 +14,7 @@ export default [
             "keyword.function.go",
         ],
         "settings": {
-            "foreground": "<accessor>",
+            "foreground": "<modifier>",
         },
     },
     // Func Calls

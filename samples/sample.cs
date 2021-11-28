@@ -21,7 +21,7 @@ namespace InheritanceApplication
     {
         public int getArea()
         {
-            return (width * height);
+            return width * height;
         }
     }
     class RectangleTester

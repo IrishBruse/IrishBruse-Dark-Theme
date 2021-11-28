@@ -1,7 +1,6 @@
 import clang from "./src/tokenColors/clang.js";
 import csharp from "./src/tokenColors/csharp.js";
 import css from "./src/tokenColors/css.js";
-import docs from "./src/tokenColors/docs.js";
 import gen_typescript from "./src/tokenColors/gen_typescript.js";
 import gen_xml from "./src/tokenColors/gen_xml.js";
 import go from "./src/tokenColors/go.js";
@@ -17,7 +16,6 @@ export default [
 	clang,
 	csharp,
 	css,
-	docs,
 	gen_typescript,
 	gen_xml,
 	go,
