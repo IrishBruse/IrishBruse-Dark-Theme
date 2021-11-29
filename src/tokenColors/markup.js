@@ -1,29 +1,11 @@
-export default [
-    // Tags
-    {
-        "scope": [
-            "entity.name.tag",
-        ],
-        "settings": {
-            "foreground": "<keyword>",
-        },
-    },
-    // Attributes
-    {
-        "scope": [
-            "entity.other.attribute-name",
-        ],
-        "settings": {
-            "foreground": "<local>"
-        },
-    },
-    // Atribute =
-    {
-        "scope": [
-            "punctuation.separator.key-value",
-        ],
-        "settings": {
-            "foreground": "<operator>",
-        },
-    },
-]
+export default {
+    "<keyword>": [
+        "entity.name.tag",
+    ],
+    "<local>": [
+        "entity.other.attribute-name",
+    ],
+    "<operator>": [
+        "punctuation.separator.key-value",
+    ],
+}

@@ -1,19 +1,8 @@
-export default [
-    {
-        "scope": [
-            "support.type.property-name.json",
-        ],
-        "settings": {
-            "foreground": "<local>",
-        },
-    },
-    {
-        "scope": [
-            "constant.language.json",
-        ],
-        "settings": {
-            "foreground": "<keyword>",
-        },
-    },
-
-]
+export default {
+    "<local>": [
+        "support.type.property-name.json",
+    ],
+    "<keyword>": [
+        "constant.language.json",
+    ],
+}

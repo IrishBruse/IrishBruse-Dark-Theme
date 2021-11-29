@@ -13,6 +13,9 @@
 ### Go
 <img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Langs/go.png" alt="logo">
 
+### Vue
+<img src="https://raw.githubusercontent.com/IrishBruse/IrishBruse-Dark-Theme/master/assets/Langs/vue.png" alt="logo">
+
 ---
 
 My Custom Theme i use in vscode with colors from the dark theme in  

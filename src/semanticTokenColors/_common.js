@@ -10,7 +10,6 @@ export default [
         "function": "<method>",
         "method": "<method>",
 
-        "namespace": "<gray>",
         "number": "<number>",
         "string": "<string>",
     },

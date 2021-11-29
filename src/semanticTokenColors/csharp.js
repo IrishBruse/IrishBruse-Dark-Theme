@@ -17,6 +17,7 @@ export default [
         "controlKeyword:csharp": "<control>",
         "extensionMethod:csharp": "<method>",
         "plainKeyword.accessor:csharp": "<control>",
+        "namespace:csharp": "<gray>",
 
         "local:csharp": "<local>",
         "parameter:csharp": "<local>",

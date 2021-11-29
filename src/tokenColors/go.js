@@ -1,52 +1,21 @@
-export default [
-    // Namespaces
-    {
-        "scope": [
-            "entity.name.package",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
-    // Function Keyword
-    {
-        "scope": [
-            "keyword.function.go",
-        ],
-        "settings": {
-            "foreground": "<modifier>",
-        },
-    },
-    // Func Calls
-    {
-        "scope": [
-            "source.go support.function",
-            "source.go entity.name.function",
-        ],
-        "settings": {
-            "foreground": "<method>",
-        },
-    },
-    // Keywords
-    {
-        "scope": [
-            "constant.language.go",
-            "source.go keyword",
-            "source.go storage.type",
-            "keyword.operator.address.go",
-        ],
-        "settings": {
-            "foreground": "<keyword>",
-        },
-    },
-    // Locals
-    {
-        "scope": [
-            "variable.other.assignment.go",
-        ],
-        "settings": {
-            "foreground": "<local>",
-        },
-    },
-
-]
+export default {
+    "<gray>": [
+        "entity.name.package",
+    ],
+    "<modifier>": [
+        "keyword.function.go",
+    ],
+    "<method>": [
+        "source.go support.function",
+        "source.go entity.name.function",
+    ],
+    "<keyword>": [
+        "constant.language.go",
+        "source.go keyword",
+        "source.go storage.type",
+        "keyword.operator.address.go",
+    ],
+    "<local>": [
+        "variable.other.assignment.go",
+    ],
+}
