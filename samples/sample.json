@@ -1,57 +1,159 @@
 {
-    "name": "dark-theme",
-    "displayName": "IrishBruse's Dark Theme",
-    "description": "My custom dark theme influenced by dark-plus-theme.",
-    "version": "1.0.2",
-    "publisher": "irishbruse",
-    "license": "MIT",
-    "type": "module",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dunstontc/dark-plus-syntax.git"
+    "discord.lowerDetailsEditing": "{workspace}",
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.showSubSessionsInToolBar": true,
+    "debug.toolBarLocation": "docked",
+    "debug.onTaskErrors": "showErrors",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "cascadia code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 4,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.cycle": true,
+    "editor.renderLineHighlight": "none",
+    "editor.showFoldingControls": "mouseover",
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.suggest.showWords": false,
+    "editor.parameterHints.enabled": true,
+    "editor.renderWhitespace": "trailing",
+    "editor.trimAutoWhitespace": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.wordWrapColumn": 160,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.restoreWindows": "none",
+    "window.title": "${dirty}${activeEditorShort}",
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "html.validate.scripts": false,
+    "html.validate.styles": false,
+    "material-icon-theme.folders.color": "#dcb67a",
+    "redhat.telemetry.enabled": false,
+    "scm.diffDecorationsGutterWidth": 1,
+    "security.workspace.trust.enabled": false,
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "workbench.colorTheme": "IrishBruse's Dark Theme",
+    "workbench.statusBar.visible": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "material-icon-theme.folders.theme": "specific",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.selectionHighlight": false,
+    "editor.snippetSuggestions": "bottom",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "breadcrumbs.enabled": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.decorations.colors": false,
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "VisualStudioExptTeam.vscodeintellicode",
+    "editor.suggest.insertMode": "replace",
+    "editor.suggestFontSize": 12,
+    "terminal.integrated.tabs.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.fontSize": 13,
+    "diffEditor.renderIndicators": false,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+      "*.asset": "yaml",
+      "*.csproj": "msbuild",
+      "*.ib": "go",
+      "*.tree": "python",
+      "*.ldtk": "json"
     },
-    "watch": {
-        "build": {
-            "patterns": "src",
-            "extensions": "js",
-            "ignore": [
-                "src/tokenColors/gen_*.js"
-            ]
-        }
+    "workbench.editorAssociations": {
+      "*.xnb": "default"
     },
-    "scripts": {
-        "prebuild": "node codegen.js",
-        "build": "node index.js",
-        "publish": "vsce publish",
-        "watch": "npm-watch"
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.factorypath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/bin": true,
+      "**/obj": true
     },
-    "engines": {
-        "vscode": "^1.50.0"
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
     },
-    "categories": [
-        "Themes"
+    "vetur.completion.tagCasing": "initial",
+    "vetur.format.defaultFormatterOptions": {
+      "prettier": {
+        "endOfLine": "crlf",
+        "printWidth": 160,
+        "semi": true,
+        "tabWidth": 4,
+        "singleQuote": false,
+        "trailingComma": "all"
+      }
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[csharp]": {
+      "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[java]": {
+      "editor.defaultFormatter": "redhat.java"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": false,
+      "files.trimTrailingWhitespace": false,
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.organizeImportsOnFormat": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "omnisharp.useEditorFormattingSettings": false,
+    "go.lintTool": "revive",
+    "go.toolsManagement.autoUpdate": true,
+    "go.autocompleteUnimportedPackages": true,
+    "java.format.settings.url": "E:\\OneDrive - GMIT\\JavaFormatter.xml",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.implementationsCodeLens.enabled": true,
+    "java.saveActions.organizeImports": true,
+    "java.codeGeneration.useBlocks": true,
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.rules.customizations": [
+      {
+        "no-unused-vars": "warn",
+        "no-undef": "warn"
+      }
     ],
-    "configurationDefaults": {
-        "[csharp]": {
-            "editor.semanticHighlighting.enabled": true
-        }
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "IrishBruse's Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-theme.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "npm-watch": "^0.11.0",
-        "write-json-file": "^2.2.0"
-    },
-    "galleryBanner": {
-        "color": "#8a76cc",
-        "theme": "dark"
-    },
-    "icon": "assets/128.png"
-}
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vetur.validation.template": false,
+    "asm-code-lens.hexCalculator.showInDebug": false,
+    "discord.removeRemoteRepository": true,
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.formatting": "vcFormat"
+  }

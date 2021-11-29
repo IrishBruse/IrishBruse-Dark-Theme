@@ -5,11 +5,6 @@
 Multi-line comments look like this. They work in C89 as well.
 */
 
-/*
-Multi-line comments don't nest /* Be careful */
-// comment ends on this line...
-* / // ...not this one!
-
 // Constants: #define <keyword>
 // Constants are written in all-caps out of convention, not requirement
 #define DAYS_IN_YEAR 365
@@ -17,9 +12,10 @@ Multi-line comments don't nest /* Be careful */
 #include <stdio.h>
 #include "sample.h"
 
-    // Enumeration constants are also ways to declare constants.
-    // All statements must end with a semicolon
-    enum days {
+// Enumeration constants are also ways to declare constants.
+// All statements must end with a semicolon
+enum days
+{
     SUN = 1,
     MON,
     TUE,
@@ -61,7 +57,7 @@ int main(void)
 // argc being the number of arguments - your program's name counts as 1
 // argv is an array of character arrays - containing the arguments themselves
 // argv[0] = name of your program, argv[1] = first argument, etc.
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     // print output using printf, for "print formatted"
     // %d is an integer, \n is a newline
@@ -124,7 +120,7 @@ int main(int argc, char** argv)
     // (assuming 4-byte words)
 
     // You can initialize an array to 0 thusly:
-    char my_array[20] = { 0 };
+    char my_array[20] = {0};
 
     // Indexing an array is like other languages -- or,
     // rather, other languages are like C
@@ -165,7 +161,7 @@ int main(int argc, char** argv)
     // Multi-dimensional arrays:
     int multi_array[2][5] = {
         {1, 2, 3, 4, 5},
-        {6, 7, 8, 9, 0} };
+        {6, 7, 8, 9, 0}};
     // access elements:
     int array_int = multi_array[0][2]; // => 3
 
@@ -183,7 +179,7 @@ int main(int argc, char** argv)
     // Arithmetic is straightforward
     i1 + i2; // => 3
     i2 - i1; // => 1
-    i2* i1;  // => 2
+    i2 *i1;  // => 2
     i1 / i2; // => 0 (0.5, but truncated towards 0)
 
     // You need to cast at least one integer to float to get a floating-point result
@@ -351,12 +347,12 @@ error:
   this will print out "Error occurred at i = 51 & j = 99."
   */
 
-  ///////////////////////////////////////
-  // Typecasting
-  ///////////////////////////////////////
+    ///////////////////////////////////////
+    // Typecasting
+    ///////////////////////////////////////
 
-  // Every value in C has a type, but you can cast one value into another type
-  // if you want (with some constraints).
+    // Every value in C has a type, but you can cast one value into another type
+    // if you want (with some constraints).
 
     int x_hex = 0x01; // You can assign vars with hex literals
 
@@ -385,14 +381,14 @@ error:
     // of your variables, then mess with them.
 
     int x = 0;
-    printf("%p\n", (void*)&x); // Use & to retrieve the address of a variable
+    printf("%p\n", (void *)&x); // Use & to retrieve the address of a variable
     // (%p formats an object pointer of type void *)
     // => Prints some address in memory;
 
     // Pointers start with * in their declaration
-    int* px, not_a_pointer;     // px is a pointer to an int
+    int *px, not_a_pointer;     // px is a pointer to an int
     px = &x;                    // Stores the address of x in px
-    printf("%p\n", (void*)px); // => Prints some address in memory
+    printf("%p\n", (void *)px); // => Prints some address in memory
     printf("%zu, %zu\n", sizeof(px), sizeof(not_a_pointer));
     // => Prints "8, 4" on a typical 64-bit system
 
@@ -418,7 +414,7 @@ error:
     } // Initialize x_array to 20, 19, 18,... 2, 1
 
     // Declare a pointer of type int and initialize it to point to x_array
-    int* x_ptr = x_array;
+    int *x_ptr = x_array;
     // x_ptr now points to the first element in the array (the integer 20).
     // This works because arrays often decay into pointers to their first element.
     // For example, when an array is passed to a function or is assigned to a pointer,
@@ -431,7 +427,7 @@ error:
     char otherarr[] = "foobarbazquirk";
     // or when it's the argument of the `sizeof` or `alignof` operator:
     int arraythethird[10];
-    int* ptr = arraythethird; // equivalent with int *ptr = &arr[0];
+    int *ptr = arraythethird; // equivalent with int *ptr = &arr[0];
     printf("%zu, %zu\n", sizeof arraythethird, sizeof ptr);
     // probably prints "40, 4" or "40, 8"
 
@@ -444,7 +440,7 @@ error:
     // standard library function malloc, which takes one argument of type size_t
     // representing the number of bytes to allocate (usually from the heap, although this
     // may not be true on e.g. embedded systems - the C standard says nothing about it).
-    int* my_ptr = malloc(sizeof(*my_ptr) * 20);
+    int *my_ptr = malloc(sizeof(*my_ptr) * 20);
     for (xx = 0; xx < 20; xx++)
     {
         *(my_ptr + xx) = 20 - xx; // my_ptr[xx] = 20-xx
@@ -452,7 +448,7 @@ error:
 
     // Be careful passing user-provided values to malloc! If you want
     // to be safe, you can use calloc instead (which, unlike malloc, also zeros out the memory)
-    int* my_other_ptr = calloc(20, sizeof(int));
+    int *my_other_ptr = calloc(20, sizeof(int));
 
     // Note that there is no standard way to get the length of a
     // dynamically allocated array in C. Because of this, if your arrays are
@@ -460,7 +456,7 @@ error:
     // to keep track of the number of elements (size) of an array. See the
     // functions section for more info.
     size_t size = 10;
-    int* my_arr = calloc(size, sizeof(int));
+    int *my_arr = calloc(size, sizeof(int));
     // Add an element to the array
     size++;
     my_arr = realloc(my_arr, sizeof(int) * size);
@@ -484,7 +480,7 @@ error:
     // pointer-to-char (which is a pointer to the first element of the array).
     // It's good practice to use `const char *' when referring to a string literal,
     // since string literals shall not be modified (i.e. "foo"[0] = 'a' is ILLEGAL.)
-    const char* my_str = "This is my very own string literal";
+    const char *my_str = "This is my very own string literal";
     printf("%c\n", *my_str); // => 'T'
 
     // This is not the case if the string is an array
@@ -520,7 +516,7 @@ Example: in-place string reversal
 */
 
 // A void function returns no value
-void str_reverse(char* str_in)
+void str_reverse(char *str_in)
 {
     char tmp;
     int ii = 0;
@@ -543,7 +539,7 @@ printf("%s\n", c); // => ".tset a si sihT"
 as we can return only one variable
 to change values of more than one variables we use call by reference
 */
-void swapTwoNumbers(int* a, int* b, ...)
+void swapTwoNumbers(int *a, int *b, ...)
 {
     int temp = *a;
     *a = *b;
@@ -567,7 +563,7 @@ array in C.
 */
 // Size must be passed!
 // Otherwise, this function has no way of knowing how big the array is.
-void printIntArray(int* arr, size_t size)
+void printIntArray(int *arr, size_t size)
 {
     int i;
     for (i = 0; i < size; i++)
@@ -627,7 +623,7 @@ void function_1()
     my_rec.height = 20;
 
     // You can declare pointers to structs
-    struct rectangle* my_rec_ptr = &my_rec;
+    struct rectangle *my_rec_ptr = &my_rec;
 
     // Use dereferencing to set struct pointer members...
     (*my_rec_ptr).width = 30;
@@ -646,7 +642,7 @@ int area(rect r)
 
 // if you have large structs, you can pass them "by pointer" to avoid copying
 // the whole struct:
-int areaptr(const rect* r)
+int areaptr(const rect *r)
 {
     return r->width * r->height;
 }
@@ -662,10 +658,10 @@ However, definition syntax may be initially confusing.
 
 Example: use str_reverse from a pointer
 */
-void str_reverse_through_pointer(char* str_in)
+void str_reverse_through_pointer(char *str_in)
 {
     // Define a function pointer variable, named f.
-    void (*f)(char*); // Signature should exactly match the target function.
+    void (*f)(char *); // Signature should exactly match the target function.
     f = &str_reverse;  // Assign the address for the actual function (determined at run time)
     // f = str_reverse; would work as well - functions decay into pointers, similar to arrays
     (*f)(str_in); // Just calling the function through the pointer
@@ -677,7 +673,7 @@ As long as function signatures match, you can assign any function to the same po
 Function pointers are usually typedef'd for simplicity and readability, as follows:
 */
 
-typedef void (*my_fnp_type)(char*);
+typedef void (*my_fnp_type)(char *);
 
 // Then used when declaring the actual pointer variable:
 // ...
@@ -778,7 +774,7 @@ as the C file.
 typedef struct Node
 {
     int val;
-    struct Node* next;
+    struct Node *next;
 } Node;
 
 /* So can enumerations. */
@@ -792,7 +788,7 @@ enum traffic_light_state
 /* Function prototypes can also be defined here for use in multiple files,  */
 /* but it is bad practice to define the function in the header. Definitions */
 /* should instead be put in a C file.                                       */
-Node createLinkedList(int* vals, int len);
+Node createLinkedList(int *vals, int len);
 
 /* Beyond the above elements, other definitions should be left to a C source */
 /* file. Excessive includes or definitions should, also not be contained in */

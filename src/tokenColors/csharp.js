@@ -10,34 +10,15 @@ export default [
             "foreground": "<gray>"
         },
     },
-    // Defs
-    {
-        "scope": [
-            "storage.type.cs",
-            "source.cs entity.name.type",
-        ],
-        "settings": {
-            "foreground": "<definition>",
-        },
-    },
     // Keywords
     {
         "scope": [
             "keyword.type.cs",
             "source.cs keyword.other",
-            "source.cs constant.language",
+            "source.cs constant",
         ],
         "settings": {
             "foreground": "<keyword>",
-        },
-    },
-    // Accessors
-    {
-        "scope": [
-            "storage.modifier.cs",
-        ],
-        "settings": {
-            "foreground": "<modifier>",
         },
     },
     // New

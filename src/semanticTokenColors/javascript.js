@@ -1,6 +1,6 @@
 export default [
     {
-        "variable.defaultLibrary:javascript": "<definition>",
+        "variable.defaultLibrary:javascript": "<local>",
         "class.defaultLibrary:javascript": "<definition>",
     },
 ]

@@ -9,24 +9,11 @@ export default [
     },
     {
         "scope": [
-            "punctuation.definition.dictionary.begin.json",
-            "punctuation.definition.dictionary.end.json",
-            "punctuation.definition.array.begin.json",
-            "punctuation.definition.array.end.json",
+            "constant.language.json",
         ],
         "settings": {
-            "foreground": "<gray>",
+            "foreground": "<keyword>",
         },
     },
-    // Strings
-    {
-        "scope": [
-            "string.quoted.double.json",
-            "string.quoted.single.json",
-            "string.template.json",
-        ],
-        "settings": {
-            "foreground": "<string>",
-        },
-    },
+
 ]

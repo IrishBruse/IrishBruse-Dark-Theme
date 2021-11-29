@@ -13,11 +13,9 @@ export default [
     {
         "scope": [
             "source.java storage.type.primitive",
-            "source.java keyword.control",
             "meta.class.identifier.java",
             "source.java variable.language",
             "source.java keyword.other",
-            "source.java storage.modifier",
             "source.java constant.language",
         ],
         "settings": {
@@ -27,7 +25,8 @@ export default [
     {
         "scope": [
             "meta.definition.variable.java",
-            "source.java entity.name.type",
+            "storage.type.annotation.java",
+            "punctuation.definition.annotation.java",
         ],
         "settings": {
             "foreground": "<definition>",
@@ -37,37 +36,9 @@ export default [
         "scope": [
             "variable.other.definition.java",
             "meta.declaration.annotation.java",
-            "storage.type.annotation.java",
         ],
         "settings": {
             "foreground": "<local>",
-        },
-    },
-    // Strings
-    {
-        "scope": [
-            "string.quoted.double.java",
-            "string.quoted.single.java",
-        ],
-        "settings": {
-            "foreground": "<string>",
-        },
-    },
-    {
-        "scope": [
-            "storage.modifier.extends",
-            "storage.modifier.implements",
-        ],
-        "settings": {
-            "foreground": "<modifier>",
-        },
-    },
-    {
-        "scope": [
-            "source.java constant.numeric",
-        ],
-        "settings": {
-            "foreground": "<number>",
         },
     },
     {

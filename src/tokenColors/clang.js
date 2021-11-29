@@ -3,9 +3,7 @@ export default [
     {
         "scope": [
             "entity.name.function.preprocessor.cpp",
-            "source.cpp keyword.control.directive",
-            "string.quoted.other.lt-gt.include.c",
-            "string.quoted.double.include.c",
+            "source.c keyword.control.directive",
         ],
         "settings": {
             "foreground": "<gray>",
@@ -14,7 +12,9 @@ export default [
     // Types
     {
         "scope": [
-            "source.c storage.type",
+            "keyword.operator.sizeof.c",
+            "source.c keyword.control.directive",
+            "keyword.other.typedef.c",
         ],
         "settings": {
             "foreground": "<keyword>",
@@ -29,23 +29,12 @@ export default [
             "foreground": "<number>",
         },
     },
-    // Keywords
     {
         "scope": [
-            "keyword.operator.sizeof.c",
-            "source.c keyword.control.directive",
+            "keyword.other.unit.hexadecimal.c",
         ],
         "settings": {
-            "foreground": "<keyword>",
-        },
-    },
-    // Array
-    {
-        "scope": [
-            "storage.modifier.array.bracket",
-        ],
-        "settings": {
-            "foreground": "<text>",
+            "foreground": "<number>",
         },
     },
 ]

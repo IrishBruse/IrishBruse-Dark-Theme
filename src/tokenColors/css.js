@@ -1,7 +1,6 @@
 export default [
     {
         "scope": [
-            "constant.numeric.css",
             "entity.other.keyframe-offset.percentage.css",
             "source.css keyword.other.unit",
         ],
@@ -20,22 +19,12 @@ export default [
             "foreground": "<keyword>"
         },
     },
-    {
-        "scope": [
-            "comment.block.css",
-        ],
-        "settings": {
-            "foreground": "<gray>",
-        },
-    },
     // Strings
     {
         "scope": [
-            "string.quoted.double.css",
-            "string.quoted.single.css",
-            "meta.property-value.css",
+            "support.constant.property-value.css",
+            "source.css support.constant.color",
             "constant.other.color.rgb-value.hex.css",
-            "string.template.css",
         ],
         "settings": {
             "foreground": "<string>",

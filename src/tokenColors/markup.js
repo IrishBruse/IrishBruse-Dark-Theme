@@ -17,4 +17,13 @@ export default [
             "foreground": "<local>"
         },
     },
+    // Atribute =
+    {
+        "scope": [
+            "punctuation.separator.key-value",
+        ],
+        "settings": {
+            "foreground": "<operator>",
+        },
+    },
 ]

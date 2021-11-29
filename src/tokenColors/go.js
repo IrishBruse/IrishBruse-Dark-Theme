@@ -39,15 +39,6 @@ export default [
             "foreground": "<keyword>",
         },
     },
-    // Defs
-    {
-        "scope": [
-            "source.go entity.name.type",
-        ],
-        "settings": {
-            "foreground": "<definition>",
-        },
-    },
     // Locals
     {
         "scope": [
@@ -57,24 +48,5 @@ export default [
             "foreground": "<local>",
         },
     },
-    // Strings
-    {
-        "scope": [
-            "source.go string.quoted.double",
-            "source.go string.quoted.single",
-        ],
-        "settings": {
-            "foreground": "<string>",
-        },
-    },
-    // Escape
-    {
-        "scope": [
-            "constant.character.escape.go",
-            "constant.other.placeholder.go",
-        ],
-        "settings": {
-            "foreground": "<escape>",
-        },
-    },
+
 ]

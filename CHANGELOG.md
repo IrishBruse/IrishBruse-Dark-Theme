@@ -1,9 +1,14 @@
 # Changelog
 
+## 1.1.1
+- Fixed some missing stuff in C/C++
+- Fixed json constant value not being colored
+- Fixed JavaScript string templates
+
 ## 1.1.0
-- added specific colors for enums and structs
-- coloring uses more sematic coloring (so be sure to enable it)
-- added Vue support
+- Added specific colors for enums and structs
+- Coloring uses more sematic coloring (so be sure to enable it)
+- Added Vue support
 
 ## 1.0.3
 - Fix js key color to match json
