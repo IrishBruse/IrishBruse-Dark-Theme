@@ -67,6 +67,14 @@
 		},
 		{
 			"scope": [
+				"source.c storage.modifier.array.bracket"
+			],
+			"settings": {
+				"foreground": "#909090"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.sizeof.c",
 				"source.c keyword.control.directive",
 				"keyword.other.typedef.c"
@@ -82,6 +90,14 @@
 			],
 			"settings": {
 				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#dcdcaa"
 			}
 		},
 		{
@@ -509,6 +525,19 @@
 		},
 		{
 			"scope": [
+				"punctuation.definition.markdown",
+				"meta.separator.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown",
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.constant.markdown"
+			],
+			"settings": {
+				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.definition.list.begin",
 				"meta.separator.markdown",
 				"entity.name.section.markdown",
@@ -534,19 +563,6 @@
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.markdown",
-				"meta.separator.markdown",
-				"punctuation.definition.string.begin.markdown",
-				"punctuation.definition.string.end.markdown",
-				"punctuation.definition.metadata.markdown",
-				"punctuation.definition.constant.markdown"
-			],
-			"settings": {
-				"foreground": "#606060"
 			}
 		},
 		{
@@ -624,10 +640,18 @@
 		},
 		{
 			"scope": [
-				"comment"
+				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#606060"
+				"foreground": "#8a76cc"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
@@ -641,19 +665,10 @@
 		},
 		{
 			"scope": [
-				"keyword.control"
+				"comment"
 			],
 			"settings": {
-				"foreground": "#8a76cc"
-			}
-		},
-		{
-			"scope": [
-				"string.quoted",
-				"string.template"
-			],
-			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#606060"
 			}
 		},
 		{
@@ -666,22 +681,6 @@
 		},
 		{
 			"scope": [
-				"constant.numeric"
-			],
-			"settings": {
-				"foreground": "#b5cea8"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
@@ -690,10 +689,27 @@
 		},
 		{
 			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#909090"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted",
+				"string.template"
+			],
+			"settings": {
+				"foreground": "#ce9178"
 			}
 		}
 	],
@@ -749,6 +765,7 @@
 		"function": "#dcdcaa",
 		"method": "#dcdcaa",
 		"number": "#b5cea8",
-		"string": "#ce9178"
+		"string": "#ce9178",
+		"macro": "#4EC9B0"
 	}
 }

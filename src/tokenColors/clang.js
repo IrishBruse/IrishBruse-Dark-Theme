@@ -3,6 +3,9 @@ export default {
         "entity.name.function.preprocessor.cpp",
         "source.c keyword.control.directive",
     ],
+    "<operator>": [
+        "source.c storage.modifier.array.bracket",
+    ],
     "<keyword>": [
         "keyword.operator.sizeof.c",
         "source.c keyword.control.directive",
@@ -11,5 +14,8 @@ export default {
     "<number>": [
         "keyword.other.unit.suffix.floating-point.c",
         "keyword.other.unit.hexadecimal.c",
+    ],
+    "<method>": [
+        "entity.name.function",
     ],
 }

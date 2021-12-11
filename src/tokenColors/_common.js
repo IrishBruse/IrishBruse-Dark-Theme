@@ -10,7 +10,7 @@ export default {
         "constant.other.placeholder",
     ],
     "<gray>": [
-        "comment"
+        "comment",
     ],
     "<keyword>": [
         "storage.type",
