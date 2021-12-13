@@ -18,4 +18,7 @@ export default {
     "<local>": [
         "variable.other.assignment.go",
     ],
+    "<control>": [
+        "keyword.import.go"
+    ]
 }

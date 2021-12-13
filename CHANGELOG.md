@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.3
+- Java @Override is now keyword color
+- C# local variables now white only parameters are light blue
+- All languages that have a using or #include etc keyword are purple
+
+## 1.1.2
+- Clean up json files
+- Added more common semantic tokens from textmate
+
 ## 1.1.1
 - Fixed some missing stuff in C/C++
 - Fixed json constant value not being colored

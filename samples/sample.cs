@@ -1,9 +1,11 @@
 using System;
 
-namespace InheritanceApplication
+namespace sample
 {
-    class Shape
+    internal class Shape
     {
+        public int test;
+
         public void SetWidth(int w)
         {
             width = w;
@@ -17,7 +19,7 @@ namespace InheritanceApplication
     }
 
     // Derived class
-    class Rectangle : Shape
+    internal class Rectangle : Shape
     {
         public int getArea()
         {
@@ -25,19 +27,19 @@ namespace InheritanceApplication
         }
     }
 
-    class RectangleTester
+    internal class RectangleTester
     {
         [STAThread]
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Rectangle rect = new Rectangle();
+            Rectangle rect = new();
 
             rect.SetWidth(5);
             rect.SetHeight(7);
 
             // Print the area of the object.
             Console.WriteLine("Total area: {0}", rect.getArea());
-            Console.ReadKey();
+            _ = Console.ReadKey();
 
             Console.WriteLine($"Test { rect }");
         }

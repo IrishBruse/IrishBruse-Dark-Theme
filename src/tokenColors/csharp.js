@@ -3,6 +3,7 @@ export default {
         "punctuation.definition.interpolation.begin.cs",
         "punctuation.definition.interpolation.end.cs",
         "punctuation.terminator.statement.cs",
+        "entity.name.type.namespace.cs",
     ],
     "<keyword>": [
         "keyword.type.cs",
@@ -11,5 +12,8 @@ export default {
     ],
     "<method>": [
         "entity.name.function.cs",
+    ],
+    "<control>": [
+        "keyword.other.using.cs"
     ]
 }

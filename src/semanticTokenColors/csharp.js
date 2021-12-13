@@ -19,7 +19,6 @@ export default [
         "plainKeyword.accessor:csharp": "<control>",
         "namespace:csharp": "<gray>",
 
-        "local:csharp": "<local>",
         "parameter:csharp": "<local>",
     },
 ]

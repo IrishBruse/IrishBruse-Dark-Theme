@@ -18,4 +18,7 @@ export default {
     "<method>": [
         "entity.name.function",
     ],
+    "<control>": [
+        "keyword.control.directive.include.c",
+    ],
 }

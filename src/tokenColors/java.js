@@ -11,14 +11,16 @@ export default {
         "source.java variable.language",
         "source.java keyword.other",
         "source.java constant.language",
+        "keyword.control.new.java",
+        "meta.class.identifier.java storage.modifier.java",
+        "meta.enum.java storage.modifier.java",
+        "punctuation.definition.annotation.java",
     ],
     "<definition>": [
         "meta.definition.variable.java",
         "storage.type.annotation.java",
-        "punctuation.definition.annotation.java",
     ],
     "<local>": [
-        "variable.other.definition.java",
         "meta.declaration.annotation.java",
     ],
     "<operator>": [
@@ -27,4 +29,7 @@ export default {
     "<method>": [
         "source.java entity.name.function",
     ],
+    "<text>": [
+        "variable.other.definition.java",
+    ]
 }

@@ -102,9 +102,18 @@
 		},
 		{
 			"scope": [
+				"keyword.control.directive.include.c"
+			],
+			"settings": {
+				"foreground": "#8a76cc"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.definition.interpolation.begin.cs",
 				"punctuation.definition.interpolation.end.cs",
-				"punctuation.terminator.statement.cs"
+				"punctuation.terminator.statement.cs",
+				"entity.name.type.namespace.cs"
 			],
 			"settings": {
 				"foreground": "#606060"
@@ -126,6 +135,14 @@
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.using.cs"
+			],
+			"settings": {
+				"foreground": "#8a76cc"
 			}
 		},
 		{
@@ -349,6 +366,14 @@
 		},
 		{
 			"scope": [
+				"keyword.import.go"
+			],
+			"settings": {
+				"foreground": "#8a76cc"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.end.html"
@@ -404,7 +429,11 @@
 				"meta.class.identifier.java",
 				"source.java variable.language",
 				"source.java keyword.other",
-				"source.java constant.language"
+				"source.java constant.language",
+				"keyword.control.new.java",
+				"meta.class.identifier.java storage.modifier.java",
+				"meta.enum.java storage.modifier.java",
+				"punctuation.definition.annotation.java"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -413,8 +442,7 @@
 		{
 			"scope": [
 				"meta.definition.variable.java",
-				"storage.type.annotation.java",
-				"punctuation.definition.annotation.java"
+				"storage.type.annotation.java"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -422,7 +450,6 @@
 		},
 		{
 			"scope": [
-				"variable.other.definition.java",
 				"meta.declaration.annotation.java"
 			],
 			"settings": {
@@ -443,6 +470,14 @@
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.definition.java"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -735,7 +770,6 @@
 		"extensionMethod:csharp": "#dcdcaa",
 		"plainKeyword.accessor:csharp": "#8a76cc",
 		"namespace:csharp": "#606060",
-		"local:csharp": "#9cdcfe",
 		"parameter:csharp": "#9cdcfe",
 		"xmlDocCommentDelimiter:java": "#606060",
 		"xmlDocCommentName:java": "#606060",
@@ -743,7 +777,7 @@
 		"xmlDocCommentText:java": "#606060",
 		"xmlDocCommentAttributeQuotes:java": "#606060",
 		"preprocessorKeyword:java": "#606060",
-		"annotation:java": "#4EC9B0",
+		"annotation:java": "#569cd6",
 		"typeParameter:java": "#4EC9B0",
 		"interface:java": "#4EC9B0",
 		"type:java": "#4EC9B0",

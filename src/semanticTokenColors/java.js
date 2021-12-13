@@ -6,7 +6,7 @@ export default [
         "xmlDocCommentText:java": "<gray>",
         "xmlDocCommentAttributeQuotes:java": "<gray>",
         "preprocessorKeyword:java": "<gray>",
-        "annotation:java": "<definition>",
+        "annotation:java": "<keyword>",
 
         "typeParameter:java": "<definition>",
         "interface:java": "<definition>",
