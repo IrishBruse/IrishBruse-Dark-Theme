@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.4
+- Make ; gray on all languages 
+- C macros are light blue
+- C #define is purple now
+
 ## 1.1.3
 - Java @Override is now keyword color
 - C# local variables now white only parameters are light blue

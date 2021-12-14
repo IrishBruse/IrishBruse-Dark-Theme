@@ -1,14 +1,15 @@
 export default {
     "<gray>": [
-        "entity.name.function.preprocessor.cpp",
-        "source.c keyword.control.directive",
+        "storage.modifier.array",
+        "string.quoted.other",
+        "string.quoted.double.include.c",
+        "meta.preprocessor.include.c",
     ],
     "<operator>": [
         "source.c storage.modifier.array.bracket",
     ],
     "<keyword>": [
         "keyword.operator.sizeof.c",
-        "source.c keyword.control.directive",
         "keyword.other.typedef.c",
     ],
     "<number>": [
@@ -17,8 +18,10 @@ export default {
     ],
     "<method>": [
         "entity.name.function",
+        "entity.name.function.preprocessor.cpp",
+        "entity.name.function.preprocessor.c",
     ],
     "<control>": [
-        "keyword.control.directive.include.c",
+        "source.c keyword.control.directive",
     ],
 }

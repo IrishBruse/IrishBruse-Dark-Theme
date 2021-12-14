@@ -11,6 +11,7 @@ export default {
     ],
     "<gray>": [
         "comment",
+        "punctuation.terminator.statement",
     ],
     "<keyword>": [
         "storage.type",

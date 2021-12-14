@@ -12,7 +12,5 @@ export default [
 
         "number": "<number>",
         "string": "<string>",
-
-        "macro": "<definition>",
     },
 ]
