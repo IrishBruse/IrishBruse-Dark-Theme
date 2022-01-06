@@ -1,10 +1,6 @@
 export default {
-    "<control>": [
-        "keyword.control",
-    ],
-    "<definition>": [
-        "entity.name.type",
-    ],
+    "prefix": "",
+    "suffix": "",
     "<escape>": [
         "constant.character.escape",
         "constant.other.placeholder",
@@ -13,20 +9,10 @@ export default {
         "comment",
         "punctuation.terminator.statement",
     ],
-    "<keyword>": [
-        "storage.type",
-    ],
-    "<modifier>": [
-        "storage.modifier",
-    ],
     "<number>": [
         "constant.numeric",
     ],
-    "<operator>": [
-        "keyword.operator",
-    ],
     "<string>": [
-        "string.quoted",
-        "string.template",
-    ],
+        "string",
+    ]
 }

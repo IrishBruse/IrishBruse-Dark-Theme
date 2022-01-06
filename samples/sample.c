@@ -265,7 +265,7 @@ int main(int argc, char **argv)
     // While loops exist
     int ii = 0;
     while (ii < 10)
-    {                         //ANY value less than ten is true.
+    {                         // ANY value less than ten is true.
         printf("%d, ", ii++); // ii++ increments ii AFTER using its current value.
     }                         // => prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "
 
@@ -406,7 +406,7 @@ error:
     printf("%d\n", x);   // => Prints 1
 
     // Arrays are a good way to allocate a contiguous block of memory
-    int x_array[20]; //declares array of size 20 (cannot change size)
+    int x_array[20]; // declares array of size 20 (cannot change size)
     int xx;
     for (xx = 0; xx < 20; xx++)
     {
@@ -462,7 +462,7 @@ error:
     my_arr = realloc(my_arr, sizeof(int) * size);
     if (my_arr == NULL)
     {
-        //Remember to check for realloc failure!
+        // Remember to check for realloc failure!
         return;
     }
     my_arr[10] = 5;
@@ -528,7 +528,7 @@ void str_reverse(char *str_in)
         str_in[len - ii - 1] = tmp;
     }
 }
-//NOTE: string.h header file needs to be included to use strlen()
+// NOTE: string.h header file needs to be included to use strlen()
 
 /*
 char c[] = "This is a test.";
@@ -582,11 +582,11 @@ printIntArray(my_arr, size);
 int i = 0;
 void testFunc()
 {
-    extern int i; //i here is now using external variable i
+    extern int i; // i here is now using external variable i
 }
 
 // make external variables private to source file with static:
-static int j = 0; //other files using testFunc2() cannot access variable j
+static int j = 0; // other files using testFunc2() cannot access variable j
 void testFunc2()
 {
     extern int j;
@@ -679,7 +679,7 @@ typedef void (*my_fnp_type)(char *);
 // ...
 // my_fnp_type f;
 
-//Special characters:
+// Special characters:
 /*
 '\a'; // alert (bell) character
 '\n'; // newline character

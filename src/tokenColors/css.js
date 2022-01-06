@@ -1,35 +1,50 @@
 export default {
-    "<number>": [
-        "entity.other.keyframe-offset.percentage.css",
-        "source.css keyword.other.unit",
+    "prefix": "source.css",
+    "suffix": "",
+    "<blue>": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name",
     ],
-    "<keyword>": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.css",
+    "<white>": [
+        "variable",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+    ],
+    "<yellow>": [
+        "variable.parameter.keyframe-list",
+        "support.function.misc",
+    ],
+    "<gray>": [
+        "punctuation.section.property-list.end.bracket.curly.scss",
+        "keyword.operator.combinator",
+    ],
+    "<red>": [
+        "keyword.other.important",
+    ],
+    "<green>": [
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.id",
+    ],
+    "<purple>": [
+        "entity.name.tag",
     ],
     "<string>": [
-        "support.constant.property-value.css",
-        "source.css support.constant.color",
-        "constant.other.color.rgb-value.hex.css",
+        "string"
     ],
-    "<local>": [
-        "variable.css",
-        "support.type.property-name.css",
-        "support.type.vendored.property-name.css",
+    "<lightblue>": [
+        "support.constant.property-value",
+        "support.constant.color",
+        "support.constant.font-name",
+        "entity.other.attribute-name",
     ],
-    "<method>": [
-        "variable.parameter.keyframe-list.css",
-        "support.function.misc.css",
+    "<number>": [
+        "entity.other.keyframe-offset.percentage",
+        "constant.other.color.rgb-value.hex",
+        "keyword.other.unit",
+        "constant.numeric"
     ],
-    "<operator>": [
-        "punctuation.section.property-list.end.bracket.curly.scss",
-        "keyword.operator.combinator.css",
-    ],
-    "<modifier>": [
-        "keyword.other.important.css",
-    ],
-    "<definition>": [
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-element.css",
+    "<escape>": [
+        "constant.character"
     ],
 }

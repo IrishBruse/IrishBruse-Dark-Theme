@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+- Removed access modifier color in favor of better sematic coloring
+- Added python coloring
+
 ## 1.1.4
 - Make ; gray on all languages 
 - C macros are light blue

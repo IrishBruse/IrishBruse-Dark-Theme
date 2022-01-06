@@ -1,8 +1,8 @@
 export default [
     {
-        "type:c": "<definition>",
-        "parameter:c": "<local>",
+        "type:c": "<green>",
+        "parameter:c": "<lightblue>",
         "enumMember:c": "<enum>",
-        "macro:c": "<local>",
+        "macro:c": "<lightblue>",
     }
 ]

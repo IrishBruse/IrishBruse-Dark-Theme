@@ -1,8 +1,10 @@
 export default {
-    "<local>": [
-        "support.type.property-name.json",
+    "prefix": "source.json",
+    "suffix": "",
+    "<lightblue>": [
+        "support.type.property-name",
     ],
-    "<keyword>": [
-        "constant.language.json",
+    "<blue>": [
+        "constant.language",
     ],
 }

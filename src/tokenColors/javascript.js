@@ -1,29 +1,50 @@
 export default {
-    "<text>": [
-        "meta.template.expression.js",
+    "prefix": "source.js",
+    "suffix": "",
+    "<white>": [
+        "meta.brace.square",
+        "meta.template.expression",
     ],
     "<gray>": [
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "source.js comment.block.documentation",
-        "storage.type.class.jsdoc",
+        "punctuation.definition.template-expression",
+        "comment.block.documentation",
+        "storage.type.classdoc",
+        "punctuation.separator",
+        "keyword.operator",
+        "punctuation.accessor",
     ],
-    "<modifier>": [
-        "source.js storage.type.function",
+    "<red>": [
+        "storage.type.function",
+        "variable.language.super",
     ],
-    "<keyword>": [
-        "source.js storage.type",
-        "source.js keyword.operator.new",
-        "source.js constant.language.boolean",
+    "<blue>": [
+        "keyword.control",
+        "storage.type",
+        "keyword.operator.new",
+        "constant.language.boolean",
+        "storage.modifier",
+        "keyword.operator.expression.delete",
     ],
-    "<operator>": [
-        "source.js keyword.operator",
-        "source.js punctuation.accessor"
+    "<yellow>": [
+        "entity.name.function",
     ],
-    "<method>": [
-        "source.js entity.name.function",
+    "<green>": [
+        "entity.name.type",
+        "entity.other.inherited-class",
     ],
-    "<local>": [
-        "meta.object-literal.key.js",
+    "<lightblue>": [
+        "meta.object-literal.key string.quoted.double",
+        "variable.other.readwrite.alias",
+        "meta.object-literal.key",
+    ],
+    "<purple>": [
+        "keyword.control.default",
+        "keyword.control.export",
+        "string.regexp",// Regex
+        "meta.group.regexp",
+        "constant.character.escape.backslash.regexp",
+        "keyword.control.anchor.regexp",
+        "keyword.operator.quantifier.regexp",
+        "keyword.operator.negation.regexp",// Regex
     ],
 }

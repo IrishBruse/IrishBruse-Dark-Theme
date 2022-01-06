@@ -1,35 +1,38 @@
 export default {
+    "prefix": "source.java",
+    "suffix": "",
     "<gray>": [
-        "punctuation.separator.java",
-        "variable.language.wildcard.java",
-        "keyword.other.documentation.javadoc.java",
-        "punctuation.terminator.java",
+        "punctuation.separator",
+        "variable.language.wildcard",
+        "keyword.other.documentationdoc",
+        "punctuation.terminator",
     ],
-    "<keyword>": [
-        "source.java storage.type.primitive",
-        "meta.class.identifier.java",
-        "source.java variable.language",
-        "source.java keyword.other",
-        "source.java constant.language",
-        "keyword.control.new.java",
-        "meta.class.identifier.java storage.modifier.java",
-        "meta.enum.java storage.modifier.java",
-        "punctuation.definition.annotation.java",
+    "<blue>": [
+        "storage.type.primitive",
+        "meta.class.identifier",
+        "variable.language",
+        "keyword.other",
+        "constant.language",
+        "keyword.control.new",
+        "meta.class.identifier storage.modifier",
+        "meta.enum storage.modifier",
+        "punctuation.definition.annotation",
+        "storage.modifier",
     ],
-    "<definition>": [
-        "meta.definition.variable.java",
-        "storage.type.annotation.java",
+    "<green>": [
+        "meta.definition.variable",
+        "storage.type.annotation",
     ],
-    "<local>": [
-        "meta.declaration.annotation.java",
+    "<lightblue>": [
+        "meta.declaration.annotation",
     ],
-    "<operator>": [
-        "source.java keyword.operator",
+    "<gray>": [
+        "keyword.operator",
     ],
-    "<method>": [
-        "source.java entity.name.function",
+    "<yellow>": [
+        "entity.name.function",
     ],
-    "<text>": [
-        "variable.other.definition.java",
+    "<white>": [
+        "variable.other.definition",
     ]
 }

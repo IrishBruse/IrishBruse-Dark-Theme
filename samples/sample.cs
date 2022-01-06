@@ -21,7 +21,7 @@ namespace sample
     // Derived class
     internal class Rectangle : Shape
     {
-        public int getArea()
+        public int GetArea()
         {
             return width * height;
         }
@@ -30,7 +30,7 @@ namespace sample
     internal class RectangleTester
     {
         [STAThread]
-        private static void Main(string[] args)
+        private static void Main()
         {
             Rectangle rect = new();
 
@@ -38,7 +38,7 @@ namespace sample
             rect.SetHeight(7);
 
             // Print the area of the object.
-            Console.WriteLine("Total area: {0}", rect.getArea());
+            Console.WriteLine("Total area: {0}", rect.GetArea());
             _ = Console.ReadKey();
 
             Console.WriteLine($"Test { rect }");

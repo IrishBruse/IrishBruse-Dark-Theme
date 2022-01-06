@@ -1,24 +1,41 @@
 export default {
+    "prefix": "source.go",
+    "suffix": "",
+    "<purple>": [
+        "keyword.import",
+    ],
+    "<red>": [
+        "keyword.function",
+    ],
     "<gray>": [
+        "punctuation.accessor",
+        "punctuation.definition.typeparameters",
+        "punctuation.squarebracket",
+        "punctuation.separator",
+        "punctuation.tilde",
+        "keyword.operator",
+        "comment",
         "entity.name.package",
     ],
-    "<modifier>": [
-        "keyword.function.go",
+    "<blue>": [
+        "keyword",
+        "constant.language",
+        "storage.type",
     ],
-    "<method>": [
-        "source.go support.function",
-        "source.go entity.name.function",
+    "<yellow>": [
+        "support.function",
+        "entity.name.function",
     ],
-    "<keyword>": [
-        "constant.language.go",
-        "source.go keyword",
-        "source.go storage.type",
-        "keyword.operator.address.go",
+    "<green>": [
+        "entity.name.type",
     ],
-    "<local>": [
-        "variable.other.assignment.go",
+    "<string>": [
+        "string",
     ],
-    "<control>": [
-        "keyword.import.go"
-    ]
+    "<number>": [
+        "constant.numeric"
+    ],
+    "<escape>": [
+        "constant.character"
+    ],
 }

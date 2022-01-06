@@ -1,47 +1,49 @@
 export default {
+    "prefix": "",
+    "suffix": ".markdown",
     "<gray>": [
-        "punctuation.definition.markdown",
-        "meta.separator.markdown",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-        "punctuation.definition.metadata.markdown",
-        "punctuation.definition.constant.markdown",
+        "punctuation.definition",
+        "meta.separator",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.metadata",
+        "punctuation.definition.constant",
     ],
-    "<keyword>": [
+    "<blue>": [
         "punctuation.definition.list.begin",
-        "meta.separator.markdown",
-        "entity.name.section.markdown",
-        "punctuation.definition.heading.markdown",
-        "markup.underline.link.image.markdown",
-        "markup.underline.link.markdown",
+        "meta.separator",
+        "entity.name.section",
+        "punctuation.definition.heading",
+        "markup.underline.link.image",
+        "markup.underline.link",
     ],
-    "<control>": [
-        "punctuation.definition.heading.markdown",
+    "<purple>": [
+        "punctuation.definition.heading",
     ],
-    "<definition>": [
-        "fenced_code.block.language.markdown"
+    "<green>": [
+        "fenced_code.block.language"
     ],
     "<string>": [
-        "punctuation.definition.string.begin.markdown string.other.link.description.title.markdown",
-        "punctuation.definition.string.end.markdown string.other.link.description.title.markdown",
-        "string.other.link.description.title.markdown",
+        "punctuation.definition.string.begin string.other.link.description.title",
+        "punctuation.definition.string.end string.other.link.description.title",
+        "string.other.link.description.title",
     ],
-    "<local>": [
-        "string.other.link.title.markdown"
+    "<lightblue>": [
+        "string.other.link.title"
     ],
     "underline": [
-        "markup.underline.markdown",
+        "markup.underline",
         "markup.underline"
     ],
     "italic": [
-        "markup.quote.markdown",
         "markup.quote",
-        "markup.italic.markdown",
+        "markup.quote",
+        "markup.italic",
         "markup.italic",
         "emphasis",
     ],
     "bold": [
-        "markup.bold.markdown",
+        "markup.bold",
         "markup.bold",
         "strong",
     ],

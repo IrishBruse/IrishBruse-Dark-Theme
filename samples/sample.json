@@ -67,68 +67,68 @@
     "diffEditor.renderIndicators": false,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
-      "*.asset": "yaml",
-      "*.csproj": "msbuild",
-      "*.ib": "go",
-      "*.tree": "python",
-      "*.ldtk": "json"
+        "*.asset": "yaml",
+        "*.csproj": "msbuild",
+        "*.ib": "go",
+        "*.tree": "python",
+        "*.ldtk": "json"
     },
     "workbench.editorAssociations": {
-      "*.xnb": "default"
+        "*.xnb": "default"
     },
     "files.exclude": {
-      "**/.classpath": true,
-      "**/.factorypath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/bin": true,
-      "**/obj": true
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/bin": true,
+        "**/obj": true
     },
     "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
+        "other": true,
+        "comments": true,
+        "strings": true
     },
     "vetur.completion.tagCasing": "initial",
     "vetur.format.defaultFormatterOptions": {
-      "prettier": {
-        "endOfLine": "crlf",
-        "printWidth": 160,
-        "semi": true,
-        "tabWidth": 4,
-        "singleQuote": false,
-        "trailingComma": "all"
-      }
+        "prettier": {
+            "endOfLine": "crlf",
+            "printWidth": 160,
+            "semi": true,
+            "tabWidth": 4,
+            "singleQuote": false,
+            "trailingComma": "all"
+        }
     },
     "[vue]": {
-      "editor.defaultFormatter": "octref.vetur"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[csharp]": {
-      "editor.defaultFormatter": "ms-dotnettools.csharp"
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
     },
     "[xml]": {
-      "editor.defaultFormatter": "redhat.vscode-xml"
+        "editor.defaultFormatter": "redhat.vscode-xml"
     },
     "[java]": {
-      "editor.defaultFormatter": "redhat.java"
+        "editor.defaultFormatter": "redhat.java"
     },
     "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[markdown]": {
-      "editor.wordWrap": "on",
-      "editor.quickSuggestions": false,
-      "files.trimTrailingWhitespace": false,
-      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
     "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "omnisharp.enableImportCompletion": true,
     "omnisharp.organizeImportsOnFormat": true,
@@ -145,10 +145,10 @@
     "java.codeGeneration.useBlocks": true,
     "eslint.codeActionsOnSave.mode": "problems",
     "eslint.rules.customizations": [
-      {
-        "no-unused-vars": "warn",
-        "no-undef": "warn"
-      }
+        {
+            "no-unused-vars": "warn",
+            "no-undef": "warn"
+        }
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
     "vetur.validation.template": false,
@@ -156,4 +156,4 @@
     "discord.removeRemoteRepository": true,
     "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
     "C_Cpp.formatting": "vcFormat"
-  }
+}

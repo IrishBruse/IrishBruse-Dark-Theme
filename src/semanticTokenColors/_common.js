@@ -2,13 +2,13 @@ export default [
     {
         "comment": "<gray>",
 
-        "operator": "<operator>",
-        "operatorOverloaded": "<operator>",
+        "operator": "<gray>",
+        "operatorOverloaded": "<gray>",
 
-        "modifier": "<modifier>",
+        "modifier": "<blue>",
 
-        "function": "<method>",
-        "method": "<method>",
+        "function": "<yellow>",
+        "method": "<yellow>",
 
         "number": "<number>",
         "string": "<string>",

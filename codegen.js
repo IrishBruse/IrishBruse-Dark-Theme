@@ -18,11 +18,21 @@ const duplicateLangs = [
     {
         from: {
             name: "html",
-            textmate: ".html"
+            textmate: "text.html"
         },
         to: {
             name: "xml",
-            textmate: ".xml"
+            textmate: "text.xml"
+        }
+    },
+    {
+        from: {
+            name: "html",
+            textmate: "text.html"
+        },
+        to: {
+            name: "vue",
+            textmate: "source.vue"
         }
     }
 ];

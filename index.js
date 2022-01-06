@@ -7,6 +7,10 @@ let tokenColorsTokens = [];
 let semanticTokenColorsTokens = {};
 
 tokenColors.forEach(mod => {
+    var prefix = mod.prefix;
+    var suffix = mod.suffix;
+    delete mod.prefix;
+    delete mod.suffix;
     let keys = Object.keys(mod);
 
     for (let i = 0; i < keys.length; i++) {
@@ -16,6 +20,10 @@ tokenColors.forEach(mod => {
         }
 
         var scopeValues = mod[keys[i]];
+        for (let i = 0; i < scopeValues.length; i++) {
+            // console.log(scopeValues[i]);
+            scopeValues[i] = prefix + " " + scopeValues[i] + suffix;
+        }
         rule.scope = scopeValues;
 
         if (keys[i] == "bold" || keys[i] == "italic" || keys[i] == "underline" || keys[i] == "strikethrough") {
@@ -47,23 +55,21 @@ var theme = {
 var text = JSON.stringify(theme);
 
 // Syntax
-text = text.replaceAll("<control>", "#8a76cc");
-text = text.replaceAll("<definition>", "#4EC9B0");// class
-text = text.replaceAll("<enum>", "#cbd67e");
-text = text.replaceAll("<escape>", "#d7ba7d");
-text = text.replaceAll("<error>", "<red>");
+text = text.replaceAll("<white>", "#d4d4d4");
+text = text.replaceAll("<purple>", "#8a76cc");
+text = text.replaceAll("<green>", "#4EC9B0");// class
 text = text.replaceAll("<gray>", "#606060");
-text = text.replaceAll("<green>", "#608b4e");
-text = text.replaceAll("<keyword>", "#569cd6");
-text = text.replaceAll("<local>", "#9cdcfe");
-text = text.replaceAll("<method>", "#dcdcaa");
-text = text.replaceAll("<modifier>", "#c94e67");
+text = text.replaceAll("<blue>", "#569cd6");
+text = text.replaceAll("<lightblue>", "#9cdcfe");
+text = text.replaceAll("<yellow>", "#dcdcaa");
+text = text.replaceAll("<red>", "#c94e67");
 text = text.replaceAll("<number>", "#b5cea8");
-text = text.replaceAll("<operator>", "#909090");
-text = text.replaceAll("<red>", "#d16969");
+text = text.replaceAll("<addition>", "#608b4e");
+text = text.replaceAll("<escape>", "#d7ba7d");
+text = text.replaceAll("<error>", "#d16969");
 text = text.replaceAll("<struct>", "#82c97a");
+text = text.replaceAll("<enum>", "#cbd67e");
 text = text.replaceAll("<string>", "#ce9178");
-text = text.replaceAll("<text>", "#d4d4d4");
 // General Colors
 
 const out_file = './themes/dark-theme.json';
