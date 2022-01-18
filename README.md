@@ -27,6 +27,7 @@ vscode and dark-plus-syntax but with more colors to better explain
 the type of syntax it is
 
 ## Languages with customized support
+- (1.3) Angular
 - (1.2) Python
 - (1.1) Vue
 - (1.0) C#

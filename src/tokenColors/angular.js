@@ -1,41 +1,42 @@
 export default {
-    "prefix": "",
+    "prefix": "text.html.derivative",
     "suffix": "",
     "<blue>": [
         "storage.type",
+        "keyword.operator.expression.of",
     ],
     "<lightblue>": [
-        "variable"
+        "variable.other.object",
+        "variable.other.readwrite",
+        "variable.other.readwrite",
     ],
     "<gray>": [
-        "comment",
-        "punctuation.terminator.statement",
+
     ],
     "<green>": [
 
     ],
     "<purple>": [
-        "keyword.control"
+        "entity.other.ng-binding-name.ngFor",
+        "punctuation.definition.ng-binding-name",
+        "punctuation.definition.block",
     ],
     "<red>": [
 
     ],
     "<white>": [
-
     ],
     "<yellow>": [
-        "entity.name.function",
-        "support.function"
+
     ],
     "<number>": [
-        "constant.numeric",
+
     ],
     "<escape>": [
-        "constant.character.escape",
-        "constant.other.placeholder",
+
     ],
     "<string>": [
-        "string",
+
     ],
     "<enum>": [
 

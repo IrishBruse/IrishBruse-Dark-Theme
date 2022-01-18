@@ -4,15 +4,22 @@ export default {
     "<blue>": [
         "entity.other.attribute-name.class",
         "entity.other.attribute-name",
+        "punctuation.definition.entity",
+        "support.constant.property-value",
+        "meta.property-value",
+        "support.constant",
     ],
     "<white>": [
         "variable",
-        "support.type.property-name",
         "support.type.vendored.property-name",
+        "punctuation.definition.entity.begin.bracket",
+        "punctuation.definition.entity.end.bracket",
+        "keyword.operator.pattern",
     ],
     "<yellow>": [
         "variable.parameter.keyframe-list",
         "support.function.misc",
+        "support.function",
     ],
     "<gray>": [
         "punctuation.section.property-list.end.bracket.curly.scss",
@@ -25,15 +32,20 @@ export default {
         "entity.other.attribute-name.pseudo-class",
         "entity.other.attribute-name.pseudo-element",
         "entity.other.attribute-name.id",
+        "entity.other.attribute-name.id punctuation.definition.entity",
     ],
     "<purple>": [
+        "keyword.control.at-rule",
+        "keyword.operator",
         "entity.name.tag",
+        "punctuation.definition.keyword",
     ],
     "<string>": [
-        "string"
+        "string",
     ],
     "<lightblue>": [
-        "support.constant.property-value",
+        "variable",
+        "support.type.property-name",
         "support.constant.color",
         "support.constant.font-name",
         "entity.other.attribute-name",
@@ -47,4 +59,7 @@ export default {
     "<escape>": [
         "constant.character"
     ],
+    "<gray>": [
+        "punctuation.definition.comment",
+    ]
 }

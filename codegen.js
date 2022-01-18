@@ -34,6 +34,16 @@ const duplicateLangs = [
             name: "vue",
             textmate: "source.vue"
         }
+    },
+    {
+        from: {
+            name: "html",
+            textmate: "text.html"
+        },
+        to: {
+            name: "derivative",
+            textmate: "text.html.derivative"
+        }
     }
 ];
 

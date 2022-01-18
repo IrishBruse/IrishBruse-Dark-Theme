@@ -1,5 +1,5 @@
 export default {
-    "list.dropBackground": "#383b3d",
+    "list.dropBackground": "#ff00ff",
     "editorLineNumber.activeForeground": "#dddddd",
     "editor.background": "#1e1e1e",
     "editor.foreground": "<white>",

@@ -2,25 +2,50 @@ export default {
     "prefix": "text.html",
     "suffix": "",
     "<blue>": [
-        "entity.name.tag",
+        "keyword.operator.expression.in",
+        "meta.tag",
+    ],
+    "<lightblue>": [
+
+    ],
+    "<gray>": [
+        "punctuation.definition.tag",
+    ],
+    "<green>": [
+        "meta.tag.metadata.link entity.name.tag",
+        "meta.tag.custom",
     ],
     "<purple>": [
         "entity.name.tag.script",
         "meta.tag.metadata.script entity.name.tag",
-    ],
-    "<green>": [
-        "entity.name.tag.template",
-        "meta.tag.metadata.link entity.name.tag",
+        "support.type.object.module",
+        "keyword.control.conditional",
     ],
     "<red>": [
         "entity.name.tag.style",
         "meta.tag.metadata.style entity.name.tag",
-    ],
-    "<gray>": [
-        "punctuation.separator.key-value",
-        "punctuation.definition.tag",
-    ],
-    "<lightblue>": [
         "entity.other.attribute-name",
     ],
+    "<white>": [
+        "punctuation.separator.key-value",
+    ],
+    "<yellow>": [
+
+    ],
+    "<number>": [
+
+    ],
+    "<escape>": [
+
+    ],
+    "<string>": [
+        "punctuation.definition.string",
+    ],
+    "<enum>": [
+
+    ],
+    "<struct>": [
+
+    ],
+
 }

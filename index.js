@@ -55,22 +55,24 @@ var theme = {
 var text = JSON.stringify(theme);
 
 // Syntax
-text = text.replaceAll("<white>", "#d4d4d4");
-text = text.replaceAll("<purple>", "#8a76cc");
-text = text.replaceAll("<green>", "#4EC9B0");// class
-text = text.replaceAll("<gray>", "#606060");
-text = text.replaceAll("<blue>", "#569cd6");
-text = text.replaceAll("<lightblue>", "#9cdcfe");
-text = text.replaceAll("<yellow>", "#dcdcaa");
-text = text.replaceAll("<red>", "#c94e67");
-text = text.replaceAll("<number>", "#b5cea8");
 text = text.replaceAll("<addition>", "#608b4e");
-text = text.replaceAll("<escape>", "#d7ba7d");
-text = text.replaceAll("<error>", "#d16969");
-text = text.replaceAll("<struct>", "#82c97a");
+text = text.replaceAll("<blue>", "#569cd6");
 text = text.replaceAll("<enum>", "#cbd67e");
+text = text.replaceAll("<error>", "#d16969");
+text = text.replaceAll("<escape>", "#d7ba7d");
+text = text.replaceAll("<gray>", "#606060");
+text = text.replaceAll("<green>", "#4EC9B0");// class
+text = text.replaceAll("<lightblue>", "#9cdcfe");
+text = text.replaceAll("<number>", "#b5cea8");
+text = text.replaceAll("<purple>", "#8a76cc");
+text = text.replaceAll("<red>", "#c94e67");
 text = text.replaceAll("<string>", "#ce9178");
+text = text.replaceAll("<struct>", "#82c97a");
+text = text.replaceAll("<white>", "#d4d4d4");
+text = text.replaceAll("<yellow>", "#dcdcaa");
 // General Colors
+
+
 
 const out_file = './themes/dark-theme.json';
 

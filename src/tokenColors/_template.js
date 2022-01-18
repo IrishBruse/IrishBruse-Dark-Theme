@@ -1,16 +1,9 @@
 export default {
-    "prefix": "source.java",
+    "prefix": "",
     "suffix": "",
-    "<blue>": [
-        "constant.language",
-        "storage.modifier",
-        "keyword.other",
-    ],
+    "<blue>": [],
     "<lightblue>": [],
-    "<gray>": [
-        "punctuation.separator",
-        "keyword.operator",
-    ],
+    "<gray>": [],
     "<green>": [],
     "<purple>": [],
     "<red>": [],

@@ -10,6 +10,13 @@ export default [
         "function": "<yellow>",
         "method": "<yellow>",
 
+        "class": "<green>",
+        "enum": "<enum>",
+        "interface": "<green>",
+        "struct": "<struct>",
+
+        "namespace": "<gray>",
+
         "number": "<number>",
         "string": "<string>",
     },

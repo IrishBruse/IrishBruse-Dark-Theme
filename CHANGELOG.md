@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0
+- Added Angular coloring
+- Updated html coloring
+
 ## 1.2.0
 - Removed access modifier color in favor of better sematic coloring
 - Added python coloring

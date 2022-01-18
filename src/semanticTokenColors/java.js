@@ -9,11 +9,7 @@ export default [
         "annotation:java": "<blue>",
 
         "typeParameter:java": "<green>",
-        "interface:java": "<green>",
         "type:java": "<green>",
-        "class:java": "<green>",
-        "struct:java": "<struct>",
-        "enum:java": "<enum>",
         "member:java": "<yellow>",
         "controlKeyword:java": "<purple>",
         "extensionMethod:java": "<yellow>",
