@@ -70,7 +70,14 @@ text = text.replaceAll("<string>", "#ce9178");
 text = text.replaceAll("<struct>", "#82c97a");
 text = text.replaceAll("<white>", "#d4d4d4");
 text = text.replaceAll("<yellow>", "#dcdcaa");
-// General Colors
+
+// Editor Colors
+text = text.replaceAll("<bgdark>", "#191d1f");
+text = text.replaceAll("<bgnormal>", "#1e2224");
+text = text.replaceAll("<bglight>", "#23272a");
+text = text.replaceAll("<bginput>", "#32383d");
+text = text.replaceAll("<accentlight>", "#86c332");
+text = text.replaceAll("<accentdark>", "#557d1c");
 
 
 

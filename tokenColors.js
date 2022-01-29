@@ -15,7 +15,6 @@ import markdown from "./src/tokenColors/markdown.js";
 import powershell from "./src/tokenColors/powershell.js";
 import python from "./src/tokenColors/python.js";
 import _common from "./src/tokenColors/_common.js";
-import _template from "./src/tokenColors/_template.js";
 
 
 export default [
@@ -36,5 +35,4 @@ export default [
 	powershell,
 	python,
 	_common,
-	_template,
 ]

@@ -14,6 +14,7 @@ export default [
         "controlKeyword:java": "<purple>",
         "extensionMethod:java": "<yellow>",
         "plainKeyword.accessor:java": "<purple>",
+        "namespace:java": "<gray>",
 
         "local:java": "<lightblue>",
         "parameter:java": "<lightblue>",

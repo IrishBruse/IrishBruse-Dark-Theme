@@ -4,7 +4,6 @@ export default {
     "<blue>": [
         "entity.other.attribute-name.class",
         "entity.other.attribute-name",
-        "punctuation.definition.entity",
         "support.constant.property-value",
         "meta.property-value",
         "support.constant",
@@ -12,6 +11,7 @@ export default {
     "<white>": [
         "variable",
         "support.type.vendored.property-name",
+        "punctuation.definition.entity",
         "punctuation.definition.entity.begin.bracket",
         "punctuation.definition.entity.end.bracket",
         "keyword.operator.pattern",

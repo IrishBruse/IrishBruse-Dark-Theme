@@ -28,6 +28,7 @@ export default {
     ],
     "<white>": [
         "punctuation.separator.key-value",
+        "expression.ng"
     ],
     "<yellow>": [
 
