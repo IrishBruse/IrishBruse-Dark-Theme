@@ -9,10 +9,13 @@
 		"sideBarSectionHeader.background": "#23272a",
 		"focusBorder": "#00000000",
 		"activityBar.background": "#23272a",
+		"editorWidget.background": "#23272a",
+		"menu.background": "#23272a",
 		"titleBar.activeBackground": "#23272a",
 		"editor.background": "#191d1f",
 		"editorLineNumber.activeForeground": "#ffffff",
 		"tab.activeBackground": "#23272a",
+		"tab.hoverBackground": "#23272a88",
 		"tab.inactiveBackground": "#191d1f",
 		"editorGroupHeader.noTabsBackground": "#1e2224",
 		"editorGroupHeader.tabsBackground": "#191d1f",
@@ -22,6 +25,10 @@
 		"list.activeSelectionForeground": "#86c332",
 		"list.inactiveSelectionBackground": "#557d1c77",
 		"list.inactiveSelectionForeground": "#86c332",
+		"notifications.background": "#1e2224",
+		"errorLens.errorBackground": "#0000",
+		"errorLens.warningBackground": "#0000",
+		"errorLens.infoBackground": "#0000",
 		"input.background": "#32383d",
 		"gitDecoration.modifiedResourceForeground": "#557d1c",
 		"gitDecoration.addedResourceForeground": "#557d1c",
@@ -309,6 +316,7 @@
 		{
 			"scope": [
 				"source.css variable",
+				"source.css punctuation",
 				"source.css support.type.vendored.property-name",
 				"source.css punctuation.definition.entity",
 				"source.css punctuation.definition.entity.begin.bracket",
@@ -359,7 +367,6 @@
 		{
 			"scope": [
 				"source.css keyword.control.at-rule",
-				"source.css keyword.operator",
 				"source.css entity.name.tag",
 				"source.css punctuation.definition.keyword"
 			],
@@ -409,7 +416,11 @@
 		{
 			"scope": [
 				"text.html.derivative keyword.operator.expression.in",
-				"text.html.derivative meta.tag"
+				"text.html.derivative entity.name.tag.localname",
+				"text.html.derivative meta.tag.structure",
+				"text.html.derivative meta.tag.inline",
+				"text.html.derivative meta.tag.metadata",
+				"text.html.derivative meta.tag.object"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -432,7 +443,8 @@
 		{
 			"scope": [
 				"text.html.derivative meta.tag.metadata.link entity.name.tag",
-				"text.html.derivative meta.tag.custom"
+				"text.html.derivative meta.tag.custom",
+				"text.html.derivative entity.name.tag.template"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -633,7 +645,11 @@
 		{
 			"scope": [
 				"source.vue keyword.operator.expression.in",
-				"source.vue meta.tag"
+				"source.vue entity.name.tag.localname",
+				"source.vue meta.tag.structure",
+				"source.vue meta.tag.inline",
+				"source.vue meta.tag.metadata",
+				"source.vue meta.tag.object"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -656,7 +672,8 @@
 		{
 			"scope": [
 				"source.vue meta.tag.metadata.link entity.name.tag",
-				"source.vue meta.tag.custom"
+				"source.vue meta.tag.custom",
+				"source.vue entity.name.tag.template"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -733,7 +750,11 @@
 		{
 			"scope": [
 				"text.xml keyword.operator.expression.in",
-				"text.xml meta.tag"
+				"text.xml entity.name.tag.localname",
+				"text.xml meta.tag.structure",
+				"text.xml meta.tag.inline",
+				"text.xml meta.tag.metadata",
+				"text.xml meta.tag.object"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -756,7 +777,8 @@
 		{
 			"scope": [
 				"text.xml meta.tag.metadata.link entity.name.tag",
-				"text.xml meta.tag.custom"
+				"text.xml meta.tag.custom",
+				"text.xml entity.name.tag.template"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -915,7 +937,11 @@
 		{
 			"scope": [
 				"text.html keyword.operator.expression.in",
-				"text.html meta.tag"
+				"text.html entity.name.tag.localname",
+				"text.html meta.tag.structure",
+				"text.html meta.tag.inline",
+				"text.html meta.tag.metadata",
+				"text.html meta.tag.object"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -938,7 +964,8 @@
 		{
 			"scope": [
 				"text.html meta.tag.metadata.link entity.name.tag",
-				"text.html meta.tag.custom"
+				"text.html meta.tag.custom",
+				"text.html entity.name.tag.template"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"

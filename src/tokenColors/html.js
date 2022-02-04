@@ -3,7 +3,11 @@ export default {
     "suffix": "",
     "<blue>": [
         "keyword.operator.expression.in",
-        "meta.tag",
+        "entity.name.tag.localname",
+        "meta.tag.structure",
+        "meta.tag.inline",
+        "meta.tag.metadata",
+        "meta.tag.object",
     ],
     "<lightblue>": [
 
@@ -14,6 +18,7 @@ export default {
     "<green>": [
         "meta.tag.metadata.link entity.name.tag",
         "meta.tag.custom",
+        "entity.name.tag.template",
     ],
     "<purple>": [
         "entity.name.tag.script",

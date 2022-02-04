@@ -9,6 +9,8 @@ export default {
     "focusBorder": "#00000000",
 
     "activityBar.background": "<bglight>",
+    "editorWidget.background": "<bglight>",
+    "menu.background": "<bglight>",
 
     "titleBar.activeBackground": "<bglight>",
 
@@ -16,10 +18,13 @@ export default {
     "editorLineNumber.activeForeground": "#ffffff",
 
     "tab.activeBackground": "<bglight>",
+    "tab.hoverBackground": "<bglight>88",
     "tab.inactiveBackground": "<bgdark>",
+
     "editorGroupHeader.noTabsBackground": "<bgnormal>",
     "editorGroupHeader.tabsBackground": "<bgdark>",
     "editorGroupHeader.tabsBorder": "<bgnormal>",
+
 
     "editorIndentGuide.activeBackground": "<gray>",
 
@@ -27,6 +32,12 @@ export default {
     "list.activeSelectionForeground": "<accentlight>",
     "list.inactiveSelectionBackground": "<accentdark>77",
     "list.inactiveSelectionForeground": "<accentlight>",
+
+    "notifications.background": "<bgnormal>",
+
+    "errorLens.errorBackground": "#0000",
+    "errorLens.warningBackground": "#0000",
+    "errorLens.infoBackground": "#0000",
 
     "input.background": "<bginput>",
 

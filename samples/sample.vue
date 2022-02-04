@@ -11,6 +11,7 @@
         <br />
         <input class="round shadow" type="submit" value="Open Email Client" @click="send" />
     </form>
+    <test-templ></test-templ>
 </template>
 
 <script setup>

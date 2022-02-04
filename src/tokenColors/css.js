@@ -10,6 +10,7 @@ export default {
     ],
     "<white>": [
         "variable",
+        "punctuation",
         "support.type.vendored.property-name",
         "punctuation.definition.entity",
         "punctuation.definition.entity.begin.bracket",
@@ -36,7 +37,6 @@ export default {
     ],
     "<purple>": [
         "keyword.control.at-rule",
-        "keyword.operator",
         "entity.name.tag",
         "punctuation.definition.keyword",
     ],
