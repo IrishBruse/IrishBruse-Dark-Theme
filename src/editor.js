@@ -11,6 +11,8 @@ export default {
     "menu.background": "<bglight>",
     "quickInput.background": "<bglight>",
 
+    "editorSuggestWidget.background": "<bglight>",
+
     "titleBar.activeBackground": "<bglight>",
 
     "editor.background": "<bgdark>",
@@ -23,8 +25,6 @@ export default {
     "editorGroupHeader.noTabsBackground": "<bgnormal>",
     "editorGroupHeader.tabsBackground": "<bgdark>",
     "editorGroupHeader.tabsBorder": "<bgnormal>",
-
-    "editorIndentGuide.activeBackground": "<gray>",
 
     "list.activeSelectionBackground": "<accentdark>77",
     "list.activeSelectionForeground": "<accentlight>",
@@ -39,7 +39,13 @@ export default {
     "errorLens.warningBackground": "#00000000",
     "errorLens.infoBackground": "#00000000",
 
+    // Input
     "input.background": "<bginput>",
+    "editorBracketPairGuide.activeBackground1": "<accentlight>",
+    "editorBracketPairGuide.activeBackground2": "<accentlight>",
+    "editorBracketPairGuide.activeBackground3": "<accentlight>",
+    "editorBracketPairGuide.activeBackground4": "<accentlight>",
+    "editorBracketPairGuide.activeBackground5": "<accentlight>",
 
     "gitDecoration.modifiedResourceForeground": "<accentdark>",
     "gitDecoration.addedResourceForeground": "<accentdark>",
@@ -48,11 +54,11 @@ export default {
     "gitDecoration.conflictingResourceForeground": "<error>",
 
     "editorGutter.addedBackground": "<addition>",
-    "editorOverviewRuler.addedForeground": "<addition>",
-    "editorGutter.modifiedBackground": "<addition>",
-    "editorOverviewRuler.modifiedForeground": "<addition>",
     "editorGutter.deletedBackground": "<error>",
+    "editorGutter.modifiedBackground": "<addition>",
+    "editorOverviewRuler.addedForeground": "<addition>",
     "editorOverviewRuler.deletedForeground": "<error>",
+    "editorOverviewRuler.modifiedForeground": "<addition>",
 
     "editorError.foreground": "<error>", // Error squiggles
     "editorOverviewRuler.errorForeground": "<error>",

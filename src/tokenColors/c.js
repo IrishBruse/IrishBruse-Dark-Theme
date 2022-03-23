@@ -6,31 +6,30 @@ export default {
         "punctuation.definition.end.bracket",
     ],
     "<gray>": [
-        "storage.modifier.array",
-        "string.quoted.other",
-        "string.quoted.double.include",
-        "meta.preprocessor.include",
         "keyword.operator",
+        "meta.preprocessor.include",
         "punctuation.separator.pointer-access",
+        "storage.modifier.array",
+        "string.quoted.double.include",
+        "string.quoted.other",
     ],
     "<gray>": [
         "storage.modifier.array.bracket",
     ],
     "<blue>": [
+        "constant.language",
         "keyword.operator.sizeof",
         "keyword.other.typedef",
-        "storage.type",
-        "constant.language",
         "storage.modifier",
+        "storage.type",
     ],
     "<number>": [
         "keyword.other.unit.suffix.floating-point",
         "keyword.other.unit.hexadecimal",
     ],
     "<yellow>": [
+        "entity.name.function.preprocessor",
         "entity.name.function",
-        "entity.name.function.preprocessor",
-        "entity.name.function.preprocessor",
     ],
     "<purple>": [
         "keyword.control.directive",

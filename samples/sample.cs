@@ -1,47 +1,48 @@
 using System;
 
-namespace sample
+namespace sample;
+
+internal class Shape
 {
-    internal class Shape
-    {
-        public int test;
+    public int test;
 
-        public void SetWidth(int w)
-        {
-            width = w;
-        }
-        public void SetHeight(int h)
-        {
-            height = h;
-        }
-        protected int width;
-        protected int height;
+    public void SetWidth(int w)
+    {
+        width = w;
     }
-
-    // Derived class
-    internal class Rectangle : Shape
+    public void SetHeight(int h)
     {
-        public int GetArea()
-        {
-            return width * height;
-        }
+        height = h;
     }
+    protected int width;
+    protected int height;
+}
 
-    internal class RectangleTester
+// Derived class
+internal class Rectangle : Shape
+{
+    public int GetArea()
     {
-        [STAThread]
-        private static void Main()
-        {
-            Rectangle rect = new();
+        return width * height;
+    }
+}
 
-            rect.SetWidth(5);
-            rect.SetHeight(7);
+internal class RectangleTester
+{
+    [STAThread]
+    private static void Main()
+    {
+        Rectangle rect = new();
 
-            // Print the area of the object.
-            Console.WriteLine("Total area: {0}", rect.GetArea());
-            _ = Console.ReadKey();
+        rect.SetWidth(5);
+        rect.SetHeight(7);
 
-            Console.WriteLine($"Test { rect }");
-        }
+        // Print the area of the object.
+        Console.WriteLine("Total area: {0}", rect.GetArea());
+        _ = Console.ReadKey();
+
+
+
+        Console.WriteLine($"Test { rect }");
     }
 }

@@ -11,6 +11,7 @@
 		"editorWidget.background": "#23272a",
 		"menu.background": "#23272a",
 		"quickInput.background": "#23272a",
+		"editorSuggestWidget.background": "#23272a",
 		"titleBar.activeBackground": "#23272a",
 		"editor.background": "#191d1f",
 		"editorLineNumber.activeForeground": "#ffffff",
@@ -20,7 +21,6 @@
 		"editorGroupHeader.noTabsBackground": "#1e2224",
 		"editorGroupHeader.tabsBackground": "#191d1f",
 		"editorGroupHeader.tabsBorder": "#1e2224",
-		"editorIndentGuide.activeBackground": "#606060",
 		"list.activeSelectionBackground": "#557d1c77",
 		"list.activeSelectionForeground": "#86c332",
 		"list.inactiveSelectionBackground": "#557d1c77",
@@ -32,17 +32,22 @@
 		"errorLens.warningBackground": "#00000000",
 		"errorLens.infoBackground": "#00000000",
 		"input.background": "#32383d",
+		"editorBracketPairGuide.activeBackground1": "#86c332",
+		"editorBracketPairGuide.activeBackground2": "#86c332",
+		"editorBracketPairGuide.activeBackground3": "#86c332",
+		"editorBracketPairGuide.activeBackground4": "#86c332",
+		"editorBracketPairGuide.activeBackground5": "#86c332",
 		"gitDecoration.modifiedResourceForeground": "#557d1c",
 		"gitDecoration.addedResourceForeground": "#557d1c",
 		"gitDecoration.deletedResourceForeground": "#d16969",
 		"gitDecoration.untrackedResourceForeground": "#d7ba7d",
 		"gitDecoration.conflictingResourceForeground": "#d16969",
 		"editorGutter.addedBackground": "#608b4e",
-		"editorOverviewRuler.addedForeground": "#608b4e",
-		"editorGutter.modifiedBackground": "#608b4e",
-		"editorOverviewRuler.modifiedForeground": "#608b4e",
 		"editorGutter.deletedBackground": "#d16969",
+		"editorGutter.modifiedBackground": "#608b4e",
+		"editorOverviewRuler.addedForeground": "#608b4e",
 		"editorOverviewRuler.deletedForeground": "#d16969",
+		"editorOverviewRuler.modifiedForeground": "#608b4e",
 		"editorError.foreground": "#d16969",
 		"editorOverviewRuler.errorForeground": "#d16969",
 		"editorWarning.foreground": "#d7ba7d",
@@ -53,8 +58,8 @@
 	"tokenColors": [
 		{
 			"scope": [
-				"text.html.derivative storage.type",
-				"text.html.derivative keyword.operator.expression.of"
+				"text.html.derivative keyword.operator.expression.of",
+				"text.html.derivative storage.type"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -63,7 +68,6 @@
 		{
 			"scope": [
 				"text.html.derivative variable.other.object",
-				"text.html.derivative variable.other.readwrite",
 				"text.html.derivative variable.other.readwrite"
 			],
 			"settings": {
@@ -85,8 +89,8 @@
 		{
 			"scope": [
 				"text.html.derivative entity.other.ng-binding-name.ngFor",
-				"text.html.derivative punctuation.definition.ng-binding-name",
-				"text.html.derivative punctuation.definition.block"
+				"text.html.derivative punctuation.definition.block",
+				"text.html.derivative punctuation.definition.ng-binding-name"
 			],
 			"settings": {
 				"foreground": "#8a76cc"
@@ -159,11 +163,11 @@
 		},
 		{
 			"scope": [
+				"source.c constant.language",
 				"source.c keyword.operator.sizeof",
 				"source.c keyword.other.typedef",
-				"source.c storage.type",
-				"source.c constant.language",
-				"source.c storage.modifier"
+				"source.c storage.modifier",
+				"source.c storage.type"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -180,9 +184,8 @@
 		},
 		{
 			"scope": [
-				"source.c entity.name.function",
 				"source.c entity.name.function.preprocessor",
-				"source.c entity.name.function.preprocessor"
+				"source.c entity.name.function"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -199,18 +202,25 @@
 		},
 		{
 			"scope": [
-				"source.cs variable.other.alias",
+				"source.cs entity.name.variable",
+				"source.cs meta.interpolation",
 				"source.cs punctuation.curlybrace",
 				"source.cs punctuation.parenthesis",
-				"source.cs entity.name.variable",
-				"source.cs variable.other.readwrite",
-				"source.cs variable.other.object",
 				"source.cs punctuation.squarebracket",
-				"source.cs meta.interpolation",
-				"source.cs invalid"
+				"source.cs variable.other.alias",
+				"source.cs variable.other.object",
+				"source.cs variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"source.cs keyword.operator.arithmetic"
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -223,19 +233,30 @@
 		},
 		{
 			"scope": [
+				"source.cs comment.block.documentation string",
+				"source.cs entity.name.label",
+				"source.cs entity.name.type.namespace",
+				"source.cs keyword.operator",
 				"source.cs punctuation.accessor",
 				"source.cs punctuation.definition.typeparameters",
 				"source.cs punctuation.separator",
-				"source.cs punctuation.tilde",
-				"source.cs keyword.operator",
-				"source.cs ",
-				"source.cs entity.name.type.namespace",
 				"source.cs punctuation.terminator",
-				"source.cs entity.name.label",
-				"source.cs comment.block.documentation string"
+				"source.cs punctuation.tilde",
+				"source.cs keyword.preprocessor",
+				"source.cs keyword.preprocessor.disable"
 			],
 			"settings": {
 				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": [
+				"source.cs string.unquoted.preprocessor.message",
+				"source.cs meta.preprocessor",
+				"source.cs entity.name.variable.parameter"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -267,21 +288,20 @@
 			}
 		},
 		{
-			"scope": [
-				"source.cs keyword.operator.arrow"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#c94e67"
 			}
 		},
 		{
 			"scope": [
-				"source.cs entity.name.type.class",
 				"source.cs entity.name.type.alias",
-				"source.cs storage.type",
+				"source.cs entity.name.type.class",
+				"source.cs entity.name.type.delegate",
 				"source.cs entity.name.type.interface",
 				"source.cs entity.name.type.type-parameter",
-				"source.cs entity.name.type.delegate"
+				"source.cs entity.name.type",
+				"source.cs storage.type"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
@@ -289,7 +309,8 @@
 		},
 		{
 			"scope": [
-				"source.cs entity.name.function"
+				"source.cs entity.name.function",
+				"source.cs keyword.preprocessor.warning"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1510,9 +1531,7 @@
 			}
 		},
 		{
-			"scope": [
-				" variable"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#9cdcfe"
 			}

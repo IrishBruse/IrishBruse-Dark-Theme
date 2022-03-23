@@ -4,25 +4,17 @@ export default {
     "<blue>": [
         "storage.type",
     ],
-    "<lightblue>": [
-        "variable"
-    ],
+    "<lightblue>": [],
     "<gray>": [
         "comment",
         "punctuation.terminator.statement",
     ],
-    "<green>": [
-
-    ],
+    "<green>": [],
     "<purple>": [
         "keyword.control"
     ],
-    "<red>": [
-
-    ],
-    "<white>": [
-
-    ],
+    "<red>": [],
+    "<white>": [],
     "<yellow>": [
         "entity.name.function",
         "support.function"
@@ -37,10 +29,6 @@ export default {
     "<string>": [
         "string",
     ],
-    "<enum>": [
-
-    ],
-    "<struct>": [
-
-    ],
+    "<enum>": [],
+    "<struct>": [],
 }

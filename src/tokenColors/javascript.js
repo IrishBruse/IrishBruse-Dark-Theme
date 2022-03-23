@@ -56,19 +56,9 @@ export default {
         "entity.name.function",
         "punctuation.decorator",
     ],
-    "<number>": [
-
-    ],
-    "<escape>": [
-
-    ],
-    "<string>": [
-
-    ],
-    "<enum>": [
-
-    ],
-    "<struct>": [
-
-    ],
+    "<number>": [],
+    "<escape>": [],
+    "<string>": [],
+    "<enum>": [],
+    "<struct>": [],
 }

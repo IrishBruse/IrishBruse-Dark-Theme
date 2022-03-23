@@ -9,9 +9,7 @@ export default {
         "meta.tag.metadata",
         "meta.tag.object",
     ],
-    "<lightblue>": [
-
-    ],
+    "<lightblue>": [],
     "<gray>": [
         "punctuation.definition.tag",
     ],
@@ -35,23 +33,13 @@ export default {
         "punctuation.separator.key-value",
         "expression.ng"
     ],
-    "<yellow>": [
-
-    ],
-    "<number>": [
-
-    ],
-    "<escape>": [
-
-    ],
+    "<yellow>": [],
+    "<number>": [],
+    "<escape>": [],
     "<string>": [
         "punctuation.definition.string",
     ],
-    "<enum>": [
-
-    ],
-    "<struct>": [
-
-    ],
+    "<enum>": [],
+    "<struct>": [],
 
 }
