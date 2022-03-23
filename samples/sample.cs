@@ -1,6 +1,8 @@
+namespace sample;
+
 using System;
 
-namespace sample;
+#pragma warning disable
 
 internal class Shape
 {
@@ -37,12 +39,18 @@ internal class RectangleTester
         rect.SetWidth(5);
         rect.SetHeight(7);
 
+        unsafe
+        {
+            void* unsafePointer = (void*)0;
+        }
         // Print the area of the object.
         Console.WriteLine("Total area: {0}", rect.GetArea());
-        _ = Console.ReadKey();
 
+        for (int i = 0; i < rect.GetArea(); i++)
+        {
+            Console.WriteLine($"Test { rect }");
+        }
 
-
-        Console.WriteLine($"Test { rect }");
+        Console.ReadKey();
     }
 }
