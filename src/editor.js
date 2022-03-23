@@ -41,6 +41,8 @@ export default {
 
     // Input
     "input.background": "<bginput>",
+    "dropdown.background": "<bginput>",
+
     "editorBracketPairGuide.activeBackground1": "<accentlight>",
     "editorBracketPairGuide.activeBackground2": "<accentlight>",
     "editorBracketPairGuide.activeBackground3": "<accentlight>",

@@ -32,6 +32,7 @@
 		"errorLens.warningBackground": "#00000000",
 		"errorLens.infoBackground": "#00000000",
 		"input.background": "#32383d",
+		"dropdown.background": "#32383d",
 		"editorBracketPairGuide.activeBackground1": "#86c332",
 		"editorBracketPairGuide.activeBackground2": "#86c332",
 		"editorBracketPairGuide.activeBackground3": "#86c332",

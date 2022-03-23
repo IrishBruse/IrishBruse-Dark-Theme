@@ -2,7 +2,7 @@
     "name": "dark-theme",
     "displayName": "IrishBruse's Dark Theme",
     "description": "My custom dark theme influenced by dark-plus-theme.",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "author": "IrishBruse",
     "publisher": "IrishBruse",
     "license": "MIT",
@@ -23,6 +23,7 @@
     "scripts": {
         "prebuild": "node codegen.js",
         "build": "node index.js",
+        "prepublish": "start https://dev.azure.com/econn50/_usersSettings/tokens",
         "publish": "vsce publish",
         "watch": "npm-watch"
     },
