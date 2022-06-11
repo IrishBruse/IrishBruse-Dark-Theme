@@ -2,14 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
-            "command": "npm run build",
+            "label": "dev",
             "type": "shell",
-            "args": [],
-            "presentation": {
-                "reveal": "always"
-            },
-            "group": "build"
+            "command": "npm run dev",
+            "problemMatcher": []
+        },
+        {
+            "label": "parser",
+            "type": "shell",
+            "command": "npm run parser",
+            "problemMatcher": []
         }
     ]
 }

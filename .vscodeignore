@@ -1,9 +1,0 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-
-index.js
-**/tags
-src/**
-samples/**
-node_modules/**
