@@ -1,5 +1,9 @@
 # Changelog
 
+> 1.5.0
+
+Remake all rules
+
 > 1.3.0
 
 Added Angular coloring
@@ -12,7 +16,7 @@ Added python coloring
 
 > 1.1.4
 
-Make ; gray on all languages 
+Make ; gray on all languages
 C macros are light blue
 C #define is purple now
 
