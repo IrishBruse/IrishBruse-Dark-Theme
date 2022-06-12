@@ -1,0 +1,4 @@
+{
+    "source.ini keyword.other.definition": "$property",
+    "source.ini punctuation.definition.entity": "$foreground"
+}

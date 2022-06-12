@@ -1,0 +1,7 @@
+{
+    "source.js variable.other.readwrite.alias.js": "$object",
+    "source.js meta.object-literal": "$property",
+    "source.js meta.template.expression": "$foreground",
+    "source.js punctuation.definition.template-expression": "$meta",
+    "source.js keyword.operator.new": "$keyword"
+}

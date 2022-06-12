@@ -38,6 +38,16 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-theme.json"
             }
+        ],
+        "semanticTokenScopes": [
+            {
+                "language": "Java",
+                "scopes": {
+                    "keyword": [
+                        "keyword.control.new.java"
+                    ]
+                }
+            }
         ]
     },
     "devDependencies": {

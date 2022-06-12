@@ -1,0 +1,13 @@
+{
+    "text markup.underline.link": "$accent-light",
+    "text heading": "$control",
+    "text entity.name.section.markdown": "$keyword",
+    "text string.other.link.title": "$property",
+    "text markup.inline": "$inline-code",
+    "text meta.separator": "$control",
+    "text markup.italic": "$italic",
+    "text markup.bold": "$bold",
+    "text punctuation.definition.quote": "$accent-light",
+    "text meta.tag": "$operator",
+    "text fenced_code.block.language": "$object"
+}

@@ -1,7 +1,10 @@
 namespace sample;
 
 using System;
-
+// test
+/*
+test
+*/
 #pragma warning disable
 
 internal class Shape
@@ -36,7 +39,7 @@ internal class RectangleTester
     {
         Rectangle rect = new();
 
-        rect.SetWidth(5);
+        rect.SetWidth(5 * 34);
         rect.SetHeight(7);
 
         unsafe
@@ -48,9 +51,29 @@ internal class RectangleTester
 
         for (int i = 0; i < rect.GetArea(); i++)
         {
-            Console.WriteLine($"Test { rect }");
+            Console.WriteLine($"Test {rect.GetArea()}" + 'a');
         }
 
         Console.ReadKey();
     }
+}
+
+enum Test
+{
+    tes, dsf, gdf, ds, th, gf
+}
+
+interface Isample
+{
+
+}
+
+class Test123
+{
+
+}
+
+struct TestStruct
+{
+
 }

@@ -1,0 +1,17 @@
+{
+    "controlKeyword": "$control",
+    "enum": "$enum",
+    "interface": "$interface",
+    "operator": "$operator",
+    "plainKeyword": "$keyword",
+    "preprocessorKeyword": "$meta",
+    "struct": "$struct",
+    "type": "$object",
+    "typeParameter": "$object",
+    "member": "$function",
+    "extensionMethod": "$function",
+    "plainKeyword.accessor": "$control",
+    "namespace": "$meta",
+    "excludedCode": "$meta",
+    "parameter": "$property"
+}
