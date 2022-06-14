@@ -51,7 +51,7 @@ internal class RectangleTester
 
         for (int i = 0; i < rect.GetArea(); i++)
         {
-            Console.WriteLine($"Test {rect.GetArea()}" + 'a');
+            Console.WriteLine($"Test \n{rect.GetArea()}" + 'a');
         }
 
         Console.ReadKey();

@@ -8,6 +8,7 @@
     "struct": "$struct",
     "type": "$object",
     "typeParameter": "$object",
+    "escape": "$escape",
     "member": "$function",
     "extensionMethod": "$function",
     "plainKeyword.accessor": "$control",

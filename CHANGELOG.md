@@ -1,5 +1,9 @@
 # Changelog
 
+> 1.5.1
+
+Fix c# escape characters
+
 > 1.5.0
 
 Remake all rules

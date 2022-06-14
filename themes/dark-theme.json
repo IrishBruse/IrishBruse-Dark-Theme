@@ -915,7 +915,7 @@
         },
         {
             "scope": [
-                "string"
+                "string.quoted"
             ],
             "settings": {
                 "foreground": "#ce9178"
@@ -1209,6 +1209,7 @@
         "struct": "#82c97a",
         "type": "#4ec9b0",
         "typeParameter": "#4ec9b0",
+        "escape": "#d7ba7d",
         "member": "#dcdcaa",
         "extensionMethod": "#dcdcaa",
         "plainKeyword.accessor": "#8a76cc",
