@@ -3,5 +3,7 @@
     "source.js meta.object-literal": "$property",
     "source.js meta.template.expression": "$foreground",
     "source.js punctuation.definition.template-expression": "$meta",
-    "source.js keyword.operator.new": "$keyword"
+    "source.js keyword.operator.new": "$keyword",
+    "source.js string.template": "$string",
+    "source.js storage.type.function.arrow": "$operator"
 }

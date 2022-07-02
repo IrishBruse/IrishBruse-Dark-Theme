@@ -1,3 +1,4 @@
 {
-    "source.yaml entity.name.tag": "$property"
+    "source.yaml entity.name.tag": "$property",
+    "source.yaml string.unquoted": "$string"
 }

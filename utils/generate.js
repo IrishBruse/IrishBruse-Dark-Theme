@@ -26,8 +26,10 @@ outputText = replaceVariables(outputText)
 fs.writeFileSync("./themes/dark-theme.json", outputText);
 console.log("Done export!");
 
-function combine(inputDir) {
-    let editorFiles = fs.readdirSync(inputDir).map(file => {
+function combine(inputDir)
+{
+    let editorFiles = fs.readdirSync(inputDir).map(file =>
+    {
         let raw = fs.readFileSync(inputDir + file);
         let json = JSON.parse(raw.toString());
         return json;
@@ -36,12 +38,14 @@ function combine(inputDir) {
     return Object.assign({}, ...editorFiles);
 }
 
-function convertToVscode(tokenColors) {
+function convertToVscode(tokenColors)
+{
     let tokens = []
 
     let sort = {}
 
-    for (const token of Object.entries(tokenColors)) {
+    for (const token of Object.entries(tokenColors))
+    {
         const key = token[0];
         const value = token[1];
 
@@ -53,13 +57,16 @@ function convertToVscode(tokenColors) {
             },
         };
 
-        if (value === "$bold" || value === "$italic" || value === "$underline" || value === "$strikethrough") {
+        if (value === "$bold" || value === "$italic" || value === "$underline" || value === "$strikethrough")
+        {
             newToken.settings.fontStyle = value.replace("$", "");
-        } else {
+        } else
+        {
             newToken.settings.foreground = value;
         }
 
-        if (sort[value] === undefined) {
+        if (sort[value] === undefined)
+        {
             sort[value] = [];
         }
 
@@ -71,7 +78,8 @@ function convertToVscode(tokenColors) {
     return tokens;
 }
 
-function replaceVariables(text) {
+function replaceVariables(text)
+{
     text = text.replaceAll("$editor-dark", "#191d1f");
     text = text.replaceAll("$editor-normal", "#1e2224");
     text = text.replaceAll("$editor-light", "#23272a");

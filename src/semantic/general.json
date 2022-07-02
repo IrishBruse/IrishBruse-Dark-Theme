@@ -14,5 +14,9 @@
     "plainKeyword.accessor": "$control",
     "namespace": "$meta",
     "excludedCode": "$meta",
-    "parameter": "$property"
+    "parameter": "$property",
+    "operatorOverloaded": {
+        "foreground": "#C94E67",
+        "underline": true
+    }
 }
