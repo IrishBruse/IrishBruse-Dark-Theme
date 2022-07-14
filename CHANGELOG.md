@@ -1,5 +1,11 @@
 # Changelog
 
+> 1.5.3
+
+Fix Minor pink test leftover
+Change badge color to green
+Change terminal to same as panel
+
 > 1.5.1
 
 Fix c# escape characters

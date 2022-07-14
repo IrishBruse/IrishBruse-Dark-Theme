@@ -123,5 +123,9 @@ function replaceVariables(text)
     text = text.replaceAll("$enum", "#cbd67e");
     text = text.replaceAll("$interface", "#82c97a");
 
+    text = text.replaceAll("$info", "#82aaff");
+    text = text.replaceAll("$warning", "#ffcb6b");
+    text = text.replaceAll("$error", "#ff5370");
+
     return text;
 }
