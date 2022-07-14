@@ -24,9 +24,9 @@
         "breadcrumb.foreground": null,
         "breadcrumbPicker.background": null,
         "button.background": "#557d1c",
-        "button.border": "#32383d",
+        "button.border": "#00000000",
         "button.foreground": "#d4d4d4",
-        "button.hoverBackground": "#23272a",
+        "button.hoverBackground": "#32383d",
         "button.secondaryBackground": null,
         "button.secondaryForeground": null,
         "button.secondaryHoverBackground": null,
@@ -77,7 +77,7 @@
         "debugView.stateLabelForeground": null,
         "debugView.valueChangedHighlight": null,
         "descriptionForeground": "#d4d4d4",
-        "diffEditor.border": "#00000000",
+        "diffEditor.border": "#32383d",
         "diffEditor.diagonalFill": null,
         "diffEditor.insertedLineBackground": null,
         "diffEditor.insertedTextBackground": null,
@@ -156,8 +156,8 @@
         "editorCommentsWidget.rangeBorder": "#00000000",
         "editorCommentsWidget.resolvedBorder": "#00000000",
         "editorCommentsWidget.unresolvedBorder": "#00000000",
-        "editorCursor.background": null,
-        "editorCursor.foreground": "#23272a",
+        "editorCursor.background": "#ff00ff",
+        "editorCursor.foreground": "#d4d4d4",
         "editorError.background": null,
         "editorError.border": "#00000000",
         "editorError.foreground": "#ff5370",
@@ -1245,6 +1245,7 @@
             "underline": true
         },
         "variable.defaultLibrary:javascript": "#4ec9b0",
-        "namespace:javascript": "#4ec9b0"
+        "namespace:javascript": "#4ec9b0",
+        "namespace:typescript": "#4ec9b0"
     }
 }
