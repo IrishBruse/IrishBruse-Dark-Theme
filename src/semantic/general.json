@@ -1,22 +1,24 @@
 {
+    "builtin": "$function",
     "controlKeyword": "$control",
     "enum": "$enum",
-    "interface": "$interface",
-    "operator": "$operator",
-    "plainKeyword": "$keyword",
-    "preprocessorKeyword": "$meta",
-    "struct": "$struct",
-    "type": "$object",
-    "typeParameter": "$object",
     "escape": "$escape",
-    "member": "$function",
-    "extensionMethod": "$function",
-    "plainKeyword.accessor": "$control",
-    "namespace": "$meta",
     "excludedCode": "$meta",
-    "parameter": "$property",
+    "extensionMethod": "$function",
+    "interface": "$interface",
+    "member": "$function",
+    "namespace": "$meta",
+    "operator": "$operator",
     "operatorOverloaded": {
         "foreground": "#C94E67",
         "underline": true
-    }
+    },
+    "parameter": "$property",
+    "plainKeyword": "$keyword",
+    "plainKeyword.accessor": "$control",
+    "preprocessorKeyword": "$meta",
+    "string": "$string",
+    "struct": "$struct",
+    "type": "$object",
+    "typeParameter": "$object"
 }

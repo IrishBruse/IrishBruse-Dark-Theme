@@ -1,5 +1,9 @@
 # Changelog
 
+> 1.5.5
+
+Fix some blue UI
+
 > 1.5.3
 
 Fix Minor pink test leftover
