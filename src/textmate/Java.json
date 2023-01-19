@@ -1,4 +1,5 @@
 {
     "source.java keyword.control.new": "$keyword",
-    "source.java punctuation.definition.annotation": "$object"
+    "source.java punctuation.definition.annotation": "$object",
+    "keyword.control.ternary": "$operator"
 }

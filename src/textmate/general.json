@@ -31,10 +31,15 @@
     "punctuation.separator": "$meta",
     "punctuation.terminator": "$meta",
     "storage": "$keyword",
-    "storage.type.other": "$objecy",
+    "storage.type.other": "$object",
     "string.quoted": "$string",
     "support.function": "$function",
     "support.type": "$object",
     "variable.language": "$keyword",
-    "variable.parameter": "$property"
+    "variable.parameter": "$property",
+    "variable.metadata": "$keyword",
+    "punctuation.metadata": "$keyword",
+    "keyword.operator.new": "$keyword",
+    "support.class": "$object",
+    "meta.enum entity.name.type": "$enum"
 }

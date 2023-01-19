@@ -5,7 +5,10 @@
             "label": "dev",
             "type": "shell",
             "command": "npm run dev",
-            "problemMatcher": []
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
         },
         {
             "label": "parser",

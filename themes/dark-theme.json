@@ -79,12 +79,12 @@
         "descriptionForeground": "#d4d4d4",
         "diffEditor.border": "#32383d",
         "diffEditor.diagonalFill": null,
-        "diffEditor.insertedLineBackground": null,
-        "diffEditor.insertedTextBackground": null,
-        "diffEditor.insertedTextBorder": "#00000000",
-        "diffEditor.removedLineBackground": null,
-        "diffEditor.removedTextBackground": null,
-        "diffEditor.removedTextBorder": "#00000000",
+        "diffEditor.insertedLineBackground": "#9bb95533",
+        "diffEditor.insertedTextBackground": "#9ccc2c22",
+        "diffEditor.insertedTextBorder": null,
+        "diffEditor.removedLineBackground": "#ff000033",
+        "diffEditor.removedTextBackground": "#ff000022",
+        "diffEditor.removedTextBorder": null,
         "diffEditorGutter.insertedLineBackground": null,
         "diffEditorGutter.removedLineBackground": null,
         "diffEditorOverview.insertedForeground": null,
@@ -279,7 +279,7 @@
         "input.border": "#00000000",
         "input.foreground": "#d4d4d4",
         "input.placeholderForeground": null,
-        "inputOption.activeBackground": "#86c332",
+        "inputOption.activeBackground": "#557d1c",
         "inputOption.activeBorder": "#00000000",
         "inputOption.activeForeground": "#d4d4d4",
         "inputOption.hoverBackground": null,
@@ -424,7 +424,7 @@
         "quickInputList.focusBackground": null,
         "quickInputList.focusForeground": null,
         "quickInputList.focusIconForeground": null,
-        "quickInputTitle.background": "#ff00ff",
+        "quickInputTitle.background": "#1e2224",
         "sash.hoverBorder": "#00000000",
         "scm.providerBorder": "#00000000",
         "scrollbar.shadow": "#00000000",
@@ -926,7 +926,7 @@
                 "storage.type.other"
             ],
             "settings": {
-                "foreground": "$objecy"
+                "foreground": "#4ec9b0"
             }
         },
         {
@@ -967,6 +967,46 @@
             ],
             "settings": {
                 "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": [
+                "variable.metadata"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.metadata"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.new"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": [
+                "meta.enum entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#cbd67e"
             }
         },
         {
@@ -1019,6 +1059,14 @@
         },
         {
             "scope": [
+                "keyword.control.ternary"
+            ],
+            "settings": {
+                "foreground": "#c94e67"
+            }
+        },
+        {
+            "scope": [
                 "source.js variable.other.readwrite.alias.js"
             ],
             "settings": {
@@ -1060,6 +1108,14 @@
         {
             "scope": [
                 "source.js string.template"
+            ],
+            "settings": {
+                "foreground": "#ce9178"
+            }
+        },
+        {
+            "scope": [
+                "source.ts string.template"
             ],
             "settings": {
                 "foreground": "#ce9178"
@@ -1179,6 +1235,22 @@
         },
         {
             "scope": [
+                "storage.type.number.python"
+            ],
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.format.python"
+            ],
+            "settings": {
+                "foreground": "#d7ba7d"
+            }
+        },
+        {
+            "scope": [
                 "string.regexp"
             ],
             "settings": {
@@ -1262,8 +1334,12 @@
         "struct": "#82c97a",
         "type": "#4ec9b0",
         "typeParameter": "#4ec9b0",
+        "class:java": "#4ec9b0",
         "variable.defaultLibrary:javascript": "#4ec9b0",
         "namespace:javascript": "#4ec9b0",
-        "namespace:typescript": "#4ec9b0"
+        "namespace:typescript": "#4ec9b0",
+        "module:python": "#4ec9b0",
+        "function.builtin:python": "#569cd6",
+        "class.builtin:python": "#569cd6"
     }
 }

@@ -1,0 +1,4 @@
+{
+    "storage.type.number.python": "$number",
+    "storage.type.format.python": "$escape"
+}

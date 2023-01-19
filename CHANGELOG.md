@@ -1,5 +1,15 @@
 # Changelog
 
+> 1.5.7
+
+Fix pink picker
+Fix java new class color
+
+> 1.5.6
+
+Fix diff border
+Fix Java Ternary Operator
+
 > 1.5.5
 
 Fix some blue UI

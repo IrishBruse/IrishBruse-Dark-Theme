@@ -2,7 +2,7 @@
     "name": "dark-theme",
     "displayName": "IrishBruse's Dark Theme",
     "description": "My custom dark theme influenced by dark-plus-theme.",
-    "version": "1.5.5",
+    "version": "1.5.7",
     "author": "IrishBruse",
     "publisher": "IrishBruse",
     "license": "MIT",
@@ -37,16 +37,6 @@
                 "label": "IrishBruse's Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-theme.json"
-            }
-        ],
-        "semanticTokenScopes": [
-            {
-                "language": "Java",
-                "scopes": {
-                    "keyword": [
-                        "keyword.control.new.java"
-                    ]
-                }
             }
         ]
     },
