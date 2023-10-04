@@ -1,0 +1,2160 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "foreground": {
+            "type":["string", "null"]
+        },
+        "disabledForeground": {
+            "type":["string", "null"]
+        },
+        "errorForeground": {
+            "type":["string", "null"]
+        },
+        "descriptionForeground": {
+            "type":["string", "null"]
+        },
+        "icon.foreground": {
+            "type":["string", "null"]
+        },
+        "focusBorder": {
+            "type":["string", "null"]
+        },
+        "contrastBorder": {
+            "type":["string", "null"]
+        },
+        "contrastActiveBorder": {
+            "type":["string", "null"]
+        },
+        "selection.background": {
+            "type":["string", "null"]
+        },
+        "textSeparator.foreground": {
+            "type":["string", "null"]
+        },
+        "textLink.foreground": {
+            "type":["string", "null"]
+        },
+        "textLink.activeForeground": {
+            "type":["string", "null"]
+        },
+        "textPreformat.foreground": {
+            "type":["string", "null"]
+        },
+        "textBlockQuote.background": {
+            "type":["string", "null"]
+        },
+        "textBlockQuote.border": {
+            "type":["string", "null"]
+        },
+        "textCodeBlock.background": {
+            "type":["string", "null"]
+        },
+        "widget.shadow": {
+            "type":["string", "null"]
+        },
+        "widget.border": {
+            "type":["string", "null"]
+        },
+        "input.background": {
+            "type":["string", "null"]
+        },
+        "input.foreground": {
+            "type":["string", "null"]
+        },
+        "input.border": {
+            "type":["string", "null"]
+        },
+        "inputOption.activeBorder": {
+            "type":["string", "null"]
+        },
+        "inputOption.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "inputOption.activeBackground": {
+            "type":["string", "null"]
+        },
+        "inputOption.activeForeground": {
+            "type":["string", "null"]
+        },
+        "input.placeholderForeground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.infoBackground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.infoForeground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.infoBorder": {
+            "type":["string", "null"]
+        },
+        "inputValidation.warningBackground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.warningForeground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.warningBorder": {
+            "type":["string", "null"]
+        },
+        "inputValidation.errorBackground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.errorForeground": {
+            "type":["string", "null"]
+        },
+        "inputValidation.errorBorder": {
+            "type":["string", "null"]
+        },
+        "dropdown.background": {
+            "type":["string", "null"]
+        },
+        "dropdown.listBackground": {
+            "type":["string", "null"]
+        },
+        "dropdown.foreground": {
+            "type":["string", "null"]
+        },
+        "dropdown.border": {
+            "type":["string", "null"]
+        },
+        "button.foreground": {
+            "type":["string", "null"]
+        },
+        "button.separator": {
+            "type":["string", "null"]
+        },
+        "button.background": {
+            "type":["string", "null"]
+        },
+        "button.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "button.border": {
+            "type":["string", "null"]
+        },
+        "button.secondaryForeground": {
+            "type":["string", "null"]
+        },
+        "button.secondaryBackground": {
+            "type":["string", "null"]
+        },
+        "button.secondaryHoverBackground": {
+            "type":["string", "null"]
+        },
+        "badge.background": {
+            "type":["string", "null"]
+        },
+        "badge.foreground": {
+            "type":["string", "null"]
+        },
+        "scrollbar.shadow": {
+            "type":["string", "null"]
+        },
+        "scrollbarSlider.background": {
+            "type":["string", "null"]
+        },
+        "scrollbarSlider.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "scrollbarSlider.activeBackground": {
+            "type":["string", "null"]
+        },
+        "progressBar.background": {
+            "type":["string", "null"]
+        },
+        "editorError.background": {
+            "type":["string", "null"]
+        },
+        "editorError.foreground": {
+            "type":["string", "null"]
+        },
+        "editorError.border": {
+            "type":["string", "null"]
+        },
+        "editorWarning.background": {
+            "type":["string", "null"]
+        },
+        "editorWarning.foreground": {
+            "type":["string", "null"]
+        },
+        "editorWarning.border": {
+            "type":["string", "null"]
+        },
+        "editorInfo.background": {
+            "type":["string", "null"]
+        },
+        "editorInfo.foreground": {
+            "type":["string", "null"]
+        },
+        "editorInfo.border": {
+            "type":["string", "null"]
+        },
+        "editorHint.foreground": {
+            "type":["string", "null"]
+        },
+        "editorHint.border": {
+            "type":["string", "null"]
+        },
+        "sash.hoverBorder": {
+            "type":["string", "null"]
+        },
+        "editor.background": {
+            "type":["string", "null"]
+        },
+        "editor.foreground": {
+            "type":["string", "null"]
+        },
+        "editorStickyScroll.background": {
+            "type":["string", "null"]
+        },
+        "editorStickyScrollHover.background": {
+            "type":["string", "null"]
+        },
+        "editorWidget.background": {
+            "type":["string", "null"]
+        },
+        "editorWidget.foreground": {
+            "type":["string", "null"]
+        },
+        "editorWidget.border": {
+            "type":["string", "null"]
+        },
+        "editorWidget.resizeBorder": {
+            "type":["string", "null"]
+        },
+        "quickInput.background": {
+            "type":["string", "null"]
+        },
+        "quickInput.foreground": {
+            "type":["string", "null"]
+        },
+        "quickInputTitle.background": {
+            "type":["string", "null"]
+        },
+        "pickerGroup.foreground": {
+            "type":["string", "null"]
+        },
+        "pickerGroup.border": {
+            "type":["string", "null"]
+        },
+        "keybindingLabel.background": {
+            "type":["string", "null"]
+        },
+        "keybindingLabel.foreground": {
+            "type":["string", "null"]
+        },
+        "keybindingLabel.border": {
+            "type":["string", "null"]
+        },
+        "keybindingLabel.bottomBorder": {
+            "type":["string", "null"]
+        },
+        "editor.selectionBackground": {
+            "type":["string", "null"]
+        },
+        "editor.selectionForeground": {
+            "type":["string", "null"]
+        },
+        "editor.inactiveSelectionBackground": {
+            "type":["string", "null"]
+        },
+        "editor.selectionHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.selectionHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.findMatchBackground": {
+            "type":["string", "null"]
+        },
+        "editor.findMatchHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.findRangeHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.findMatchBorder": {
+            "type":["string", "null"]
+        },
+        "editor.findMatchHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.findRangeHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "searchEditor.findMatchBackground": {
+            "type":["string", "null"]
+        },
+        "searchEditor.findMatchBorder": {
+            "type":["string", "null"]
+        },
+        "search.resultsInfoForeground": {
+            "type":["string", "null"]
+        },
+        "editor.hoverHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editorHoverWidget.background": {
+            "type":["string", "null"]
+        },
+        "editorHoverWidget.foreground": {
+            "type":["string", "null"]
+        },
+        "editorHoverWidget.border": {
+            "type":["string", "null"]
+        },
+        "editorHoverWidget.statusBarBackground": {
+            "type":["string", "null"]
+        },
+        "editorLink.activeForeground": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.foreground": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.background": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.typeForeground": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.typeBackground": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.parameterForeground": {
+            "type":["string", "null"]
+        },
+        "editorInlayHint.parameterBackground": {
+            "type":["string", "null"]
+        },
+        "editorLightBulb.foreground": {
+            "type":["string", "null"]
+        },
+        "editorLightBulbAutoFix.foreground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.insertedTextBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.removedTextBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.insertedLineBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.removedLineBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditorGutter.insertedLineBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditorGutter.removedLineBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditorOverview.insertedForeground": {
+            "type":["string", "null"]
+        },
+        "diffEditorOverview.removedForeground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.insertedTextBorder": {
+            "type":["string", "null"]
+        },
+        "diffEditor.removedTextBorder": {
+            "type":["string", "null"]
+        },
+        "diffEditor.border": {
+            "type":["string", "null"]
+        },
+        "diffEditor.diagonalFill": {
+            "type":["string", "null"]
+        },
+        "diffEditor.unchangedRegionBackground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.unchangedRegionForeground": {
+            "type":["string", "null"]
+        },
+        "diffEditor.unchangedCodeBackground": {
+            "type":["string", "null"]
+        },
+        "list.focusBackground": {
+            "type":["string", "null"]
+        },
+        "list.focusForeground": {
+            "type":["string", "null"]
+        },
+        "list.focusOutline": {
+            "type":["string", "null"]
+        },
+        "list.focusAndSelectionOutline": {
+            "type":["string", "null"]
+        },
+        "list.activeSelectionBackground": {
+            "type":["string", "null"]
+        },
+        "list.activeSelectionForeground": {
+            "type":["string", "null"]
+        },
+        "list.activeSelectionIconForeground": {
+            "type":["string", "null"]
+        },
+        "list.inactiveSelectionBackground": {
+            "type":["string", "null"]
+        },
+        "list.inactiveSelectionForeground": {
+            "type":["string", "null"]
+        },
+        "list.inactiveSelectionIconForeground": {
+            "type":["string", "null"]
+        },
+        "list.inactiveFocusBackground": {
+            "type":["string", "null"]
+        },
+        "list.inactiveFocusOutline": {
+            "type":["string", "null"]
+        },
+        "list.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "list.hoverForeground": {
+            "type":["string", "null"]
+        },
+        "list.dropBackground": {
+            "type":["string", "null"]
+        },
+        "list.highlightForeground": {
+            "type":["string", "null"]
+        },
+        "list.focusHighlightForeground": {
+            "type":["string", "null"]
+        },
+        "list.invalidItemForeground": {
+            "type":["string", "null"]
+        },
+        "list.errorForeground": {
+            "type":["string", "null"]
+        },
+        "list.warningForeground": {
+            "type":["string", "null"]
+        },
+        "listFilterWidget.background": {
+            "type":["string", "null"]
+        },
+        "listFilterWidget.outline": {
+            "type":["string", "null"]
+        },
+        "listFilterWidget.noMatchesOutline": {
+            "type":["string", "null"]
+        },
+        "listFilterWidget.shadow": {
+            "type":["string", "null"]
+        },
+        "list.filterMatchBackground": {
+            "type":["string", "null"]
+        },
+        "list.filterMatchBorder": {
+            "type":["string", "null"]
+        },
+        "tree.indentGuidesStroke": {
+            "type":["string", "null"]
+        },
+        "tree.inactiveIndentGuidesStroke": {
+            "type":["string", "null"]
+        },
+        "tree.tableColumnsBorder": {
+            "type":["string", "null"]
+        },
+        "tree.tableOddRowsBackground": {
+            "type":["string", "null"]
+        },
+        "list.deemphasizedForeground": {
+            "type":["string", "null"]
+        },
+        "checkbox.background": {
+            "type":["string", "null"]
+        },
+        "checkbox.selectBackground": {
+            "type":["string", "null"]
+        },
+        "checkbox.foreground": {
+            "type":["string", "null"]
+        },
+        "checkbox.border": {
+            "type":["string", "null"]
+        },
+        "checkbox.selectBorder": {
+            "type":["string", "null"]
+        },
+        "quickInput.list.focusBackground": {
+            "type":["string", "null"]
+        },
+        "quickInputList.focusForeground": {
+            "type":["string", "null"]
+        },
+        "quickInputList.focusIconForeground": {
+            "type":["string", "null"]
+        },
+        "quickInputList.focusBackground": {
+            "type":["string", "null"]
+        },
+        "menu.border": {
+            "type":["string", "null"]
+        },
+        "menu.foreground": {
+            "type":["string", "null"]
+        },
+        "menu.background": {
+            "type":["string", "null"]
+        },
+        "menu.selectionForeground": {
+            "type":["string", "null"]
+        },
+        "menu.selectionBackground": {
+            "type":["string", "null"]
+        },
+        "menu.selectionBorder": {
+            "type":["string", "null"]
+        },
+        "menu.separatorBackground": {
+            "type":["string", "null"]
+        },
+        "toolbar.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "toolbar.hoverOutline": {
+            "type":["string", "null"]
+        },
+        "toolbar.activeBackground": {
+            "type":["string", "null"]
+        },
+        "editor.snippetTabstopHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.snippetTabstopHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.snippetFinalTabstopHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.snippetFinalTabstopHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "breadcrumb.foreground": {
+            "type":["string", "null"]
+        },
+        "breadcrumb.background": {
+            "type":["string", "null"]
+        },
+        "breadcrumb.focusForeground": {
+            "type":["string", "null"]
+        },
+        "breadcrumb.activeSelectionForeground": {
+            "type":["string", "null"]
+        },
+        "breadcrumbPicker.background": {
+            "type":["string", "null"]
+        },
+        "merge.currentHeaderBackground": {
+            "type":["string", "null"]
+        },
+        "merge.currentContentBackground": {
+            "type":["string", "null"]
+        },
+        "merge.incomingHeaderBackground": {
+            "type":["string", "null"]
+        },
+        "merge.incomingContentBackground": {
+            "type":["string", "null"]
+        },
+        "merge.commonHeaderBackground": {
+            "type":["string", "null"]
+        },
+        "merge.commonContentBackground": {
+            "type":["string", "null"]
+        },
+        "merge.border": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.currentContentForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.incomingContentForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.commonContentForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.findMatchForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.selectionHighlightForeground": {
+            "type":["string", "null"]
+        },
+        "minimap.findMatchHighlight": {
+            "type":["string", "null"]
+        },
+        "minimap.selectionOccurrenceHighlight": {
+            "type":["string", "null"]
+        },
+        "minimap.selectionHighlight": {
+            "type":["string", "null"]
+        },
+        "minimap.errorHighlight": {
+            "type":["string", "null"]
+        },
+        "minimap.warningHighlight": {
+            "type":["string", "null"]
+        },
+        "minimap.background": {
+            "type":["string", "null"]
+        },
+        "minimap.foregroundOpacity": {
+            "type":["string", "null"]
+        },
+        "minimapSlider.background": {
+            "type":["string", "null"]
+        },
+        "minimapSlider.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "minimapSlider.activeBackground": {
+            "type":["string", "null"]
+        },
+        "problemsErrorIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "problemsWarningIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "problemsInfoIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "charts.foreground": {
+            "type":["string", "null"]
+        },
+        "charts.lines": {
+            "type":["string", "null"]
+        },
+        "charts.red": {
+            "type":["string", "null"]
+        },
+        "charts.blue": {
+            "type":["string", "null"]
+        },
+        "charts.yellow": {
+            "type":["string", "null"]
+        },
+        "charts.orange": {
+            "type":["string", "null"]
+        },
+        "charts.green": {
+            "type":["string", "null"]
+        },
+        "charts.purple": {
+            "type":["string", "null"]
+        },
+        "diffEditor.move.border": {
+            "type":["string", "null"]
+        },
+        "diffEditor.moveActive.border": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.arrayForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.booleanForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.classForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.colorForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.constantForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.constructorForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.enumeratorForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.enumeratorMemberForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.eventForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.fieldForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.fileForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.folderForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.functionForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.interfaceForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.keyForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.keywordForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.methodForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.moduleForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.namespaceForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.nullForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.numberForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.objectForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.operatorForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.packageForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.propertyForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.referenceForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.snippetForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.stringForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.structForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.textForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.typeParameterForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.unitForeground": {
+            "type":["string", "null"]
+        },
+        "symbolIcon.variableForeground": {
+            "type":["string", "null"]
+        },
+        "actionBar.toggledBackground": {
+            "type":["string", "null"]
+        },
+        "editorHoverWidget.highlightForeground": {
+            "type":["string", "null"]
+        },
+        "editor.lineHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.lineHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.rangeHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.rangeHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.symbolHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.symbolHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editorCursor.foreground": {
+            "type":["string", "null"]
+        },
+        "editorCursor.background": {
+            "type":["string", "null"]
+        },
+        "editorWhitespace.foreground": {
+            "type":["string", "null"]
+        },
+        "editorLineNumber.foreground": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background1": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background2": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background3": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background4": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background5": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.background6": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground1": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground2": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground3": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground4": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground5": {
+            "type":["string", "null"]
+        },
+        "editorIndentGuide.activeBackground6": {
+            "type":["string", "null"]
+        },
+        "editorActiveLineNumber.foreground": {
+            "type":["string", "null"]
+        },
+        "editorLineNumber.activeForeground": {
+            "type":["string", "null"]
+        },
+        "editorLineNumber.dimmedForeground": {
+            "type":["string", "null"]
+        },
+        "editorRuler.foreground": {
+            "type":["string", "null"]
+        },
+        "editorCodeLens.foreground": {
+            "type":["string", "null"]
+        },
+        "editorBracketMatch.background": {
+            "type":["string", "null"]
+        },
+        "editorBracketMatch.border": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.border": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.background": {
+            "type":["string", "null"]
+        },
+        "editorGutter.background": {
+            "type":["string", "null"]
+        },
+        "editorUnnecessaryCode.border": {
+            "type":["string", "null"]
+        },
+        "editorUnnecessaryCode.opacity": {
+            "type":["string", "null"]
+        },
+        "editorGhostText.border": {
+            "type":["string", "null"]
+        },
+        "editorGhostText.foreground": {
+            "type":["string", "null"]
+        },
+        "editorGhostText.background": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.rangeHighlightForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.errorForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.warningForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.infoForeground": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground1": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground2": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground3": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground4": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground5": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.foreground6": {
+            "type":["string", "null"]
+        },
+        "editorBracketHighlight.unexpectedBracket.foreground": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background1": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background2": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background3": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background4": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background5": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.background6": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground1": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground2": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground3": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground4": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground5": {
+            "type":["string", "null"]
+        },
+        "editorBracketPairGuide.activeBackground6": {
+            "type":["string", "null"]
+        },
+        "editorUnicodeHighlight.border": {
+            "type":["string", "null"]
+        },
+        "editorUnicodeHighlight.background": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.bracketMatchForeground": {
+            "type":["string", "null"]
+        },
+        "editor.foldBackground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.foldingControlForeground": {
+            "type":["string", "null"]
+        },
+        "editor.linkedEditingBackground": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightStrongBackground": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightTextBackground": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightStrongBorder": {
+            "type":["string", "null"]
+        },
+        "editor.wordHighlightTextBorder": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.wordHighlightForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.wordHighlightStrongForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.wordHighlightTextForeground": {
+            "type":["string", "null"]
+        },
+        "peekViewTitle.background": {
+            "type":["string", "null"]
+        },
+        "peekViewTitleLabel.foreground": {
+            "type":["string", "null"]
+        },
+        "peekViewTitleDescription.foreground": {
+            "type":["string", "null"]
+        },
+        "peekView.border": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.background": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.lineForeground": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.fileForeground": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.selectionBackground": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.selectionForeground": {
+            "type":["string", "null"]
+        },
+        "peekViewEditor.background": {
+            "type":["string", "null"]
+        },
+        "peekViewEditorGutter.background": {
+            "type":["string", "null"]
+        },
+        "peekViewEditorStickyScroll.background": {
+            "type":["string", "null"]
+        },
+        "peekViewResult.matchHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "peekViewEditor.matchHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "peekViewEditor.matchHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationError.background": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationError.headerBackground": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationWarning.background": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationWarning.headerBackground": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationInfo.background": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigationInfo.headerBackground": {
+            "type":["string", "null"]
+        },
+        "editorMarkerNavigation.background": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.background": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.border": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.foreground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.selectedForeground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.selectedIconForeground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.selectedBackground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.highlightForeground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidget.focusHighlightForeground": {
+            "type":["string", "null"]
+        },
+        "editorSuggestWidgetStatus.foreground": {
+            "type":["string", "null"]
+        },
+        "tab.activeBackground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedActiveBackground": {
+            "type":["string", "null"]
+        },
+        "tab.inactiveBackground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedInactiveBackground": {
+            "type":["string", "null"]
+        },
+        "tab.activeForeground": {
+            "type":["string", "null"]
+        },
+        "tab.inactiveForeground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedActiveForeground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedInactiveForeground": {
+            "type":["string", "null"]
+        },
+        "tab.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedHoverBackground": {
+            "type":["string", "null"]
+        },
+        "tab.hoverForeground": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedHoverForeground": {
+            "type":["string", "null"]
+        },
+        "tab.border": {
+            "type":["string", "null"]
+        },
+        "tab.lastPinnedBorder": {
+            "type":["string", "null"]
+        },
+        "tab.activeBorder": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedActiveBorder": {
+            "type":["string", "null"]
+        },
+        "tab.activeBorderTop": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedActiveBorderTop": {
+            "type":["string", "null"]
+        },
+        "tab.hoverBorder": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedHoverBorder": {
+            "type":["string", "null"]
+        },
+        "tab.activeModifiedBorder": {
+            "type":["string", "null"]
+        },
+        "tab.inactiveModifiedBorder": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedActiveModifiedBorder": {
+            "type":["string", "null"]
+        },
+        "tab.unfocusedInactiveModifiedBorder": {
+            "type":["string", "null"]
+        },
+        "editorPane.background": {
+            "type":["string", "null"]
+        },
+        "editorGroup.emptyBackground": {
+            "type":["string", "null"]
+        },
+        "editorGroup.focusedEmptyBorder": {
+            "type":["string", "null"]
+        },
+        "editorGroupHeader.tabsBackground": {
+            "type":["string", "null"]
+        },
+        "editorGroupHeader.tabsBorder": {
+            "type":["string", "null"]
+        },
+        "editorGroupHeader.noTabsBackground": {
+            "type":["string", "null"]
+        },
+        "editorGroupHeader.border": {
+            "type":["string", "null"]
+        },
+        "editorGroup.border": {
+            "type":["string", "null"]
+        },
+        "editorGroup.dropBackground": {
+            "type":["string", "null"]
+        },
+        "editorGroup.dropIntoPromptForeground": {
+            "type":["string", "null"]
+        },
+        "editorGroup.dropIntoPromptBackground": {
+            "type":["string", "null"]
+        },
+        "editorGroup.dropIntoPromptBorder": {
+            "type":["string", "null"]
+        },
+        "sideBySideEditor.horizontalBorder": {
+            "type":["string", "null"]
+        },
+        "sideBySideEditor.verticalBorder": {
+            "type":["string", "null"]
+        },
+        "panel.background": {
+            "type":["string", "null"]
+        },
+        "panel.border": {
+            "type":["string", "null"]
+        },
+        "panelTitle.activeForeground": {
+            "type":["string", "null"]
+        },
+        "panelTitle.inactiveForeground": {
+            "type":["string", "null"]
+        },
+        "panelTitle.activeBorder": {
+            "type":["string", "null"]
+        },
+        "panelInput.border": {
+            "type":["string", "null"]
+        },
+        "panel.dropBorder": {
+            "type":["string", "null"]
+        },
+        "panelSection.dropBackground": {
+            "type":["string", "null"]
+        },
+        "panelSectionHeader.background": {
+            "type":["string", "null"]
+        },
+        "panelSectionHeader.foreground": {
+            "type":["string", "null"]
+        },
+        "panelSectionHeader.border": {
+            "type":["string", "null"]
+        },
+        "panelSection.border": {
+            "type":["string", "null"]
+        },
+        "banner.background": {
+            "type":["string", "null"]
+        },
+        "banner.foreground": {
+            "type":["string", "null"]
+        },
+        "banner.iconForeground": {
+            "type":["string", "null"]
+        },
+        "statusBar.foreground": {
+            "type":["string", "null"]
+        },
+        "statusBar.noFolderForeground": {
+            "type":["string", "null"]
+        },
+        "statusBar.background": {
+            "type":["string", "null"]
+        },
+        "statusBar.noFolderBackground": {
+            "type":["string", "null"]
+        },
+        "statusBar.border": {
+            "type":["string", "null"]
+        },
+        "statusBar.focusBorder": {
+            "type":["string", "null"]
+        },
+        "statusBar.noFolderBorder": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.activeBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.focusBorder": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.hoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.compactHoverBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.prominentForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.prominentBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.prominentHoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.prominentHoverBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.errorBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.errorForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.errorHoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.errorHoverBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.warningBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.warningForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.warningHoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.warningHoverBackground": {
+            "type":["string", "null"]
+        },
+        "activityBar.background": {
+            "type":["string", "null"]
+        },
+        "activityBar.foreground": {
+            "type":["string", "null"]
+        },
+        "activityBar.inactiveForeground": {
+            "type":["string", "null"]
+        },
+        "activityBar.border": {
+            "type":["string", "null"]
+        },
+        "activityBar.activeBorder": {
+            "type":["string", "null"]
+        },
+        "activityBar.activeFocusBorder": {
+            "type":["string", "null"]
+        },
+        "activityBar.activeBackground": {
+            "type":["string", "null"]
+        },
+        "activityBar.dropBorder": {
+            "type":["string", "null"]
+        },
+        "activityBarBadge.background": {
+            "type":["string", "null"]
+        },
+        "activityBarBadge.foreground": {
+            "type":["string", "null"]
+        },
+        "profileBadge.background": {
+            "type":["string", "null"]
+        },
+        "profileBadge.foreground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.remoteBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.remoteForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.remoteHoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.remoteHoverBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.offlineBackground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.offlineForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.offlineHoverForeground": {
+            "type":["string", "null"]
+        },
+        "statusBarItem.offlineHoverBackground": {
+            "type":["string", "null"]
+        },
+        "extensionBadge.remoteBackground": {
+            "type":["string", "null"]
+        },
+        "extensionBadge.remoteForeground": {
+            "type":["string", "null"]
+        },
+        "sideBar.background": {
+            "type":["string", "null"]
+        },
+        "sideBar.foreground": {
+            "type":["string", "null"]
+        },
+        "sideBar.border": {
+            "type":["string", "null"]
+        },
+        "sideBarTitle.foreground": {
+            "type":["string", "null"]
+        },
+        "sideBar.dropBackground": {
+            "type":["string", "null"]
+        },
+        "sideBarSectionHeader.background": {
+            "type":["string", "null"]
+        },
+        "sideBarSectionHeader.foreground": {
+            "type":["string", "null"]
+        },
+        "sideBarSectionHeader.border": {
+            "type":["string", "null"]
+        },
+        "titleBar.activeForeground": {
+            "type":["string", "null"]
+        },
+        "titleBar.inactiveForeground": {
+            "type":["string", "null"]
+        },
+        "titleBar.activeBackground": {
+            "type":["string", "null"]
+        },
+        "titleBar.inactiveBackground": {
+            "type":["string", "null"]
+        },
+        "titleBar.border": {
+            "type":["string", "null"]
+        },
+        "menubar.selectionForeground": {
+            "type":["string", "null"]
+        },
+        "menubar.selectionBackground": {
+            "type":["string", "null"]
+        },
+        "menubar.selectionBorder": {
+            "type":["string", "null"]
+        },
+        "notificationCenter.border": {
+            "type":["string", "null"]
+        },
+        "notificationToast.border": {
+            "type":["string", "null"]
+        },
+        "notifications.foreground": {
+            "type":["string", "null"]
+        },
+        "notifications.background": {
+            "type":["string", "null"]
+        },
+        "notificationLink.foreground": {
+            "type":["string", "null"]
+        },
+        "notificationCenterHeader.foreground": {
+            "type":["string", "null"]
+        },
+        "notificationCenterHeader.background": {
+            "type":["string", "null"]
+        },
+        "notifications.border": {
+            "type":["string", "null"]
+        },
+        "notificationsErrorIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "notificationsWarningIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "notificationsInfoIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "window.activeBorder": {
+            "type":["string", "null"]
+        },
+        "window.inactiveBorder": {
+            "type":["string", "null"]
+        },
+        "commandCenter.foreground": {
+            "type":["string", "null"]
+        },
+        "commandCenter.activeForeground": {
+            "type":["string", "null"]
+        },
+        "commandCenter.inactiveForeground": {
+            "type":["string", "null"]
+        },
+        "commandCenter.background": {
+            "type":["string", "null"]
+        },
+        "commandCenter.activeBackground": {
+            "type":["string", "null"]
+        },
+        "commandCenter.border": {
+            "type":["string", "null"]
+        },
+        "commandCenter.activeBorder": {
+            "type":["string", "null"]
+        },
+        "commandCenter.inactiveBorder": {
+            "type":["string", "null"]
+        },
+        "chat.requestBorder": {
+            "type":["string", "null"]
+        },
+        "chat.slashCommandBackground": {
+            "type":["string", "null"]
+        },
+        "chat.slashCommandForeground": {
+            "type":["string", "null"]
+        },
+        "simpleFindWidget.sashBorder": {
+            "type":["string", "null"]
+        },
+        "commentsView.resolvedIcon": {
+            "type":["string", "null"]
+        },
+        "commentsView.unresolvedIcon": {
+            "type":["string", "null"]
+        },
+        "editorCommentsWidget.resolvedBorder": {
+            "type":["string", "null"]
+        },
+        "editorCommentsWidget.unresolvedBorder": {
+            "type":["string", "null"]
+        },
+        "editorCommentsWidget.rangeBackground": {
+            "type":["string", "null"]
+        },
+        "editorCommentsWidget.rangeActiveBackground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.commentRangeForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.commentForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.commentUnresolvedForeground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.commentGlyphForeground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.commentUnresolvedGlyphForeground": {
+            "type":["string", "null"]
+        },
+        "debugToolBar.background": {
+            "type":["string", "null"]
+        },
+        "debugToolBar.border": {
+            "type":["string", "null"]
+        },
+        "debugIcon.startForeground": {
+            "type":["string", "null"]
+        },
+        "editor.stackFrameHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "editor.focusedStackFrameHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.change.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.change.word.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.changeBase.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.changeBase.word.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.unhandledUnfocused.border": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.unhandledFocused.border": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.handledUnfocused.border": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.handledFocused.border": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.handled.minimapOverViewRuler": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.unhandled.minimapOverViewRuler": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflictingLines.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.input1.background": {
+            "type":["string", "null"]
+        },
+        "mergeEditor.conflict.input2.background": {
+            "type":["string", "null"]
+        },
+        "settings.headerForeground": {
+            "type":["string", "null"]
+        },
+        "settings.settingsHeaderHoverForeground": {
+            "type":["string", "null"]
+        },
+        "settings.modifiedItemIndicator": {
+            "type":["string", "null"]
+        },
+        "settings.headerBorder": {
+            "type":["string", "null"]
+        },
+        "settings.sashBorder": {
+            "type":["string", "null"]
+        },
+        "settings.dropdownBackground": {
+            "type":["string", "null"]
+        },
+        "settings.dropdownForeground": {
+            "type":["string", "null"]
+        },
+        "settings.dropdownBorder": {
+            "type":["string", "null"]
+        },
+        "settings.dropdownListBorder": {
+            "type":["string", "null"]
+        },
+        "settings.checkboxBackground": {
+            "type":["string", "null"]
+        },
+        "settings.checkboxForeground": {
+            "type":["string", "null"]
+        },
+        "settings.checkboxBorder": {
+            "type":["string", "null"]
+        },
+        "settings.textInputBackground": {
+            "type":["string", "null"]
+        },
+        "settings.textInputForeground": {
+            "type":["string", "null"]
+        },
+        "settings.textInputBorder": {
+            "type":["string", "null"]
+        },
+        "settings.numberInputBackground": {
+            "type":["string", "null"]
+        },
+        "settings.numberInputForeground": {
+            "type":["string", "null"]
+        },
+        "settings.numberInputBorder": {
+            "type":["string", "null"]
+        },
+        "settings.focusedRowBackground": {
+            "type":["string", "null"]
+        },
+        "settings.rowHoverBackground": {
+            "type":["string", "null"]
+        },
+        "settings.focusedRowBorder": {
+            "type":["string", "null"]
+        },
+        "terminal.background": {
+            "type":["string", "null"]
+        },
+        "terminal.foreground": {
+            "type":["string", "null"]
+        },
+        "terminalCursor.foreground": {
+            "type":["string", "null"]
+        },
+        "terminalCursor.background": {
+            "type":["string", "null"]
+        },
+        "terminal.selectionBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.inactiveSelectionBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.selectionForeground": {
+            "type":["string", "null"]
+        },
+        "terminalCommandDecoration.defaultBackground": {
+            "type":["string", "null"]
+        },
+        "terminalCommandDecoration.successBackground": {
+            "type":["string", "null"]
+        },
+        "terminalCommandDecoration.errorBackground": {
+            "type":["string", "null"]
+        },
+        "terminalOverviewRuler.cursorForeground": {
+            "type":["string", "null"]
+        },
+        "terminal.border": {
+            "type":["string", "null"]
+        },
+        "terminal.findMatchBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.hoverHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.findMatchBorder": {
+            "type":["string", "null"]
+        },
+        "terminal.findMatchHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.findMatchHighlightBorder": {
+            "type":["string", "null"]
+        },
+        "terminalOverviewRuler.findMatchForeground": {
+            "type":["string", "null"]
+        },
+        "terminal.dropBackground": {
+            "type":["string", "null"]
+        },
+        "terminal.tab.activeBorder": {
+            "type":["string", "null"]
+        },
+        "testing.iconFailed": {
+            "type":["string", "null"]
+        },
+        "testing.iconErrored": {
+            "type":["string", "null"]
+        },
+        "testing.iconPassed": {
+            "type":["string", "null"]
+        },
+        "testing.runAction": {
+            "type":["string", "null"]
+        },
+        "testing.iconQueued": {
+            "type":["string", "null"]
+        },
+        "testing.iconUnset": {
+            "type":["string", "null"]
+        },
+        "testing.iconSkipped": {
+            "type":["string", "null"]
+        },
+        "testing.peekBorder": {
+            "type":["string", "null"]
+        },
+        "testing.peekHeaderBackground": {
+            "type":["string", "null"]
+        },
+        "testing.message.error.decorationForeground": {
+            "type":["string", "null"]
+        },
+        "testing.message.error.lineBackground": {
+            "type":["string", "null"]
+        },
+        "testing.message.info.decorationForeground": {
+            "type":["string", "null"]
+        },
+        "testing.message.info.lineBackground": {
+            "type":["string", "null"]
+        },
+        "welcomePage.background": {
+            "type":["string", "null"]
+        },
+        "welcomePage.tileBackground": {
+            "type":["string", "null"]
+        },
+        "welcomePage.tileHoverBackground": {
+            "type":["string", "null"]
+        },
+        "welcomePage.tileBorder": {
+            "type":["string", "null"]
+        },
+        "welcomePage.progress.background": {
+            "type":["string", "null"]
+        },
+        "welcomePage.progress.foreground": {
+            "type":["string", "null"]
+        },
+        "walkthrough.stepTitle.foreground": {
+            "type":["string", "null"]
+        },
+        "walkThrough.embeddedEditorBackground": {
+            "type":["string", "null"]
+        },
+        "inlineChat.background": {
+            "type":["string", "null"]
+        },
+        "inlineChat.border": {
+            "type":["string", "null"]
+        },
+        "inlineChat.shadow": {
+            "type":["string", "null"]
+        },
+        "inlineChat.regionHighlight": {
+            "type":["string", "null"]
+        },
+        "inlineChatInput.border": {
+            "type":["string", "null"]
+        },
+        "inlineChatInput.focusBorder": {
+            "type":["string", "null"]
+        },
+        "inlineChatInput.placeholderForeground": {
+            "type":["string", "null"]
+        },
+        "inlineChatInput.background": {
+            "type":["string", "null"]
+        },
+        "inlineChatDiff.inserted": {
+            "type":["string", "null"]
+        },
+        "inlineChatDiff.removed": {
+            "type":["string", "null"]
+        },
+        "debugExceptionWidget.border": {
+            "type":["string", "null"]
+        },
+        "debugExceptionWidget.background": {
+            "type":["string", "null"]
+        },
+        "ports.iconRunningProcessForeground": {
+            "type":["string", "null"]
+        },
+        "statusBar.debuggingBackground": {
+            "type":["string", "null"]
+        },
+        "statusBar.debuggingForeground": {
+            "type":["string", "null"]
+        },
+        "statusBar.debuggingBorder": {
+            "type":["string", "null"]
+        },
+        "editor.inlineValuesForeground": {
+            "type":["string", "null"]
+        },
+        "editor.inlineValuesBackground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.modifiedBackground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.addedBackground": {
+            "type":["string", "null"]
+        },
+        "editorGutter.deletedBackground": {
+            "type":["string", "null"]
+        },
+        "minimapGutter.modifiedBackground": {
+            "type":["string", "null"]
+        },
+        "minimapGutter.addedBackground": {
+            "type":["string", "null"]
+        },
+        "minimapGutter.deletedBackground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.modifiedForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.addedForeground": {
+            "type":["string", "null"]
+        },
+        "editorOverviewRuler.deletedForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.breakpointForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.breakpointDisabledForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.breakpointUnverifiedForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.breakpointCurrentStackframeForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.breakpointStackframeForeground": {
+            "type":["string", "null"]
+        },
+        "notebook.cellBorderColor": {
+            "type":["string", "null"]
+        },
+        "notebook.focusedEditorBorder": {
+            "type":["string", "null"]
+        },
+        "notebookStatusSuccessIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "notebookEditorOverviewRuler.runningCellForeground": {
+            "type":["string", "null"]
+        },
+        "notebookStatusErrorIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "notebookStatusRunningIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "notebook.outputContainerBorderColor": {
+            "type":["string", "null"]
+        },
+        "notebook.outputContainerBackgroundColor": {
+            "type":["string", "null"]
+        },
+        "notebook.cellToolbarSeparator": {
+            "type":["string", "null"]
+        },
+        "notebook.focusedCellBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.selectedCellBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.cellHoverBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.selectedCellBorder": {
+            "type":["string", "null"]
+        },
+        "notebook.inactiveSelectedCellBorder": {
+            "type":["string", "null"]
+        },
+        "notebook.focusedCellBorder": {
+            "type":["string", "null"]
+        },
+        "notebook.inactiveFocusedCellBorder": {
+            "type":["string", "null"]
+        },
+        "notebook.cellStatusBarItemHoverBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.cellInsertionIndicator": {
+            "type":["string", "null"]
+        },
+        "notebookScrollbarSlider.background": {
+            "type":["string", "null"]
+        },
+        "notebookScrollbarSlider.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "notebookScrollbarSlider.activeBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.symbolHighlightBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.cellEditorBackground": {
+            "type":["string", "null"]
+        },
+        "notebook.editorBackground": {
+            "type":["string", "null"]
+        },
+        "keybindingTable.headerBackground": {
+            "type":["string", "null"]
+        },
+        "keybindingTable.rowsBackground": {
+            "type":["string", "null"]
+        },
+        "searchEditor.textInputBorder": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.name": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.value": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.string": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.boolean": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.number": {
+            "type":["string", "null"]
+        },
+        "debugTokenExpression.error": {
+            "type":["string", "null"]
+        },
+        "debugView.exceptionLabelForeground": {
+            "type":["string", "null"]
+        },
+        "debugView.exceptionLabelBackground": {
+            "type":["string", "null"]
+        },
+        "debugView.stateLabelForeground": {
+            "type":["string", "null"]
+        },
+        "debugView.stateLabelBackground": {
+            "type":["string", "null"]
+        },
+        "debugView.valueChangedHighlight": {
+            "type":["string", "null"]
+        },
+        "debugConsole.infoForeground": {
+            "type":["string", "null"]
+        },
+        "debugConsole.warningForeground": {
+            "type":["string", "null"]
+        },
+        "debugConsole.errorForeground": {
+            "type":["string", "null"]
+        },
+        "debugConsole.sourceForeground": {
+            "type":["string", "null"]
+        },
+        "debugConsoleInputIcon.foreground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.pauseForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.stopForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.disconnectForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.restartForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.stepOverForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.stepIntoForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.stepOutForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.continueForeground": {
+            "type":["string", "null"]
+        },
+        "debugIcon.stepBackForeground": {
+            "type":["string", "null"]
+        },
+        "scm.providerBorder": {
+            "type":["string", "null"]
+        },
+        "extensionButton.background": {
+            "type":["string", "null"]
+        },
+        "extensionButton.foreground": {
+            "type":["string", "null"]
+        },
+        "extensionButton.hoverBackground": {
+            "type":["string", "null"]
+        },
+        "extensionButton.separator": {
+            "type":["string", "null"]
+        },
+        "extensionButton.prominentBackground": {
+            "type":["string", "null"]
+        },
+        "extensionButton.prominentForeground": {
+            "type":["string", "null"]
+        },
+        "extensionButton.prominentHoverBackground": {
+            "type":["string", "null"]
+        },
+        "extensionIcon.starForeground": {
+            "type":["string", "null"]
+        },
+        "extensionIcon.verifiedForeground": {
+            "type":["string", "null"]
+        },
+        "extensionIcon.preReleaseForeground": {
+            "type":["string", "null"]
+        },
+        "extensionIcon.sponsorForeground": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBlack": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiRed": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiGreen": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiYellow": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBlue": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiMagenta": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiCyan": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiWhite": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightBlack": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightRed": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightGreen": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightYellow": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightBlue": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightMagenta": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightCyan": {
+            "type":["string", "null"]
+        },
+        "terminal.ansiBrightWhite": {
+            "type":["string", "null"]
+        },
+        "interactive.activeCodeBorder": {
+            "type":["string", "null"]
+        },
+        "interactive.inactiveCodeBorder": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.addedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.modifiedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.deletedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.renamedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.untrackedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.ignoredResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.stageModifiedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.stageDeletedResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.conflictingResourceForeground": {
+            "type":["string", "null"]
+        },
+        "gitDecoration.submoduleResourceForeground": {
+            "type":["string", "null"]
+        }
+    }
+}

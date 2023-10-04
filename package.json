@@ -1,6 +1,6 @@
 {
     "name": "dark-theme",
-    "displayName": "IrishBruse's Dark Theme",
+    "displayName": "IrishBruse's Color Theme",
     "description": "My custom dark theme influenced by dark-plus-theme.",
     "version": "1.5.7",
     "author": "IrishBruse",
@@ -12,7 +12,6 @@
         "url": "https://github.com/IrishBruse/IrishBruse-Dark-Theme"
     },
     "scripts": {
-        "dev": "nodemon --watch ./src/ --watch ./utils/ ./utils/generate.js",
         "parser": "node ./utils/parser.js"
     },
     "engines": {
@@ -41,6 +40,7 @@
         ]
     },
     "devDependencies": {
+        "@types/node": "^20.8.2",
         "nodemon": "^2.0.16"
     },
     "galleryBanner": {
