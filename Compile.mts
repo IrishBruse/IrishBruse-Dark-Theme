@@ -1,3 +1,4 @@
+import { parse } from "comment-json";
 import * as fs from "fs";
 
 console.clear();
@@ -24,8 +25,12 @@ function combine(inputDir) {
     let res = {};
     fs.readdirSync(inputDir).map((file) => {
         let raw = fs.readFileSync(inputDir + file);
-        let json: Map<string, string> = JSON.parse(raw.toString());
-
+        let json: Map<string, string> = parse(
+            raw.toString(),
+            null,
+            true
+        ) as any;
+        ``;
         Object.entries(json).forEach(
             ([key, value]) => (res[key] = replaceVariables(value))
         );
@@ -78,51 +83,61 @@ function replaceVariables(text: string): string | null {
     else if (text == "$Main") return "#191d1f";
     else if (text == "$Panel") return "#1e2224";
     else if (text == "$Activity") return "#23272a";
-    else if (text == "$MainInput") return "#32383d";
-    else if (text == "$MainBorder") return "#32383d";
+    else if (text == "$Input") return "#32383d";
+    else if (text == "$Border") return "#32383d";
+    // Scroll
+    else if (text == "$Scrollbar") return "#32383d99";
+    else if (text == "$ScrollbarHover") return "#32383dcc";
     // Accent
     else if (text == "$Accent") return "#86c332";
     else if (text == "$AccentDark") return "#557d1c";
-    //
+    // Text
     else if (text == "$LineNumber") return "#828282";
-    else if (text == "$TextDark") return "#c9c9c9";
     else if (text == "$Text") return "#d4d4d4";
     else if (text == "$TextLight") return "#dfdfdf";
-    //
+    else if (text == "$TextDark") return "#c9c9c9";
+    else if (text == "$TextPlaceholder") return "#d4d4d480";
+    // Misc
     else if (text == "$Transparent") return "#00000000";
-    else if (text == "$Error") return "#FF0000";
-    //
-    else if (text == "$selection") return "#557d1c77";
-    else if (text == "$white") return "#ffffff";
-    else if (text == "$green") return "#86c332";
-    else if (text == "$red") return "#C3323E";
-    else if (text == "$blue") return "#32C3B8";
-    else if (text == "$inline-code") return "#C3323E";
-    else if (text == "$border") return "#414141";
-    else if (text == "$shadow") return "#00000088";
-    else if (text == "$test") return "#ff00ff";
-    // textmate
-    else if (text == "$number") return "#b5cea8";
-    else if (text == "$keyword") return "#569cd6";
-    else if (text == "$control") return "#8a76cc";
-    else if (text == "$comment") return "#606060";
-    else if (text == "$meta") return "#707070";
-    else if (text == "$string") return "#ce9178";
-    else if (text == "$function") return "#dcdcaa";
-    else if (text == "$operator") return "#c94e67";
-    else if (text == "$property") return "#9cdcfe";
-    else if (text == "$escape") return "#d7ba7d";
-    // Shadow
+    else if (text == "$Error") return "#FF00FF";
+    else if (text == "$Seperator") return "#86c33288";
     else if (text == "$Shadow") return "#00000088";
-    // Class
-    else if (text == "$object") return "#4ec9b0";
-    else if (text == "$struct") return "#82c97a";
-    else if (text == "$enum") return "#cbd67e";
-    else if (text == "$interface") return "#82c97a";
-    else if (text == "$info") return "#82aaff";
-    else if (text == "$warning") return "#ffcb6b";
-    else if (text == "$error") return "#ff5370";
+    else if (text == "$Selection") return "#557d1c77";
+    // Button
+    else if (text == "$Button") return "#557d1c";
+    else if (text == "$ButtonHover") return "#32383d";
+    //
+    //
+    //
+    //
+    // else if (text == "$white") return "#ffffff";
+    // else if (text == "$green") return "#86c332";
+    // else if (text == "$red") return "#C3323E";
+    // else if (text == "$blue") return "#32C3B8";
+    // else if (text == "$inline-code") return "#C3323E";
+    // else if (text == "$border") return "#414141";
+    // else if (text == "$shadow") return "#00000088";
+    // else if (text == "$test") return "#ff00ff";
+    // // textmate
+    // else if (text == "$number") return "#b5cea8";
+    // else if (text == "$keyword") return "#569cd6";
+    // else if (text == "$control") return "#8a76cc";
+    // else if (text == "$comment") return "#606060";
+    // else if (text == "$meta") return "#707070";
+    // else if (text == "$string") return "#ce9178";
+    // else if (text == "$function") return "#dcdcaa";
+    // else if (text == "$operator") return "#c94e67";
+    // else if (text == "$property") return "#9cdcfe";
+    // else if (text == "$escape") return "#d7ba7d";
+    // // Class
+    // else if (text == "$object") return "#4ec9b0";
+    // else if (text == "$struct") return "#82c97a";
+    // else if (text == "$enum") return "#cbd67e";
+    // else if (text == "$interface") return "#82c97a";
+    // else if (text == "$info") return "#82aaff";
+    // else if (text == "$warning") return "#ffcb6b";
+    // else if (text == "$error") return "#ff5370";
     else {
-        return "#ff00ff";
+        return "#ff0000";
     }
 }

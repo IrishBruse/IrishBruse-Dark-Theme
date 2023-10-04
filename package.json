@@ -47,5 +47,8 @@
         "color": "#8a76cc",
         "theme": "dark"
     },
-    "icon": "assets/128.png"
+    "icon": "assets/128.png",
+    "dependencies": {
+        "comment-json": "^4.2.3"
+    }
 }

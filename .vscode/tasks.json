@@ -6,9 +6,6 @@
             "type": "shell",
             "command": "tsx watch Compile.mts",
             "problemMatcher": [],
-            "runOptions": {
-                "runOn": "folderOpen",
-            }
         }
     ]
 }
