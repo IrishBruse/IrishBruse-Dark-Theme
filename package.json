@@ -1,7 +1,7 @@
 {
     "name": "dark-theme",
     "displayName": "IrishBruse's Color Theme",
-    "description": "My custom dark theme influenced by dark-plus-theme.",
+    "description": "My custom dark/light theme.",
     "version": "1.5.7",
     "author": "IrishBruse",
     "publisher": "IrishBruse",
@@ -11,11 +11,8 @@
         "type": "git",
         "url": "https://github.com/IrishBruse/IrishBruse-Dark-Theme"
     },
-    "scripts": {
-        "parser": "node ./utils/parser.js"
-    },
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.80.0"
     },
     "categories": [
         "Themes",
@@ -33,9 +30,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "IrishBruse's Dark Theme",
+                "label": "IrishBruse's Dark Theme(Green)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark-theme.json"
+                "path": "./themes/dark-theme-green.json"
+            },
+            {
+                "label": "IrishBruse's Light Theme(Green)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/light-theme-green.json"
             }
         ]
     },
@@ -47,8 +49,5 @@
         "color": "#8a76cc",
         "theme": "dark"
     },
-    "icon": "assets/128.png",
-    "dependencies": {
-        "comment-json": "^4.2.3"
-    }
+    "icon": "assets/128.png"
 }
