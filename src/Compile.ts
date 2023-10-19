@@ -3,6 +3,10 @@ import editor from "./editor";
 
 console.clear();
 
+try {
+    fs.mkdirSync("../themes");
+} catch (error) { }
+
 const baseTheme = {
     _name: "base-theme",
     Main: "#191d1f",
@@ -24,7 +28,8 @@ const baseTheme = {
     IndentInactive: "#32383d",
     // Misc
     Transparent: "#00000000",
-    Test: "#FF00FF",
+    "?": "#FF00FF",
+    "Test": "#FFFF00",
     //
     Error: "#ff5370",
     Info: "#82aaff",
@@ -82,7 +87,7 @@ lightTheme.Activity = "#eeeeee";
 const palletes: Record<string, Theme> = {
     "dark-theme-green": darkTheme,
     "light-theme-green": lightTheme,
-}
+};
 
 try {
     for (const theme of ["dark-theme-green", "light-theme-green"]) {
@@ -112,17 +117,17 @@ console.log();
 
 function ProcessEditorColors(pal: Theme) {
     let res = {};
-    Object.entries(editor).forEach(
-        ([key, value]) => {
-            res[key] = replaceVariables(key, value, pal);
-        }
-    );
+    Object.entries(editor).forEach(([key, value]) => {
+        res[key] = replaceVariables(value, pal);
+    });
     return res;
 }
 
-function replaceVariables(key: string, text: string | null, palette: Theme): string | null {
-    if (text === null) return "#ff00ff";
-    if (text.startsWith("#")) return "#ffff00";
+function replaceVariables(
+    text: string | null,
+    palette: Theme
+): string | null {
+    if (text === null) return "#ffff00";
     else if (!text.startsWith("#")) return palette[text];
     else return "#ff0000";
 }

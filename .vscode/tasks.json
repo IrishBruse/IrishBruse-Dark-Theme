@@ -4,8 +4,11 @@
         {
             "label": "Watch Compile",
             "type": "shell",
-            "command": "tsx watch Compile.mts",
-            "problemMatcher": [],
+            "command": "tsx watch Compile.ts",
+            "options": {
+                "cwd": "src/"
+            },
+            "problemMatcher": []
         }
     ]
 }
