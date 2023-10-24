@@ -5,7 +5,7 @@ console.clear();
 
 try {
     fs.mkdirSync("../themes");
-} catch (error) { }
+} catch (error) {}
 
 const darkThemeGreen = {
     _name: "dark-theme-green",
@@ -86,7 +86,7 @@ const darkThemeGreen = {
     //
     Transparent: "#00000000",
     "?": "#FF00FF",
-    "Test": "#FFFF00",
+    Test: "#FFFF00",
 };
 
 let lightThemeGreen: Theme = {
@@ -170,14 +170,13 @@ let lightThemeGreen: Theme = {
     //
     Transparent: "#00000000",
     "?": "#FF00FF",
-    "Test": "#FFFF00",
-}
+    Test: "#FFFF00",
+};
 
 type HEX = `#${string}`;
 type Theme = typeof darkThemeGreen;
 type ThemeKeys = keyof Omit<typeof darkThemeGreen, "_name">;
 export type ThemeNames = ThemeKeys | null | HEX;
-
 
 const palletes: Record<string, Theme> = {
     "dark-theme-green": darkThemeGreen,
@@ -218,10 +217,7 @@ function ProcessEditorColors(pal: Theme) {
     return res;
 }
 
-function replaceVariables(
-    text: string | null,
-    palette: Theme
-): string | null {
+function replaceVariables(text: string | null, palette: Theme): string | null {
     if (text === null) return null;
     else if (text.startsWith("#")) return text;
     else if (!text.startsWith("#")) return palette[text];

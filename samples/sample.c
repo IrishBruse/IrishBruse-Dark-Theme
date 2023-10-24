@@ -130,6 +130,26 @@ int main(int argc, char **argv)
     my_array[1] = 2;
     printf("%d\n", my_array[1]); // => 2
 
+    {
+        {
+            {
+                {
+                    {
+                        {
+                            {
+
+                                {
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     // In C99 (and as an optional feature in C11), variable-length arrays (VLAs)
     // can be declared as well. The size of such an array need not be a compile
     // time constant:

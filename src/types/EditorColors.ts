@@ -207,9 +207,13 @@ export type EditorColors = {
      */
     "commandCenter.activeBackground": null | ThemeNames;
     /**
-     * Active border color of the command center
+     * Command Center background color when a program is being debugged.
      */
     "commandCenter.activeBorder": null | ThemeNames;
+    /**
+    * Active border color of the command center
+    */
+    "commandCenter.debuggingBackground": null | ThemeNames;
     /**
      * Active foreground color of the command center
      */
@@ -653,10 +657,6 @@ export type EditorColors = {
      */
     "editor.wordHighlightTextBorder": null | ThemeNames;
     /**
-     * Color of editor active line number
-     */
-    "editorActiveLineNumber.foreground": null | ThemeNames;
-    /**
      * Foreground color of brackets (1). Requires enabling bracket pair colorization.
      */
     "editorBracketHighlight.foreground1": null | ThemeNames;
@@ -916,10 +916,6 @@ export type EditorColors = {
      */
     "editorHoverWidget.statusBarBackground": null | ThemeNames;
     /**
-     * Color of the active editor indentation guides.
-     */
-    "editorIndentGuide.activeBackground": null | ThemeNames;
-    /**
      * Color of the active editor indentation guides (1).
      */
     "editorIndentGuide.activeBackground1": null | ThemeNames;
@@ -943,10 +939,6 @@ export type EditorColors = {
      * Color of the active editor indentation guides (6).
      */
     "editorIndentGuide.activeBackground6": null | ThemeNames;
-    /**
-     * Color of the editor indentation guides.
-     */
-    "editorIndentGuide.background": null | ThemeNames;
     /**
      * Color of the editor indentation guides (1).
      */
@@ -1785,6 +1777,10 @@ export type EditorColors = {
      * Minimap marker color for warnings.
      */
     "minimap.warningHighlight": null | ThemeNames;
+    /**
+     * Minimap marker color for infos.
+     */
+    "minimap.infoHighlight": null | ThemeNames;
     /**
      * Minimap gutter background color for lines that are added.
      */

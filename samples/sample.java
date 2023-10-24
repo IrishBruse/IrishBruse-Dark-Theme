@@ -22,7 +22,9 @@ public class sample
     public static void main(String[] args)
     {
         Bicycle bike = new Bicycle();
-
+        int test = 1;
+        test = 2;
+        // throw new Exception("test");
         System.out.println(bike.toString());
     }
 }
@@ -96,8 +98,7 @@ class Bicycle implements ICycleable
         return "gear: " + gear + " cadence: " + cadence + " speed: " + speed + " name: " + name;
     }
 
-    @Override
-    public void cycle()
+    @Override public void cycle()
     {
         System.out.println("Cycling!");
     }

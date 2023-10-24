@@ -8,7 +8,8 @@
             "options": {
                 "cwd": "src/"
             },
-            "problemMatcher": []
+            "problemMatcher": [],
+            "runOptions": { "runOn": "folderOpen" }
         }
     ]
 }
