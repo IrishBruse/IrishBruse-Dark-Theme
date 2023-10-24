@@ -45,6 +45,8 @@ const darkThemeGreen = {
     // Diff
     Inserted: "#91b85933",
     Removed: "#e5393544",
+    Current: "#40c8ae80",
+    Incoming: "#40a6ff80",
     // Ansi
     AnsiBrightBlack: "#4e4e4e",
     AnsiBrightBlue: "#82aaff",
@@ -73,11 +75,13 @@ const darkThemeGreen = {
     Control: "#8a76cc",
     Comment: "#606060",
     Meta: "#707070",
+    Namespace: "#707070",
     String: "#ce9178",
-    Function: "#dcdcaa",
+    Method: "#dcdcaa",
     Operator: "#c94e67",
     Local: "#9cdcfe",
     Escape: "#d7ba7d",
+    Constant: "#d7ba7d",
     //
     Object: "#4ec9b0",
     Struct: "#82c97a",
@@ -129,6 +133,8 @@ let lightThemeGreen: Theme = {
     // Diff
     Inserted: "#91b85933",
     Removed: "#e5393544",
+    Current: "#40c8ae80",
+    Incoming: "#40a6ff80",
     // Ansi
     AnsiBrightBlack: "#4e4e4e",
     AnsiBrightBlue: "#82aaff",
@@ -157,11 +163,13 @@ let lightThemeGreen: Theme = {
     Control: "#8a76cc",
     Comment: "#606060",
     Meta: "#707070",
+    Namespace: "#707070",
     String: "#ce9178",
-    Function: "#dcdcaa",
+    Method: "#dcdcaa",
     Operator: "#c94e67",
     Local: "#9cdcfe",
     Escape: "#d7ba7d",
+    Constant: "#d7ba7d",
     //
     Object: "#4ec9b0",
     Struct: "#82c97a",
