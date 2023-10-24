@@ -9,9 +9,10 @@ try {
 
 const darkThemeGreen = {
     _name: "dark-theme-green",
-    Main: "#191d1f",
-    Panel: "#1e2224",
-    Activity: "#23272a",
+    Dark: "#191d1f",
+    Normal: "#1e2224",
+    Light: "#23272a",
+
     Input: "#32383d",
     Border: "#32383d",
     Scrollbar: "#32383d99",
@@ -96,9 +97,9 @@ const darkThemeGreen = {
 let lightThemeGreen: Theme = {
     _name: "light-theme-green",
 
-    Main: "#ffffff",
-    Panel: "#f3f3f3",
-    Activity: "#e2e2e2",
+    Dark: "#ffffff",
+    Normal: "#f3f3f3",
+    Light: "#e2e2e2",
     Input: "#e2e2e2",
 
     Border: "#d4d4d4",
