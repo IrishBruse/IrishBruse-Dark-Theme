@@ -1,6 +1,8 @@
 namespace sample;
 
 using System;
+using System.Numerics;
+
 // test
 /*
 test
@@ -10,7 +12,7 @@ test
 internal class Shape
 {
     public int test;
-
+    const int Testing = 12;
     public void SetWidth(int w)
     {
         width = w;
@@ -28,11 +30,14 @@ internal class Rectangle : Shape
 {
     public int GetArea()
     {
+        Vector2 a = new();
+        a += a * new Vector2();
         return width * height;
     }
 }
 
-internal class RectangleTester
+/// <summary>  </summary>
+internal class RectangleTester : Isample
 {
     [STAThread]
     private static void Main()
@@ -52,21 +57,6 @@ internal class RectangleTester
         for (int i = 0; i < rect.GetArea(); i++)
         {
             Console.WriteLine($"Test \n{rect.GetArea()}" + 'a');
-            {
-                {
-                    {
-                        {
-                            {
-                                {
-                                    {
-
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
         }
 
         Console.ReadKey();
@@ -78,7 +68,7 @@ enum Test
     tes, dsf, gdf, ds, th, gf
 }
 
-interface Isample
+struct TestStruct
 {
 
 }
@@ -88,7 +78,7 @@ class Test123
 
 }
 
-struct TestStruct
+interface Isample
 {
 
 }

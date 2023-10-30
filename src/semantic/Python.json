@@ -1,5 +1,0 @@
-{
-    "module:python": "$object",
-    "function.builtin:python": "$keyword",
-    "class.builtin:python": "$keyword"
-}

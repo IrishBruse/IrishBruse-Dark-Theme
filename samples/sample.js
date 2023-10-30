@@ -1,6 +1,5 @@
-import { PolymerElement } from '@polymer/polymer/polymer-element.js';
-import { } from "fs";
-
+import { PolymerElement } from "@polymer/polymer/polymer-element.js";
+import * as fs from "fs";
 
 // Normal Comments
 /* Line Comments */
@@ -11,6 +10,7 @@ import { } from "fs";
  */
 function coroutine(g) {
     let it = new Test();
+    fs.read();
     return function () {
         return it.next().apply(it, arguments);
     };
@@ -19,29 +19,26 @@ function coroutine(g) {
 var step = coroutine(function* () {
     var x = 1 + (yield);
     var y = 1 + (yield);
-    yield (x + y);
+    yield x + y;
 });
-
 
 /*
  * Block Comments
  */
 step();
 step(10);
-console.log(
-    `Meaning of life: ${step(30).value}.`
-);
+console.log(`Meaning of life: #${step(30).value}.`);
 
-const pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+const pattern =
+    /^(([^<>()\[\]\\.,;\:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 class Test {
-    Test() {
-
-    }
+    Test() {}
 }
 
-
 class MyComponent extends PolymerElement {
+    test;
+
     constructor() {
         super();
     }
@@ -50,7 +47,9 @@ class MyComponent extends PolymerElement {
         return `<div> I'm the Component! </div>`;
     }
 
-    static get is() { return 'my-component'; }
+    static get is() {
+        return "my-component";
+    }
 }
 
-customElements.define('my-component', MyComponent);
+customElements.define("my-component", MyComponent);

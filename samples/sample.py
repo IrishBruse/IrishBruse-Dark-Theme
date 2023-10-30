@@ -18,7 +18,7 @@ class MaxSizeList(object):
     def getList(self):
         print(self.myList[-self.value:])
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = MaxSizeList(3)
     b = MaxSizeList(1)
 

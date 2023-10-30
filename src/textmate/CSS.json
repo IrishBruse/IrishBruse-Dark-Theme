@@ -1,7 +1,0 @@
-{
-    "source.css entity.other.attribute-name.class": "$control",
-    "source.css entity.other.attribute-name.id": "$object",
-    "source.css support.constant.property-value": "$keyword",
-    "source.css support.constant.color": "$keyword",
-    "source.css support.constant.font-name": "$keyword"
-}

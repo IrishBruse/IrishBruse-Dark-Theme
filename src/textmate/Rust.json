@@ -1,5 +1,0 @@
-{
-    "source.rust meta.attribute": "$object",
-    "source.rust meta.attribute punctuation": "$foreground",
-    "source.rust punctuation.semi": "$meta"
-}

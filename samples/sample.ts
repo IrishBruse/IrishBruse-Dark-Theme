@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import editor from "./editor";
 
 console.clear();
 
@@ -211,10 +210,7 @@ console.log();
 
 function ProcessEditorColors(pal: Theme) {
     let res = {};
-    Object.entries(editor).forEach(([key, value]) => {
-        res[key] = replaceVariables(value, pal);
-    });
-    return res;
+    return pal;
 }
 
 function replaceVariables(text: string | null, palette: Theme): string | null {

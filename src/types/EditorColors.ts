@@ -1,11 +1,4 @@
-// To parse this data:
-//
-//   import { Convert, Coordinate } from "./file";
-//
-//   const coordinate = Convert.toCoordinate(json);
-//
-// These functions will throw an error if the JSON doesn't
-// match the expected interface, even if the JSON is valid.
+// https://github.com/wraith13/vscode-schemas/tree/master
 
 import { ThemeNames } from "../Compile";
 
@@ -13,3182 +6,3182 @@ export type EditorColors = {
     /**
      * Background color for toggled action items in action bar.
      */
-    "actionBar.toggledBackground": null | ThemeNames;
+    "actionBar.toggledBackground": ThemeNames;
     /**
      * Activity bar background color for the active item. The activity bar is showing on the far
      * left or right and allows to switch between views of the side bar.
      */
-    "activityBar.activeBackground": null | ThemeNames;
+    "activityBar.activeBackground": ThemeNames;
     /**
      * Activity bar border color for the active item. The activity bar is showing on the far
      * left or right and allows to switch between views of the side bar.
      */
-    "activityBar.activeBorder": null | ThemeNames;
+    "activityBar.activeBorder": ThemeNames;
     /**
      * Activity bar focus border color for the active item. The activity bar is showing on the
      * far left or right and allows to switch between views of the side bar.
      */
-    "activityBar.activeFocusBorder": null | ThemeNames;
+    "activityBar.activeFocusBorder": ThemeNames;
     /**
      * Activity bar background color. The activity bar is showing on the far left or right and
      * allows to switch between views of the side bar.
      */
-    "activityBar.background": null | ThemeNames;
+    "activityBar.background": ThemeNames;
     /**
      * Activity bar border color separating to the side bar. The activity bar is showing on the
      * far left or right and allows to switch between views of the side bar.
      */
-    "activityBar.border": null | ThemeNames;
+    "activityBar.border": ThemeNames;
     /**
      * Drag and drop feedback color for the activity bar items. The activity bar is showing on
      * the far left or right and allows to switch between views of the side bar.
      */
-    "activityBar.dropBorder": null | ThemeNames;
+    "activityBar.dropBorder": ThemeNames;
     /**
      * Activity bar item foreground color when it is active. The activity bar is showing on the
      * far left or right and allows to switch between views of the side bar.
      */
-    "activityBar.foreground": null | ThemeNames;
+    "activityBar.foreground": ThemeNames;
     /**
      * Activity bar item foreground color when it is inactive. The activity bar is showing on
      * the far left or right and allows to switch between views of the side bar.
      */
-    "activityBar.inactiveForeground": null | ThemeNames;
+    "activityBar.inactiveForeground": ThemeNames;
     /**
      * Activity notification badge background color. The activity bar is showing on the far left
      * or right and allows to switch between views of the side bar.
      */
-    "activityBarBadge.background": null | ThemeNames;
+    "activityBarBadge.background": ThemeNames;
     /**
      * Activity notification badge foreground color. The activity bar is showing on the far left
      * or right and allows to switch between views of the side bar.
      */
-    "activityBarBadge.foreground": null | ThemeNames;
+    "activityBarBadge.foreground": ThemeNames;
     /**
      * Badge background color. Badges are small information labels, e.g. for search results
      * count.
      */
-    "badge.background": null | ThemeNames;
+    "badge.background": ThemeNames;
     /**
      * Badge foreground color. Badges are small information labels, e.g. for search results
      * count.
      */
-    "badge.foreground": null | ThemeNames;
+    "badge.foreground": ThemeNames;
     /**
      * Banner background color. The banner is shown under the title bar of the window.
      */
-    "banner.background": null | ThemeNames;
+    "banner.background": ThemeNames;
     /**
      * Banner foreground color. The banner is shown under the title bar of the window.
      */
-    "banner.foreground": null | ThemeNames;
+    "banner.foreground": ThemeNames;
     /**
      * Banner icon color. The banner is shown under the title bar of the window.
      */
-    "banner.iconForeground": null | ThemeNames;
+    "banner.iconForeground": ThemeNames;
     /**
      * Color of selected breadcrumb items.
      */
-    "breadcrumb.activeSelectionForeground": null | ThemeNames;
+    "breadcrumb.activeSelectionForeground": ThemeNames;
     /**
      * Background color of breadcrumb items.
      */
-    "breadcrumb.background": null | ThemeNames;
+    "breadcrumb.background": ThemeNames;
     /**
      * Color of focused breadcrumb items.
      */
-    "breadcrumb.focusForeground": null | ThemeNames;
+    "breadcrumb.focusForeground": ThemeNames;
     /**
      * Color of focused breadcrumb items.
      */
-    "breadcrumb.foreground": null | ThemeNames;
+    "breadcrumb.foreground": ThemeNames;
     /**
      * Background color of breadcrumb item picker.
      */
-    "breadcrumbPicker.background": null | ThemeNames;
+    "breadcrumbPicker.background": ThemeNames;
     /**
      * Button background color.
      */
-    "button.background": null | ThemeNames;
+    "button.background": ThemeNames;
     /**
      * Button border color.
      */
-    "button.border": null | ThemeNames;
+    "button.border": ThemeNames;
     /**
      * Button foreground color.
      */
-    "button.foreground": null | ThemeNames;
+    "button.foreground": ThemeNames;
     /**
      * Button background color when hovering.
      */
-    "button.hoverBackground": null | ThemeNames;
+    "button.hoverBackground": ThemeNames;
     /**
      * Secondary button background color.
      */
-    "button.secondaryBackground": null | ThemeNames;
+    "button.secondaryBackground": ThemeNames;
     /**
      * Secondary button foreground color.
      */
-    "button.secondaryForeground": null | ThemeNames;
+    "button.secondaryForeground": ThemeNames;
     /**
      * Secondary button background color when hovering.
      */
-    "button.secondaryHoverBackground": null | ThemeNames;
+    "button.secondaryHoverBackground": ThemeNames;
     /**
      * Button separator color.
      */
-    "button.separator": null | ThemeNames;
+    "button.separator": ThemeNames;
     /**
      * The blue color used in chart visualizations.
      */
-    "charts.blue": null | ThemeNames;
+    "charts.blue": ThemeNames;
     /**
      * The foreground color used in charts.
      */
-    "charts.foreground": null | ThemeNames;
+    "charts.foreground": ThemeNames;
     /**
      * The green color used in chart visualizations.
      */
-    "charts.green": null | ThemeNames;
+    "charts.green": ThemeNames;
     /**
      * The color used for horizontal lines in charts.
      */
-    "charts.lines": null | ThemeNames;
+    "charts.lines": ThemeNames;
     /**
      * The orange color used in chart visualizations.
      */
-    "charts.orange": null | ThemeNames;
+    "charts.orange": ThemeNames;
     /**
      * The purple color used in chart visualizations.
      */
-    "charts.purple": null | ThemeNames;
+    "charts.purple": ThemeNames;
     /**
      * The red color used in chart visualizations.
      */
-    "charts.red": null | ThemeNames;
+    "charts.red": ThemeNames;
     /**
      * The yellow color used in chart visualizations.
      */
-    "charts.yellow": null | ThemeNames;
+    "charts.yellow": ThemeNames;
     /**
      * The border color of a chat request.
      */
-    "chat.requestBorder": null | ThemeNames;
+    "chat.requestBorder": ThemeNames;
     /**
      * The background color of a chat slash command.
      */
-    "chat.slashCommandBackground": null | ThemeNames;
+    "chat.slashCommandBackground": ThemeNames;
     /**
      * The foreground color of a chat slash command.
      */
-    "chat.slashCommandForeground": null | ThemeNames;
+    "chat.slashCommandForeground": ThemeNames;
     /**
      * Background color of checkbox widget.
      */
-    "checkbox.background": null | ThemeNames;
+    "checkbox.background": ThemeNames;
     /**
      * Border color of checkbox widget.
      */
-    "checkbox.border": null | ThemeNames;
+    "checkbox.border": ThemeNames;
     /**
      * Foreground color of checkbox widget.
      */
-    "checkbox.foreground": null | ThemeNames;
+    "checkbox.foreground": ThemeNames;
     /**
      * Background color of checkbox widget when the element it's in is selected.
      */
-    "checkbox.selectBackground": null | ThemeNames;
+    "checkbox.selectBackground": ThemeNames;
     /**
      * Border color of checkbox widget when the element it's in is selected.
      */
-    "checkbox.selectBorder": null | ThemeNames;
+    "checkbox.selectBorder": ThemeNames;
     /**
      * Active background color of the command center
      */
-    "commandCenter.activeBackground": null | ThemeNames;
+    "commandCenter.activeBackground": ThemeNames;
     /**
      * Command Center background color when a program is being debugged.
      */
-    "commandCenter.activeBorder": null | ThemeNames;
+    "commandCenter.activeBorder": ThemeNames;
     /**
     * Active border color of the command center
     */
-    "commandCenter.debuggingBackground": null | ThemeNames;
+    "commandCenter.debuggingBackground": ThemeNames;
     /**
      * Active foreground color of the command center
      */
-    "commandCenter.activeForeground": null | ThemeNames;
+    "commandCenter.activeForeground": ThemeNames;
     /**
      * Background color of the command center
      */
-    "commandCenter.background": null | ThemeNames;
+    "commandCenter.background": ThemeNames;
     /**
      * Border color of the command center
      */
-    "commandCenter.border": null | ThemeNames;
+    "commandCenter.border": ThemeNames;
     /**
      * Foreground color of the command center
      */
-    "commandCenter.foreground": null | ThemeNames;
+    "commandCenter.foreground": ThemeNames;
     /**
      * Border color of the command center when the window is inactive
      */
-    "commandCenter.inactiveBorder": null | ThemeNames;
+    "commandCenter.inactiveBorder": ThemeNames;
     /**
      * Foreground color of the command center when the window is inactive
      */
-    "commandCenter.inactiveForeground": null | ThemeNames;
+    "commandCenter.inactiveForeground": ThemeNames;
     /**
      * Icon color for resolved comments.
      */
-    "commentsView.resolvedIcon": null | ThemeNames;
+    "commentsView.resolvedIcon": ThemeNames;
     /**
      * Icon color for unresolved comments.
      */
-    "commentsView.unresolvedIcon": null | ThemeNames;
+    "commentsView.unresolvedIcon": ThemeNames;
     /**
      * An extra border around active elements to separate them from others for greater contrast.
      */
-    contrastActiveBorder?: null | ThemeNames;
+    contrastActiveBorder?: ThemeNames;
     /**
      * An extra border around elements to separate them from others for greater contrast.
      */
-    contrastBorder?: null | ThemeNames;
+    contrastBorder?: ThemeNames;
     /**
      * Foreground color for error messages in debug REPL console.
      */
-    "debugConsole.errorForeground": null | ThemeNames;
+    "debugConsole.errorForeground": ThemeNames;
     /**
      * Foreground color for info messages in debug REPL console.
      */
-    "debugConsole.infoForeground": null | ThemeNames;
+    "debugConsole.infoForeground": ThemeNames;
     /**
      * Foreground color for source filenames in debug REPL console.
      */
-    "debugConsole.sourceForeground": null | ThemeNames;
+    "debugConsole.sourceForeground": ThemeNames;
     /**
      * Foreground color for warning messages in debug REPL console.
      */
-    "debugConsole.warningForeground": null | ThemeNames;
+    "debugConsole.warningForeground": ThemeNames;
     /**
      * Foreground color for debug console input marker icon.
      */
-    "debugConsoleInputIcon.foreground": null | ThemeNames;
+    "debugConsoleInputIcon.foreground": ThemeNames;
     /**
      * Exception widget background color.
      */
-    "debugExceptionWidget.background": null | ThemeNames;
+    "debugExceptionWidget.background": ThemeNames;
     /**
      * Exception widget border color.
      */
-    "debugExceptionWidget.border": null | ThemeNames;
+    "debugExceptionWidget.border": ThemeNames;
     /**
      * Icon color for the current breakpoint stack frame.
      */
-    "debugIcon.breakpointCurrentStackframeForeground": null | ThemeNames;
+    "debugIcon.breakpointCurrentStackframeForeground": ThemeNames;
     /**
      * Icon color for disabled breakpoints.
      */
-    "debugIcon.breakpointDisabledForeground": null | ThemeNames;
+    "debugIcon.breakpointDisabledForeground": ThemeNames;
     /**
      * Icon color for breakpoints.
      */
-    "debugIcon.breakpointForeground": null | ThemeNames;
+    "debugIcon.breakpointForeground": ThemeNames;
     /**
      * Icon color for all breakpoint stack frames.
      */
-    "debugIcon.breakpointStackframeForeground": null | ThemeNames;
+    "debugIcon.breakpointStackframeForeground": ThemeNames;
     /**
      * Icon color for unverified breakpoints.
      */
-    "debugIcon.breakpointUnverifiedForeground": null | ThemeNames;
+    "debugIcon.breakpointUnverifiedForeground": ThemeNames;
     /**
      * Debug toolbar icon for continue.
      */
-    "debugIcon.continueForeground": null | ThemeNames;
+    "debugIcon.continueForeground": ThemeNames;
     /**
      * Debug toolbar icon for disconnect.
      */
-    "debugIcon.disconnectForeground": null | ThemeNames;
+    "debugIcon.disconnectForeground": ThemeNames;
     /**
      * Debug toolbar icon for pause.
      */
-    "debugIcon.pauseForeground": null | ThemeNames;
+    "debugIcon.pauseForeground": ThemeNames;
     /**
      * Debug toolbar icon for restart.
      */
-    "debugIcon.restartForeground": null | ThemeNames;
+    "debugIcon.restartForeground": ThemeNames;
     /**
      * Debug toolbar icon for start debugging.
      */
-    "debugIcon.startForeground": null | ThemeNames;
+    "debugIcon.startForeground": ThemeNames;
     /**
      * Debug toolbar icon for step back.
      */
-    "debugIcon.stepBackForeground": null | ThemeNames;
+    "debugIcon.stepBackForeground": ThemeNames;
     /**
      * Debug toolbar icon for step into.
      */
-    "debugIcon.stepIntoForeground": null | ThemeNames;
+    "debugIcon.stepIntoForeground": ThemeNames;
     /**
      * Debug toolbar icon for step over.
      */
-    "debugIcon.stepOutForeground": null | ThemeNames;
+    "debugIcon.stepOutForeground": ThemeNames;
     /**
      * Debug toolbar icon for step over.
      */
-    "debugIcon.stepOverForeground": null | ThemeNames;
+    "debugIcon.stepOverForeground": ThemeNames;
     /**
      * Debug toolbar icon for stop.
      */
-    "debugIcon.stopForeground": null | ThemeNames;
+    "debugIcon.stopForeground": ThemeNames;
     /**
      * Foreground color for booleans in the debug views (ie. the Variables or Watch view).
      */
-    "debugTokenExpression.boolean": null | ThemeNames;
+    "debugTokenExpression.boolean": ThemeNames;
     /**
      * Foreground color for expression errors in the debug views (ie. the Variables or Watch
      * view) and for error logs shown in the debug console.
      */
-    "debugTokenExpression.error": null | ThemeNames;
+    "debugTokenExpression.error": ThemeNames;
     /**
      * Foreground color for the token names shown in the debug views (ie. the Variables or Watch
      * view).
      */
-    "debugTokenExpression.name": null | ThemeNames;
+    "debugTokenExpression.name": ThemeNames;
     /**
      * Foreground color for numbers in the debug views (ie. the Variables or Watch view).
      */
-    "debugTokenExpression.number": null | ThemeNames;
+    "debugTokenExpression.number": ThemeNames;
     /**
      * Foreground color for strings in the debug views (ie. the Variables or Watch view).
      */
-    "debugTokenExpression.string": null | ThemeNames;
+    "debugTokenExpression.string": ThemeNames;
     /**
      * Foreground color for the token values shown in the debug views (ie. the Variables or
      * Watch view).
      */
-    "debugTokenExpression.value": null | ThemeNames;
+    "debugTokenExpression.value": ThemeNames;
     /**
      * Debug toolbar background color.
      */
-    "debugToolBar.background": null | ThemeNames;
+    "debugToolBar.background": ThemeNames;
     /**
      * Debug toolbar border color.
      */
-    "debugToolBar.border": null | ThemeNames;
+    "debugToolBar.border": ThemeNames;
     /**
      * Background color for a label shown in the CALL STACK view when the debugger breaks on an
      * exception.
      */
-    "debugView.exceptionLabelBackground": null | ThemeNames;
+    "debugView.exceptionLabelBackground": ThemeNames;
     /**
      * Foreground color for a label shown in the CALL STACK view when the debugger breaks on an
      * exception.
      */
-    "debugView.exceptionLabelForeground": null | ThemeNames;
+    "debugView.exceptionLabelForeground": ThemeNames;
     /**
      * Background color for a label in the CALL STACK view showing the current session's or
      * thread's state.
      */
-    "debugView.stateLabelBackground": null | ThemeNames;
+    "debugView.stateLabelBackground": ThemeNames;
     /**
      * Foreground color for a label in the CALL STACK view showing the current session's or
      * thread's state.
      */
-    "debugView.stateLabelForeground": null | ThemeNames;
+    "debugView.stateLabelForeground": ThemeNames;
     /**
      * Color used to highlight value changes in the debug views (ie. in the Variables view).
      */
-    "debugView.valueChangedHighlight": null | ThemeNames;
+    "debugView.valueChangedHighlight": ThemeNames;
     /**
      * Foreground color for description text providing additional information, for example for a
      * label.
      */
-    descriptionForeground?: null | ThemeNames;
+    descriptionForeground?: ThemeNames;
     /**
      * Border color between the two text editors.
      */
-    "diffEditor.border": null | ThemeNames;
+    "diffEditor.border": ThemeNames;
     /**
      * Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff
      * views.
      */
-    "diffEditor.diagonalFill": null | ThemeNames;
+    "diffEditor.diagonalFill": ThemeNames;
     /**
      * Background color for lines that got inserted. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "diffEditor.insertedLineBackground": null | ThemeNames;
+    "diffEditor.insertedLineBackground": ThemeNames;
     /**
      * Background color for text that got inserted. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "diffEditor.insertedTextBackground": null | ThemeNames;
+    "diffEditor.insertedTextBackground": ThemeNames;
     /**
      * Outline color for the text that got inserted.
      */
-    "diffEditor.insertedTextBorder": null | ThemeNames;
+    "diffEditor.insertedTextBorder": ThemeNames;
     /**
      * The border color for text that got moved in the diff editor.
      */
-    "diffEditor.move.border": null | ThemeNames;
+    "diffEditor.move.border": ThemeNames;
     /**
      * The active border color for text that got moved in the diff editor.
      */
-    "diffEditor.moveActive.border": null | ThemeNames;
+    "diffEditor.moveActive.border": ThemeNames;
     /**
      * Background color for lines that got removed. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "diffEditor.removedLineBackground": null | ThemeNames;
+    "diffEditor.removedLineBackground": ThemeNames;
     /**
      * Background color for text that got removed. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "diffEditor.removedTextBackground": null | ThemeNames;
+    "diffEditor.removedTextBackground": ThemeNames;
     /**
      * Outline color for text that got removed.
      */
-    "diffEditor.removedTextBorder": null | ThemeNames;
+    "diffEditor.removedTextBorder": ThemeNames;
     /**
      * The background color of unchanged code in the diff editor.
      */
-    "diffEditor.unchangedCodeBackground": null | ThemeNames;
+    "diffEditor.unchangedCodeBackground": ThemeNames;
     /**
      * The background color of unchanged blocks in the diff editor.
      */
-    "diffEditor.unchangedRegionBackground": null | ThemeNames;
+    "diffEditor.unchangedRegionBackground": ThemeNames;
     /**
      * The foreground color of unchanged blocks in the diff editor.
      */
-    "diffEditor.unchangedRegionForeground": null | ThemeNames;
+    "diffEditor.unchangedRegionForeground": ThemeNames;
     /**
      * Background color for the margin where lines got inserted.
      */
-    "diffEditorGutter.insertedLineBackground": null | ThemeNames;
+    "diffEditorGutter.insertedLineBackground": ThemeNames;
     /**
      * Background color for the margin where lines got removed.
      */
-    "diffEditorGutter.removedLineBackground": null | ThemeNames;
+    "diffEditorGutter.removedLineBackground": ThemeNames;
     /**
      * Diff overview ruler foreground for inserted content.
      */
-    "diffEditorOverview.insertedForeground": null | ThemeNames;
+    "diffEditorOverview.insertedForeground": ThemeNames;
     /**
      * Diff overview ruler foreground for removed content.
      */
-    "diffEditorOverview.removedForeground": null | ThemeNames;
+    "diffEditorOverview.removedForeground": ThemeNames;
     /**
      * Overall foreground for disabled elements. This color is only used if not overridden by a
      * component.
      */
-    disabledForeground?: null | ThemeNames;
+    disabledForeground?: ThemeNames;
     /**
      * Dropdown background.
      */
-    "dropdown.background": null | ThemeNames;
+    "dropdown.background": ThemeNames;
     /**
      * Dropdown border.
      */
-    "dropdown.border": null | ThemeNames;
+    "dropdown.border": ThemeNames;
     /**
      * Dropdown foreground.
      */
-    "dropdown.foreground": null | ThemeNames;
+    "dropdown.foreground": ThemeNames;
     /**
      * Dropdown list background.
      */
-    "dropdown.listBackground": null | ThemeNames;
+    "dropdown.listBackground": ThemeNames;
     /**
      * Editor background color.
      */
-    "editor.background": null | ThemeNames;
+    "editor.background": ThemeNames;
     /**
      * Color of the current search match.
      */
-    "editor.findMatchBackground": null | ThemeNames;
+    "editor.findMatchBackground": ThemeNames;
     /**
      * Border color of the current search match.
      */
-    "editor.findMatchBorder": null | ThemeNames;
+    "editor.findMatchBorder": ThemeNames;
     /**
      * Color of the other search matches. The color must not be opaque so as not to hide
      * underlying decorations.
      */
-    "editor.findMatchHighlightBackground": null | ThemeNames;
+    "editor.findMatchHighlightBackground": ThemeNames;
     /**
      * Border color of the other search matches.
      */
-    "editor.findMatchHighlightBorder": null | ThemeNames;
+    "editor.findMatchHighlightBorder": ThemeNames;
     /**
      * Color of the range limiting the search. The color must not be opaque so as not to hide
      * underlying decorations.
      */
-    "editor.findRangeHighlightBackground": null | ThemeNames;
+    "editor.findRangeHighlightBackground": ThemeNames;
     /**
      * Border color of the range limiting the search. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editor.findRangeHighlightBorder": null | ThemeNames;
+    "editor.findRangeHighlightBorder": ThemeNames;
     /**
      * Background color for the highlight of line at focused stack frame position.
      */
-    "editor.focusedStackFrameHighlightBackground": null | ThemeNames;
+    "editor.focusedStackFrameHighlightBackground": ThemeNames;
     /**
      * Background color behind folded ranges. The color must not be opaque so as not to hide
      * underlying decorations.
      */
-    "editor.foldBackground": null | ThemeNames;
+    "editor.foldBackground": ThemeNames;
     /**
      * Editor default foreground color.
      */
-    "editor.foreground": null | ThemeNames;
+    "editor.foreground": ThemeNames;
     /**
      * Highlight below the word for which a hover is shown. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "editor.hoverHighlightBackground": null | ThemeNames;
+    "editor.hoverHighlightBackground": ThemeNames;
     /**
      * Color of the selection in an inactive editor. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editor.inactiveSelectionBackground": null | ThemeNames;
+    "editor.inactiveSelectionBackground": ThemeNames;
     /**
      * Color for the debug inline value background.
      */
-    "editor.inlineValuesBackground": null | ThemeNames;
+    "editor.inlineValuesBackground": ThemeNames;
     /**
      * Color for the debug inline value text.
      */
-    "editor.inlineValuesForeground": null | ThemeNames;
+    "editor.inlineValuesForeground": ThemeNames;
     /**
      * Background color for the highlight of line at the cursor position.
      */
-    "editor.lineHighlightBackground": null | ThemeNames;
+    "editor.lineHighlightBackground": ThemeNames;
     /**
      * Background color for the border around the line at the cursor position.
      */
-    "editor.lineHighlightBorder": null | ThemeNames;
+    "editor.lineHighlightBorder": ThemeNames;
     /**
      * Background color when the editor auto renames on type.
      */
-    "editor.linkedEditingBackground": null | ThemeNames;
+    "editor.linkedEditingBackground": ThemeNames;
     /**
      * Background color of highlighted ranges, like by quick open and find features. The color
      * must not be opaque so as not to hide underlying decorations.
      */
-    "editor.rangeHighlightBackground": null | ThemeNames;
+    "editor.rangeHighlightBackground": ThemeNames;
     /**
      * Background color of the border around highlighted ranges.
      */
-    "editor.rangeHighlightBorder": null | ThemeNames;
+    "editor.rangeHighlightBorder": ThemeNames;
     /**
      * Color of the editor selection.
      */
-    "editor.selectionBackground": null | ThemeNames;
+    "editor.selectionBackground": ThemeNames;
     /**
      * Color of the selected text for high contrast.
      */
-    "editor.selectionForeground": null | ThemeNames;
+    "editor.selectionForeground": ThemeNames;
     /**
      * Color for regions with the same content as the selection. The color must not be opaque so
      * as not to hide underlying decorations.
      */
-    "editor.selectionHighlightBackground": null | ThemeNames;
+    "editor.selectionHighlightBackground": ThemeNames;
     /**
      * Border color for regions with the same content as the selection.
      */
-    "editor.selectionHighlightBorder": null | ThemeNames;
+    "editor.selectionHighlightBorder": ThemeNames;
     /**
      * Highlight background color of the final tabstop of a snippet.
      */
-    "editor.snippetFinalTabstopHighlightBackground": null | ThemeNames;
+    "editor.snippetFinalTabstopHighlightBackground": ThemeNames;
     /**
      * Highlight border color of the final tabstop of a snippet.
      */
-    "editor.snippetFinalTabstopHighlightBorder": null | ThemeNames;
+    "editor.snippetFinalTabstopHighlightBorder": ThemeNames;
     /**
      * Highlight background color of a snippet tabstop.
      */
-    "editor.snippetTabstopHighlightBackground": null | ThemeNames;
+    "editor.snippetTabstopHighlightBackground": ThemeNames;
     /**
      * Highlight border color of a snippet tabstop.
      */
-    "editor.snippetTabstopHighlightBorder": null | ThemeNames;
+    "editor.snippetTabstopHighlightBorder": ThemeNames;
     /**
      * Background color for the highlight of line at the top stack frame position.
      */
-    "editor.stackFrameHighlightBackground": null | ThemeNames;
+    "editor.stackFrameHighlightBackground": ThemeNames;
     /**
      * Background color of highlighted symbol, like for go to definition or go next/previous
      * symbol. The color must not be opaque so as not to hide underlying decorations.
      */
-    "editor.symbolHighlightBackground": null | ThemeNames;
+    "editor.symbolHighlightBackground": ThemeNames;
     /**
      * Background color of the border around highlighted symbols.
      */
-    "editor.symbolHighlightBorder": null | ThemeNames;
+    "editor.symbolHighlightBorder": ThemeNames;
     /**
      * Background color of a symbol during read-access, like reading a variable. The color must
      * not be opaque so as not to hide underlying decorations.
      */
-    "editor.wordHighlightBackground": null | ThemeNames;
+    "editor.wordHighlightBackground": ThemeNames;
     /**
      * Border color of a symbol during read-access, like reading a variable.
      */
-    "editor.wordHighlightBorder": null | ThemeNames;
+    "editor.wordHighlightBorder": ThemeNames;
     /**
      * Background color of a symbol during write-access, like writing to a variable. The color
      * must not be opaque so as not to hide underlying decorations.
      */
-    "editor.wordHighlightStrongBackground": null | ThemeNames;
+    "editor.wordHighlightStrongBackground": ThemeNames;
     /**
      * Border color of a symbol during write-access, like writing to a variable.
      */
-    "editor.wordHighlightStrongBorder": null | ThemeNames;
+    "editor.wordHighlightStrongBorder": ThemeNames;
     /**
      * Background color of a textual occurrence for a symbol. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "editor.wordHighlightTextBackground": null | ThemeNames;
+    "editor.wordHighlightTextBackground": ThemeNames;
     /**
      * Border color of a textual occurrence for a symbol.
      */
-    "editor.wordHighlightTextBorder": null | ThemeNames;
+    "editor.wordHighlightTextBorder": ThemeNames;
     /**
      * Foreground color of brackets (1). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground1": null | ThemeNames;
+    "editorBracketHighlight.foreground1": ThemeNames;
     /**
      * Foreground color of brackets (2). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground2": null | ThemeNames;
+    "editorBracketHighlight.foreground2": ThemeNames;
     /**
      * Foreground color of brackets (3). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground3": null | ThemeNames;
+    "editorBracketHighlight.foreground3": ThemeNames;
     /**
      * Foreground color of brackets (4). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground4": null | ThemeNames;
+    "editorBracketHighlight.foreground4": ThemeNames;
     /**
      * Foreground color of brackets (5). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground5": null | ThemeNames;
+    "editorBracketHighlight.foreground5": ThemeNames;
     /**
      * Foreground color of brackets (6). Requires enabling bracket pair colorization.
      */
-    "editorBracketHighlight.foreground6": null | ThemeNames;
+    "editorBracketHighlight.foreground6": ThemeNames;
     /**
      * Foreground color of unexpected brackets.
      */
-    "editorBracketHighlight.unexpectedBracket.foreground": null | ThemeNames;
+    "editorBracketHighlight.unexpectedBracket.foreground": ThemeNames;
     /**
      * Background color behind matching brackets
      */
-    "editorBracketMatch.background": null | ThemeNames;
+    "editorBracketMatch.background": ThemeNames;
     /**
      * Color for matching brackets boxes
      */
-    "editorBracketMatch.border": null | ThemeNames;
+    "editorBracketMatch.border": ThemeNames;
     /**
      * Background color of active bracket pair guides (1). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground1": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground1": ThemeNames;
     /**
      * Background color of active bracket pair guides (2). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground2": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground2": ThemeNames;
     /**
      * Background color of active bracket pair guides (3). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground3": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground3": ThemeNames;
     /**
      * Background color of active bracket pair guides (4). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground4": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground4": ThemeNames;
     /**
      * Background color of active bracket pair guides (5). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground5": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground5": ThemeNames;
     /**
      * Background color of active bracket pair guides (6). Requires enabling bracket pair guides.
      */
-    "editorBracketPairGuide.activeBackground6": null | ThemeNames;
+    "editorBracketPairGuide.activeBackground6": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (1). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background1": null | ThemeNames;
+    "editorBracketPairGuide.background1": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (2). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background2": null | ThemeNames;
+    "editorBracketPairGuide.background2": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (3). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background3": null | ThemeNames;
+    "editorBracketPairGuide.background3": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (4). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background4": null | ThemeNames;
+    "editorBracketPairGuide.background4": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (5). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background5": null | ThemeNames;
+    "editorBracketPairGuide.background5": ThemeNames;
     /**
      * Background color of inactive bracket pair guides (6). Requires enabling bracket pair
      * guides.
      */
-    "editorBracketPairGuide.background6": null | ThemeNames;
+    "editorBracketPairGuide.background6": ThemeNames;
     /**
      * Foreground color of editor CodeLens
      */
-    "editorCodeLens.foreground": null | ThemeNames;
+    "editorCodeLens.foreground": ThemeNames;
     /**
      * Color of background for currently selected or hovered comment range.
      */
-    "editorCommentsWidget.rangeActiveBackground": null | ThemeNames;
+    "editorCommentsWidget.rangeActiveBackground": ThemeNames;
     /**
      * Color of background for comment ranges.
      */
-    "editorCommentsWidget.rangeBackground": null | ThemeNames;
+    "editorCommentsWidget.rangeBackground": ThemeNames;
     /**
      * Color of borders and arrow for resolved comments.
      */
-    "editorCommentsWidget.resolvedBorder": null | ThemeNames;
+    "editorCommentsWidget.resolvedBorder": ThemeNames;
     /**
      * Color of borders and arrow for unresolved comments.
      */
-    "editorCommentsWidget.unresolvedBorder": null | ThemeNames;
+    "editorCommentsWidget.unresolvedBorder": ThemeNames;
     /**
      * The background color of the editor cursor. Allows customizing the color of a character
      * overlapped by a block cursor.
      */
-    "editorCursor.background": null | ThemeNames;
+    "editorCursor.background": ThemeNames;
     /**
      * Color of the editor cursor.
      */
-    "editorCursor.foreground": null | ThemeNames;
+    "editorCursor.foreground": ThemeNames;
     /**
      * Background color of error text in the editor. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editorError.background": null | ThemeNames;
+    "editorError.background": ThemeNames;
     /**
      * If set, color of double underlines for errors in the editor.
      */
-    "editorError.border": null | ThemeNames;
+    "editorError.border": ThemeNames;
     /**
      * Foreground color of error squigglies in the editor.
      */
-    "editorError.foreground": null | ThemeNames;
+    "editorError.foreground": ThemeNames;
     /**
      * Background color of the ghost text in the editor.
      */
-    "editorGhostText.background": null | ThemeNames;
+    "editorGhostText.background": ThemeNames;
     /**
      * Border color of ghost text in the editor.
      */
-    "editorGhostText.border": null | ThemeNames;
+    "editorGhostText.border": ThemeNames;
     /**
      * Foreground color of the ghost text in the editor.
      */
-    "editorGhostText.foreground": null | ThemeNames;
+    "editorGhostText.foreground": ThemeNames;
     /**
      * Color to separate multiple editor groups from each other. Editor groups are the
      * containers of editors.
      */
-    "editorGroup.border": null | ThemeNames;
+    "editorGroup.border": ThemeNames;
     /**
      * Background color when dragging editors around. The color should have transparency so that
      * the editor contents can still shine through.
      */
-    "editorGroup.dropBackground": null | ThemeNames;
+    "editorGroup.dropBackground": ThemeNames;
     /**
      * Background color of text shown over editors when dragging files. This text informs the
      * user that they can hold shift to drop into the editor.
      */
-    "editorGroup.dropIntoPromptBackground": null | ThemeNames;
+    "editorGroup.dropIntoPromptBackground": ThemeNames;
     /**
      * Border color of text shown over editors when dragging files. This text informs the user
      * that they can hold shift to drop into the editor.
      */
-    "editorGroup.dropIntoPromptBorder": null | ThemeNames;
+    "editorGroup.dropIntoPromptBorder": ThemeNames;
     /**
      * Foreground color of text shown over editors when dragging files. This text informs the
      * user that they can hold shift to drop into the editor.
      */
-    "editorGroup.dropIntoPromptForeground": null | ThemeNames;
+    "editorGroup.dropIntoPromptForeground": ThemeNames;
     /**
      * Background color of an empty editor group. Editor groups are the containers of editors.
      */
-    "editorGroup.emptyBackground": null | ThemeNames;
+    "editorGroup.emptyBackground": ThemeNames;
     /**
      * Border color of an empty editor group that is focused. Editor groups are the containers
      * of editors.
      */
-    "editorGroup.focusedEmptyBorder": null | ThemeNames;
+    "editorGroup.focusedEmptyBorder": ThemeNames;
     /**
      * Border color of the editor group title header. Editor groups are the containers of
      * editors.
      */
-    "editorGroupHeader.border": null | ThemeNames;
+    "editorGroupHeader.border": ThemeNames;
     /**
      * Background color of the editor group title header when tabs are disabled
      * (`"workbench.editor.showTabs": false`). Editor groups are the containers of editors.
      */
-    "editorGroupHeader.noTabsBackground": null | ThemeNames;
+    "editorGroupHeader.noTabsBackground": ThemeNames;
     /**
      * Background color of the editor group title header when tabs are enabled. Editor groups
      * are the containers of editors.
      */
-    "editorGroupHeader.tabsBackground": null | ThemeNames;
+    "editorGroupHeader.tabsBackground": ThemeNames;
     /**
      * Border color of the editor group title header when tabs are enabled. Editor groups are
      * the containers of editors.
      */
-    "editorGroupHeader.tabsBorder": null | ThemeNames;
+    "editorGroupHeader.tabsBorder": ThemeNames;
     /**
      * Editor gutter background color for lines that are added.
      */
-    "editorGutter.addedBackground": null | ThemeNames;
+    "editorGutter.addedBackground": ThemeNames;
     /**
      * Background color of the editor gutter. The gutter contains the glyph margins and the line
      * numbers.
      */
-    "editorGutter.background": null | ThemeNames;
+    "editorGutter.background": ThemeNames;
     /**
      * Editor gutter decoration color for commenting glyphs.
      */
-    "editorGutter.commentGlyphForeground": null | ThemeNames;
+    "editorGutter.commentGlyphForeground": ThemeNames;
     /**
      * Editor gutter decoration color for commenting ranges. This color should be opaque.
      */
-    "editorGutter.commentRangeForeground": null | ThemeNames;
+    "editorGutter.commentRangeForeground": ThemeNames;
     /**
      * Editor gutter decoration color for commenting glyphs for unresolved comment threads.
      */
-    "editorGutter.commentUnresolvedGlyphForeground": null | ThemeNames;
+    "editorGutter.commentUnresolvedGlyphForeground": ThemeNames;
     /**
      * Editor gutter background color for lines that are deleted.
      */
-    "editorGutter.deletedBackground": null | ThemeNames;
+    "editorGutter.deletedBackground": ThemeNames;
     /**
      * Color of the folding control in the editor gutter.
      */
-    "editorGutter.foldingControlForeground": null | ThemeNames;
+    "editorGutter.foldingControlForeground": ThemeNames;
     /**
      * Editor gutter background color for lines that are modified.
      */
-    "editorGutter.modifiedBackground": null | ThemeNames;
+    "editorGutter.modifiedBackground": ThemeNames;
     /**
      * If set, color of double underlines for hints in the editor.
      */
-    "editorHint.border": null | ThemeNames;
+    "editorHint.border": ThemeNames;
     /**
      * Foreground color of hint squigglies in the editor.
      */
-    "editorHint.foreground": null | ThemeNames;
+    "editorHint.foreground": ThemeNames;
     /**
      * Background color of the editor hover.
      */
-    "editorHoverWidget.background": null | ThemeNames;
+    "editorHoverWidget.background": ThemeNames;
     /**
      * Border color of the editor hover.
      */
-    "editorHoverWidget.border": null | ThemeNames;
+    "editorHoverWidget.border": ThemeNames;
     /**
      * Foreground color of the editor hover.
      */
-    "editorHoverWidget.foreground": null | ThemeNames;
+    "editorHoverWidget.foreground": ThemeNames;
     /**
      * Foreground color of the active item in the parameter hint.
      */
-    "editorHoverWidget.highlightForeground": null | ThemeNames;
+    "editorHoverWidget.highlightForeground": ThemeNames;
     /**
      * Background color of the editor hover status bar.
      */
-    "editorHoverWidget.statusBarBackground": null | ThemeNames;
+    "editorHoverWidget.statusBarBackground": ThemeNames;
     /**
      * Color of the active editor indentation guides (1).
      */
-    "editorIndentGuide.activeBackground1": null | ThemeNames;
+    "editorIndentGuide.activeBackground1": ThemeNames;
     /**
      * Color of the active editor indentation guides (2).
      */
-    "editorIndentGuide.activeBackground2": null | ThemeNames;
+    "editorIndentGuide.activeBackground2": ThemeNames;
     /**
      * Color of the active editor indentation guides (3).
      */
-    "editorIndentGuide.activeBackground3": null | ThemeNames;
+    "editorIndentGuide.activeBackground3": ThemeNames;
     /**
      * Color of the active editor indentation guides (4).
      */
-    "editorIndentGuide.activeBackground4": null | ThemeNames;
+    "editorIndentGuide.activeBackground4": ThemeNames;
     /**
      * Color of the active editor indentation guides (5).
      */
-    "editorIndentGuide.activeBackground5": null | ThemeNames;
+    "editorIndentGuide.activeBackground5": ThemeNames;
     /**
      * Color of the active editor indentation guides (6).
      */
-    "editorIndentGuide.activeBackground6": null | ThemeNames;
+    "editorIndentGuide.activeBackground6": ThemeNames;
     /**
      * Color of the editor indentation guides (1).
      */
-    "editorIndentGuide.background1": null | ThemeNames;
+    "editorIndentGuide.background1": ThemeNames;
     /**
      * Color of the editor indentation guides (2).
      */
-    "editorIndentGuide.background2": null | ThemeNames;
+    "editorIndentGuide.background2": ThemeNames;
     /**
      * Color of the editor indentation guides (3).
      */
-    "editorIndentGuide.background3": null | ThemeNames;
+    "editorIndentGuide.background3": ThemeNames;
     /**
      * Color of the editor indentation guides (4).
      */
-    "editorIndentGuide.background4": null | ThemeNames;
+    "editorIndentGuide.background4": ThemeNames;
     /**
      * Color of the editor indentation guides (5).
      */
-    "editorIndentGuide.background5": null | ThemeNames;
+    "editorIndentGuide.background5": ThemeNames;
     /**
      * Color of the editor indentation guides (6).
      */
-    "editorIndentGuide.background6": null | ThemeNames;
+    "editorIndentGuide.background6": ThemeNames;
     /**
      * Background color of info text in the editor. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editorInfo.background": null | ThemeNames;
+    "editorInfo.background": ThemeNames;
     /**
      * If set, color of double underlines for infos in the editor.
      */
-    "editorInfo.border": null | ThemeNames;
+    "editorInfo.border": ThemeNames;
     /**
      * Foreground color of info squigglies in the editor.
      */
-    "editorInfo.foreground": null | ThemeNames;
+    "editorInfo.foreground": ThemeNames;
     /**
      * Background color of inline hints
      */
-    "editorInlayHint.background": null | ThemeNames;
+    "editorInlayHint.background": ThemeNames;
     /**
      * Foreground color of inline hints
      */
-    "editorInlayHint.foreground": null | ThemeNames;
+    "editorInlayHint.foreground": ThemeNames;
     /**
      * Background color of inline hints for parameters
      */
-    "editorInlayHint.parameterBackground": null | ThemeNames;
+    "editorInlayHint.parameterBackground": ThemeNames;
     /**
      * Foreground color of inline hints for parameters
      */
-    "editorInlayHint.parameterForeground": null | ThemeNames;
+    "editorInlayHint.parameterForeground": ThemeNames;
     /**
      * Background color of inline hints for types
      */
-    "editorInlayHint.typeBackground": null | ThemeNames;
+    "editorInlayHint.typeBackground": ThemeNames;
     /**
      * Foreground color of inline hints for types
      */
-    "editorInlayHint.typeForeground": null | ThemeNames;
+    "editorInlayHint.typeForeground": ThemeNames;
     /**
      * The color used for the lightbulb actions icon.
      */
-    "editorLightBulb.foreground": null | ThemeNames;
+    "editorLightBulb.foreground": ThemeNames;
     /**
      * The color used for the lightbulb auto fix actions icon.
      */
-    "editorLightBulbAutoFix.foreground": null | ThemeNames;
+    "editorLightBulbAutoFix.foreground": ThemeNames;
     /**
      * Color of editor active line number
      */
-    "editorLineNumber.activeForeground": null | ThemeNames;
+    "editorLineNumber.activeForeground": ThemeNames;
     /**
      * Color of the final editor line when editor.renderFinalNewline is set to dimmed.
      */
-    "editorLineNumber.dimmedForeground": null | ThemeNames;
+    "editorLineNumber.dimmedForeground": ThemeNames;
     /**
      * Color of editor line numbers.
      */
-    "editorLineNumber.foreground": null | ThemeNames;
+    "editorLineNumber.foreground": ThemeNames;
     /**
      * Color of active links.
      */
-    "editorLink.activeForeground": null | ThemeNames;
+    "editorLink.activeForeground": ThemeNames;
     /**
      * Editor marker navigation widget background.
      */
-    "editorMarkerNavigation.background": null | ThemeNames;
+    "editorMarkerNavigation.background": ThemeNames;
     /**
      * Editor marker navigation widget error color.
      */
-    "editorMarkerNavigationError.background": null | ThemeNames;
+    "editorMarkerNavigationError.background": ThemeNames;
     /**
      * Editor marker navigation widget error heading background.
      */
-    "editorMarkerNavigationError.headerBackground": null | ThemeNames;
+    "editorMarkerNavigationError.headerBackground": ThemeNames;
     /**
      * Editor marker navigation widget info color.
      */
-    "editorMarkerNavigationInfo.background": null | ThemeNames;
+    "editorMarkerNavigationInfo.background": ThemeNames;
     /**
      * Editor marker navigation widget info heading background.
      */
-    "editorMarkerNavigationInfo.headerBackground": null | ThemeNames;
+    "editorMarkerNavigationInfo.headerBackground": ThemeNames;
     /**
      * Editor marker navigation widget warning color.
      */
-    "editorMarkerNavigationWarning.background": null | ThemeNames;
+    "editorMarkerNavigationWarning.background": ThemeNames;
     /**
      * Editor marker navigation widget warning heading background.
      */
-    "editorMarkerNavigationWarning.headerBackground": null | ThemeNames;
+    "editorMarkerNavigationWarning.headerBackground": ThemeNames;
     /**
      * Overview ruler marker color for added content.
      */
-    "editorOverviewRuler.addedForeground": null | ThemeNames;
+    "editorOverviewRuler.addedForeground": ThemeNames;
     /**
      * Background color of the editor overview ruler.
      */
-    "editorOverviewRuler.background": null | ThemeNames;
+    "editorOverviewRuler.background": ThemeNames;
     /**
      * Color of the overview ruler border.
      */
-    "editorOverviewRuler.border": null | ThemeNames;
+    "editorOverviewRuler.border": ThemeNames;
     /**
      * Overview ruler marker color for matching brackets.
      */
-    "editorOverviewRuler.bracketMatchForeground": null | ThemeNames;
+    "editorOverviewRuler.bracketMatchForeground": ThemeNames;
     /**
      * Editor overview ruler decoration color for resolved comments. This color should be opaque.
      */
-    "editorOverviewRuler.commentForeground": null | ThemeNames;
+    "editorOverviewRuler.commentForeground": ThemeNames;
     /**
      * Editor overview ruler decoration color for unresolved comments. This color should be
      * opaque.
      */
-    "editorOverviewRuler.commentUnresolvedForeground": null | ThemeNames;
+    "editorOverviewRuler.commentUnresolvedForeground": ThemeNames;
     /**
      * Common ancestor overview ruler foreground for inline merge-conflicts.
      */
-    "editorOverviewRuler.commonContentForeground": null | ThemeNames;
+    "editorOverviewRuler.commonContentForeground": ThemeNames;
     /**
      * Current overview ruler foreground for inline merge-conflicts.
      */
-    "editorOverviewRuler.currentContentForeground": null | ThemeNames;
+    "editorOverviewRuler.currentContentForeground": ThemeNames;
     /**
      * Overview ruler marker color for deleted content.
      */
-    "editorOverviewRuler.deletedForeground": null | ThemeNames;
+    "editorOverviewRuler.deletedForeground": ThemeNames;
     /**
      * Overview ruler marker color for errors.
      */
-    "editorOverviewRuler.errorForeground": null | ThemeNames;
+    "editorOverviewRuler.errorForeground": ThemeNames;
     /**
      * Overview ruler marker color for find matches. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editorOverviewRuler.findMatchForeground": null | ThemeNames;
+    "editorOverviewRuler.findMatchForeground": ThemeNames;
     /**
      * Incoming overview ruler foreground for inline merge-conflicts.
      */
-    "editorOverviewRuler.incomingContentForeground": null | ThemeNames;
+    "editorOverviewRuler.incomingContentForeground": ThemeNames;
     /**
      * Overview ruler marker color for infos.
      */
-    "editorOverviewRuler.infoForeground": null | ThemeNames;
+    "editorOverviewRuler.infoForeground": ThemeNames;
     /**
      * Overview ruler marker color for modified content.
      */
-    "editorOverviewRuler.modifiedForeground": null | ThemeNames;
+    "editorOverviewRuler.modifiedForeground": ThemeNames;
     /**
      * Overview ruler marker color for range highlights. The color must not be opaque so as not
      * to hide underlying decorations.
      */
-    "editorOverviewRuler.rangeHighlightForeground": null | ThemeNames;
+    "editorOverviewRuler.rangeHighlightForeground": ThemeNames;
     /**
      * Overview ruler marker color for selection highlights. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "editorOverviewRuler.selectionHighlightForeground": null | ThemeNames;
+    "editorOverviewRuler.selectionHighlightForeground": ThemeNames;
     /**
      * Overview ruler marker color for warnings.
      */
-    "editorOverviewRuler.warningForeground": null | ThemeNames;
+    "editorOverviewRuler.warningForeground": ThemeNames;
     /**
      * Overview ruler marker color for symbol highlights. The color must not be opaque so as not
      * to hide underlying decorations.
      */
-    "editorOverviewRuler.wordHighlightForeground": null | ThemeNames;
+    "editorOverviewRuler.wordHighlightForeground": ThemeNames;
     /**
      * Overview ruler marker color for write-access symbol highlights. The color must not be
      * opaque so as not to hide underlying decorations.
      */
-    "editorOverviewRuler.wordHighlightStrongForeground": null | ThemeNames;
+    "editorOverviewRuler.wordHighlightStrongForeground": ThemeNames;
     /**
      * Overview ruler marker color of a textual occurrence for a symbol. The color must not be
      * opaque so as not to hide underlying decorations.
      */
-    "editorOverviewRuler.wordHighlightTextForeground": null | ThemeNames;
+    "editorOverviewRuler.wordHighlightTextForeground": ThemeNames;
     /**
      * Background color of the editor pane visible on the left and right side of the centered
      * editor layout.
      */
-    "editorPane.background": null | ThemeNames;
+    "editorPane.background": ThemeNames;
     /**
      * Color of the editor rulers.
      */
-    "editorRuler.foreground": null | ThemeNames;
+    "editorRuler.foreground": ThemeNames;
     /**
      * Sticky scroll background color for the editor
      */
-    "editorStickyScroll.background": null | ThemeNames;
+    "editorStickyScroll.background": ThemeNames;
     /**
      * Sticky scroll on hover background color for the editor
      */
-    "editorStickyScrollHover.background": null | ThemeNames;
+    "editorStickyScrollHover.background": ThemeNames;
     /**
      * Background color of the suggest widget.
      */
-    "editorSuggestWidget.background": null | ThemeNames;
+    "editorSuggestWidget.background": ThemeNames;
     /**
      * Border color of the suggest widget.
      */
-    "editorSuggestWidget.border": null | ThemeNames;
+    "editorSuggestWidget.border": ThemeNames;
     /**
      * Color of the match highlights in the suggest widget when an item is focused.
      */
-    "editorSuggestWidget.focusHighlightForeground": null | ThemeNames;
+    "editorSuggestWidget.focusHighlightForeground": ThemeNames;
     /**
      * Foreground color of the suggest widget.
      */
-    "editorSuggestWidget.foreground": null | ThemeNames;
+    "editorSuggestWidget.foreground": ThemeNames;
     /**
      * Color of the match highlights in the suggest widget.
      */
-    "editorSuggestWidget.highlightForeground": null | ThemeNames;
+    "editorSuggestWidget.highlightForeground": ThemeNames;
     /**
      * Background color of the selected entry in the suggest widget.
      */
-    "editorSuggestWidget.selectedBackground": null | ThemeNames;
+    "editorSuggestWidget.selectedBackground": ThemeNames;
     /**
      * Foreground color of the selected entry in the suggest widget.
      */
-    "editorSuggestWidget.selectedForeground": null | ThemeNames;
+    "editorSuggestWidget.selectedForeground": ThemeNames;
     /**
      * Icon foreground color of the selected entry in the suggest widget.
      */
-    "editorSuggestWidget.selectedIconForeground": null | ThemeNames;
+    "editorSuggestWidget.selectedIconForeground": ThemeNames;
     /**
      * Foreground color of the suggest widget status.
      */
-    "editorSuggestWidgetStatus.foreground": null | ThemeNames;
+    "editorSuggestWidgetStatus.foreground": ThemeNames;
     /**
      * Background color used to highlight unicode characters.
      */
-    "editorUnicodeHighlight.background": null | ThemeNames;
+    "editorUnicodeHighlight.background": ThemeNames;
     /**
      * Border color used to highlight unicode characters.
      */
-    "editorUnicodeHighlight.border": null | ThemeNames;
+    "editorUnicodeHighlight.border": ThemeNames;
     /**
      * Border color of unnecessary (unused) source code in the editor.
      */
-    "editorUnnecessaryCode.border": null | ThemeNames;
+    "editorUnnecessaryCode.border": ThemeNames;
     /**
      * Opacity of unnecessary (unused) source code in the editor. For example,null|string;
      * render the code with 75% opacity. For high contrast themes, use the
      * 'editorUnnecessaryCode.border' theme color to underline unnecessary code instead of
      * fading it out.
      */
-    "editorUnnecessaryCode.opacity": null | ThemeNames;
+    "editorUnnecessaryCode.opacity": ThemeNames;
     /**
      * Background color of warning text in the editor. The color must not be opaque so as not to
      * hide underlying decorations.
      */
-    "editorWarning.background": null | ThemeNames;
+    "editorWarning.background": ThemeNames;
     /**
      * If set, color of double underlines for warnings in the editor.
      */
-    "editorWarning.border": null | ThemeNames;
+    "editorWarning.border": ThemeNames;
     /**
      * Foreground color of warning squigglies in the editor.
      */
-    "editorWarning.foreground": null | ThemeNames;
+    "editorWarning.foreground": ThemeNames;
     /**
      * Color of whitespace characters in the editor.
      */
-    "editorWhitespace.foreground": null | ThemeNames;
+    "editorWhitespace.foreground": ThemeNames;
     /**
      * Background color of editor widgets, such as find/replace.
      */
-    "editorWidget.background": null | ThemeNames;
+    "editorWidget.background": ThemeNames;
     /**
      * Border color of editor widgets. The color is only used if the widget chooses to have a
      * border and if the color is not overridden by a widget.
      */
-    "editorWidget.border": null | ThemeNames;
+    "editorWidget.border": ThemeNames;
     /**
      * Foreground color of editor widgets, such as find/replace.
      */
-    "editorWidget.foreground": null | ThemeNames;
+    "editorWidget.foreground": ThemeNames;
     /**
      * Border color of the resize bar of editor widgets. The color is only used if the widget
      * chooses to have a resize border and if the color is not overridden by a widget.
      */
-    "editorWidget.resizeBorder": null | ThemeNames;
+    "editorWidget.resizeBorder": ThemeNames;
     /**
      * Overall foreground color for error messages. This color is only used if not overridden by
      * a component.
      */
-    errorForeground?: null | ThemeNames;
+    errorForeground?: ThemeNames;
     /**
      * Background color for the remote badge in the extensions view.
      */
-    "extensionBadge.remoteBackground": null | ThemeNames;
+    "extensionBadge.remoteBackground": ThemeNames;
     /**
      * Foreground color for the remote badge in the extensions view.
      */
-    "extensionBadge.remoteForeground": null | ThemeNames;
+    "extensionBadge.remoteForeground": ThemeNames;
     /**
      * Button background color for extension actions.
      */
-    "extensionButton.background": null | ThemeNames;
+    "extensionButton.background": ThemeNames;
     /**
      * Button foreground color for extension actions.
      */
-    "extensionButton.foreground": null | ThemeNames;
+    "extensionButton.foreground": ThemeNames;
     /**
      * Button background hover color for extension actions.
      */
-    "extensionButton.hoverBackground": null | ThemeNames;
+    "extensionButton.hoverBackground": ThemeNames;
     /**
      * Button background color for extension actions that stand out (e.g. install button).
      */
-    "extensionButton.prominentBackground": null | ThemeNames;
+    "extensionButton.prominentBackground": ThemeNames;
     /**
      * Button foreground color for extension actions that stand out (e.g. install button).
      */
-    "extensionButton.prominentForeground": null | ThemeNames;
+    "extensionButton.prominentForeground": ThemeNames;
     /**
      * Button background hover color for extension actions that stand out (e.g. install button).
      */
-    "extensionButton.prominentHoverBackground": null | ThemeNames;
+    "extensionButton.prominentHoverBackground": ThemeNames;
     /**
      * Button separator color for extension actions
      */
-    "extensionButton.separator": null | ThemeNames;
+    "extensionButton.separator": ThemeNames;
     /**
      * The icon color for pre-release extension.
      */
-    "extensionIcon.preReleaseForeground": null | ThemeNames;
+    "extensionIcon.preReleaseForeground": ThemeNames;
     /**
      * The icon color for extension sponsor.
      */
-    "extensionIcon.sponsorForeground": null | ThemeNames;
+    "extensionIcon.sponsorForeground": ThemeNames;
     /**
      * The icon color for extension ratings.
      */
-    "extensionIcon.starForeground": null | ThemeNames;
+    "extensionIcon.starForeground": ThemeNames;
     /**
      * The icon color for extension verified publisher.
      */
-    "extensionIcon.verifiedForeground": null | ThemeNames;
+    "extensionIcon.verifiedForeground": ThemeNames;
     /**
      * Overall border color for focused elements. This color is only used if not overridden by a
      * component.
      */
-    focusBorder?: null | ThemeNames;
+    focusBorder?: ThemeNames;
     /**
      * Overall foreground color. This color is only used if not overridden by a component.
      */
-    foreground?: null | ThemeNames;
+    foreground?: ThemeNames;
     /**
      * Color for added resources.
      */
-    "gitDecoration.addedResourceForeground": null | ThemeNames;
+    "gitDecoration.addedResourceForeground": ThemeNames;
     /**
      * Color for resources with conflicts.
      */
-    "gitDecoration.conflictingResourceForeground": null | ThemeNames;
+    "gitDecoration.conflictingResourceForeground": ThemeNames;
     /**
      * Color for deleted resources.
      */
-    "gitDecoration.deletedResourceForeground": null | ThemeNames;
+    "gitDecoration.deletedResourceForeground": ThemeNames;
     /**
      * Color for ignored resources.
      */
-    "gitDecoration.ignoredResourceForeground": null | ThemeNames;
+    "gitDecoration.ignoredResourceForeground": ThemeNames;
     /**
      * Color for modified resources.
      */
-    "gitDecoration.modifiedResourceForeground": null | ThemeNames;
+    "gitDecoration.modifiedResourceForeground": ThemeNames;
     /**
      * Color for renamed or copied resources.
      */
-    "gitDecoration.renamedResourceForeground": null | ThemeNames;
+    "gitDecoration.renamedResourceForeground": ThemeNames;
     /**
      * Color for deleted resources which have been staged.
      */
-    "gitDecoration.stageDeletedResourceForeground": null | ThemeNames;
+    "gitDecoration.stageDeletedResourceForeground": ThemeNames;
     /**
      * Color for modified resources which have been staged.
      */
-    "gitDecoration.stageModifiedResourceForeground": null | ThemeNames;
+    "gitDecoration.stageModifiedResourceForeground": ThemeNames;
     /**
      * Color for submodule resources.
      */
-    "gitDecoration.submoduleResourceForeground": null | ThemeNames;
+    "gitDecoration.submoduleResourceForeground": ThemeNames;
     /**
      * Color for untracked resources.
      */
-    "gitDecoration.untrackedResourceForeground": null | ThemeNames;
+    "gitDecoration.untrackedResourceForeground": ThemeNames;
     /**
      * The default color for icons in the workbench.
      */
-    "icon.foreground": null | ThemeNames;
+    "icon.foreground": ThemeNames;
     /**
      * Background color of the interactive editor widget
      */
-    "inlineChat.background": null | ThemeNames;
+    "inlineChat.background": ThemeNames;
     /**
      * Border color of the interactive editor widget
      */
-    "inlineChat.border": null | ThemeNames;
+    "inlineChat.border": ThemeNames;
     /**
      * Background highlighting of the current interactive region. Must be transparent.
      */
-    "inlineChat.regionHighlight": null | ThemeNames;
+    "inlineChat.regionHighlight": ThemeNames;
     /**
      * Shadow color of the interactive editor widget
      */
-    "inlineChat.shadow": null | ThemeNames;
+    "inlineChat.shadow": ThemeNames;
     /**
      * Background color of inserted text in the interactive editor input
      */
-    "inlineChatDiff.inserted": null | ThemeNames;
+    "inlineChatDiff.inserted": ThemeNames;
     /**
      * Background color of removed text in the interactive editor input
      */
-    "inlineChatDiff.removed": null | ThemeNames;
+    "inlineChatDiff.removed": ThemeNames;
     /**
      * Background color of the interactive editor input
      */
-    "inlineChatInput.background": null | ThemeNames;
+    "inlineChatInput.background": ThemeNames;
     /**
      * Border color of the interactive editor input
      */
-    "inlineChatInput.border": null | ThemeNames;
+    "inlineChatInput.border": ThemeNames;
     /**
      * Border color of the interactive editor input when focused
      */
-    "inlineChatInput.focusBorder": null | ThemeNames;
+    "inlineChatInput.focusBorder": ThemeNames;
     /**
      * Foreground color of the interactive editor input placeholder
      */
-    "inlineChatInput.placeholderForeground": null | ThemeNames;
+    "inlineChatInput.placeholderForeground": ThemeNames;
     /**
      * Input box background.
      */
-    "input.background": null | ThemeNames;
+    "input.background": ThemeNames;
     /**
      * Input box border.
      */
-    "input.border": null | ThemeNames;
+    "input.border": ThemeNames;
     /**
      * Input box foreground.
      */
-    "input.foreground": null | ThemeNames;
+    "input.foreground": ThemeNames;
     /**
      * Input box foreground color for placeholder text.
      */
-    "input.placeholderForeground": null | ThemeNames;
+    "input.placeholderForeground": ThemeNames;
     /**
      * Background hover color of options in input fields.
      */
-    "inputOption.activeBackground": null | ThemeNames;
+    "inputOption.activeBackground": ThemeNames;
     /**
      * Border color of activated options in input fields.
      */
-    "inputOption.activeBorder": null | ThemeNames;
+    "inputOption.activeBorder": ThemeNames;
     /**
      * Foreground color of activated options in input fields.
      */
-    "inputOption.activeForeground": null | ThemeNames;
+    "inputOption.activeForeground": ThemeNames;
     /**
      * Background color of activated options in input fields.
      */
-    "inputOption.hoverBackground": null | ThemeNames;
+    "inputOption.hoverBackground": ThemeNames;
     /**
      * Input validation background color for error severity.
      */
-    "inputValidation.errorBackground": null | ThemeNames;
+    "inputValidation.errorBackground": ThemeNames;
     /**
      * Input validation border color for error severity.
      */
-    "inputValidation.errorBorder": null | ThemeNames;
+    "inputValidation.errorBorder": ThemeNames;
     /**
      * Input validation foreground color for error severity.
      */
-    "inputValidation.errorForeground": null | ThemeNames;
+    "inputValidation.errorForeground": ThemeNames;
     /**
      * Input validation background color for information severity.
      */
-    "inputValidation.infoBackground": null | ThemeNames;
+    "inputValidation.infoBackground": ThemeNames;
     /**
      * Input validation border color for information severity.
      */
-    "inputValidation.infoBorder": null | ThemeNames;
+    "inputValidation.infoBorder": ThemeNames;
     /**
      * Input validation foreground color for information severity.
      */
-    "inputValidation.infoForeground": null | ThemeNames;
+    "inputValidation.infoForeground": ThemeNames;
     /**
      * Input validation background color for warning severity.
      */
-    "inputValidation.warningBackground": null | ThemeNames;
+    "inputValidation.warningBackground": ThemeNames;
     /**
      * Input validation border color for warning severity.
      */
-    "inputValidation.warningBorder": null | ThemeNames;
+    "inputValidation.warningBorder": ThemeNames;
     /**
      * Input validation foreground color for warning severity.
      */
-    "inputValidation.warningForeground": null | ThemeNames;
+    "inputValidation.warningForeground": ThemeNames;
     /**
      * The border color for the current interactive code cell when the editor has focus.
      */
-    "interactive.activeCodeBorder": null | ThemeNames;
+    "interactive.activeCodeBorder": ThemeNames;
     /**
      * The border color for the current interactive code cell when the editor does not have
      * focus.
      */
-    "interactive.inactiveCodeBorder": null | ThemeNames;
+    "interactive.inactiveCodeBorder": ThemeNames;
     /**
      * Keybinding label background color. The keybinding label is used to represent a keyboard
      * shortcut.
      */
-    "keybindingLabel.background": null | ThemeNames;
+    "keybindingLabel.background": ThemeNames;
     /**
      * Keybinding label border color. The keybinding label is used to represent a keyboard
      * shortcut.
      */
-    "keybindingLabel.border": null | ThemeNames;
+    "keybindingLabel.border": ThemeNames;
     /**
      * Keybinding label border bottom color. The keybinding label is used to represent a
      * keyboard shortcut.
      */
-    "keybindingLabel.bottomBorder": null | ThemeNames;
+    "keybindingLabel.bottomBorder": ThemeNames;
     /**
      * Keybinding label foreground color. The keybinding label is used to represent a keyboard
      * shortcut.
      */
-    "keybindingLabel.foreground": null | ThemeNames;
+    "keybindingLabel.foreground": ThemeNames;
     /**
      * Background color for the keyboard shortcuts table header.
      */
-    "keybindingTable.headerBackground": null | ThemeNames;
+    "keybindingTable.headerBackground": ThemeNames;
     /**
      * Background color for the keyboard shortcuts table alternating rows.
      */
-    "keybindingTable.rowsBackground": null | ThemeNames;
+    "keybindingTable.rowsBackground": ThemeNames;
     /**
      * List/Tree background color for the selected item when the list/tree is active. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.activeSelectionBackground": null | ThemeNames;
+    "list.activeSelectionBackground": ThemeNames;
     /**
      * List/Tree foreground color for the selected item when the list/tree is active. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.activeSelectionForeground": null | ThemeNames;
+    "list.activeSelectionForeground": ThemeNames;
     /**
      * List/Tree icon foreground color for the selected item when the list/tree is active. An
      * active list/tree has keyboard focus, an inactive does not.
      */
-    "list.activeSelectionIconForeground": null | ThemeNames;
+    "list.activeSelectionIconForeground": ThemeNames;
     /**
      * List/Tree foreground color for items that are deemphasized.
      */
-    "list.deemphasizedForeground": null | ThemeNames;
+    "list.deemphasizedForeground": ThemeNames;
     /**
      * List/Tree drag and drop background when moving items around using the mouse.
      */
-    "list.dropBackground": null | ThemeNames;
+    "list.dropBackground": ThemeNames;
     /**
      * Foreground color of list items containing errors.
      */
-    "list.errorForeground": null | ThemeNames;
+    "list.errorForeground": ThemeNames;
     /**
      * Background color of the filtered match.
      */
-    "list.filterMatchBackground": null | ThemeNames;
+    "list.filterMatchBackground": ThemeNames;
     /**
      * Border color of the filtered match.
      */
-    "list.filterMatchBorder": null | ThemeNames;
+    "list.filterMatchBorder": ThemeNames;
     /**
      * List/Tree outline color for the focused item when the list/tree is active and selected.
      * An active list/tree has keyboard focus, an inactive does not.
      */
-    "list.focusAndSelectionOutline": null | ThemeNames;
+    "list.focusAndSelectionOutline": ThemeNames;
     /**
      * List/Tree background color for the focused item when the list/tree is active. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.focusBackground": null | ThemeNames;
+    "list.focusBackground": ThemeNames;
     /**
      * List/Tree foreground color for the focused item when the list/tree is active. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.focusForeground": null | ThemeNames;
+    "list.focusForeground": ThemeNames;
     /**
      * List/Tree foreground color of the match highlights on actively focused items when
      * searching inside the list/tree.
      */
-    "list.focusHighlightForeground": null | ThemeNames;
+    "list.focusHighlightForeground": ThemeNames;
     /**
      * List/Tree outline color for the focused item when the list/tree is active. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.focusOutline": null | ThemeNames;
+    "list.focusOutline": ThemeNames;
     /**
      * List/Tree foreground color of the match highlights when searching inside the list/tree.
      */
-    "list.highlightForeground": null | ThemeNames;
+    "list.highlightForeground": ThemeNames;
     /**
      * List/Tree background when hovering over items using the mouse.
      */
-    "list.hoverBackground": null | ThemeNames;
+    "list.hoverBackground": ThemeNames;
     /**
      * List/Tree foreground when hovering over items using the mouse.
      */
-    "list.hoverForeground": null | ThemeNames;
+    "list.hoverForeground": ThemeNames;
     /**
      * List/Tree background color for the focused item when the list/tree is inactive. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.inactiveFocusBackground": null | ThemeNames;
+    "list.inactiveFocusBackground": ThemeNames;
     /**
      * List/Tree outline color for the focused item when the list/tree is inactive. An active
      * list/tree has keyboard focus, an inactive does not.
      */
-    "list.inactiveFocusOutline": null | ThemeNames;
+    "list.inactiveFocusOutline": ThemeNames;
     /**
      * List/Tree background color for the selected item when the list/tree is inactive. An
      * active list/tree has keyboard focus, an inactive does not.
      */
-    "list.inactiveSelectionBackground": null | ThemeNames;
+    "list.inactiveSelectionBackground": ThemeNames;
     /**
      * List/Tree foreground color for the selected item when the list/tree is inactive. An
      * active list/tree has keyboard focus, an inactive does not.
      */
-    "list.inactiveSelectionForeground": null | ThemeNames;
+    "list.inactiveSelectionForeground": ThemeNames;
     /**
      * List/Tree icon foreground color for the selected item when the list/tree is inactive. An
      * active list/tree has keyboard focus, an inactive does not.
      */
-    "list.inactiveSelectionIconForeground": null | ThemeNames;
+    "list.inactiveSelectionIconForeground": ThemeNames;
     /**
      * List/Tree foreground color for invalid items, for example an unresolved root in explorer.
      */
-    "list.invalidItemForeground": null | ThemeNames;
+    "list.invalidItemForeground": ThemeNames;
     /**
      * Foreground color of list items containing warnings.
      */
-    "list.warningForeground": null | ThemeNames;
+    "list.warningForeground": ThemeNames;
     /**
      * Background color of the type filter widget in lists and trees.
      */
-    "listFilterWidget.background": null | ThemeNames;
+    "listFilterWidget.background": ThemeNames;
     /**
      * Outline color of the type filter widget in lists and trees, when there are no matches.
      */
-    "listFilterWidget.noMatchesOutline": null | ThemeNames;
+    "listFilterWidget.noMatchesOutline": ThemeNames;
     /**
      * Outline color of the type filter widget in lists and trees.
      */
-    "listFilterWidget.outline": null | ThemeNames;
+    "listFilterWidget.outline": ThemeNames;
     /**
      * Shadow color of the type filter widget in lists and trees.
      */
-    "listFilterWidget.shadow": null | ThemeNames;
+    "listFilterWidget.shadow": ThemeNames;
     /**
      * Background color of menu items.
      */
-    "menu.background": null | ThemeNames;
+    "menu.background": ThemeNames;
     /**
      * Border color of menus.
      */
-    "menu.border": null | ThemeNames;
+    "menu.border": ThemeNames;
     /**
      * Foreground color of menu items.
      */
-    "menu.foreground": null | ThemeNames;
+    "menu.foreground": ThemeNames;
     /**
      * Background color of the selected menu item in menus.
      */
-    "menu.selectionBackground": null | ThemeNames;
+    "menu.selectionBackground": ThemeNames;
     /**
      * Border color of the selected menu item in menus.
      */
-    "menu.selectionBorder": null | ThemeNames;
+    "menu.selectionBorder": ThemeNames;
     /**
      * Foreground color of the selected menu item in menus.
      */
-    "menu.selectionForeground": null | ThemeNames;
+    "menu.selectionForeground": ThemeNames;
     /**
      * Color of a separator menu item in menus.
      */
-    "menu.separatorBackground": null | ThemeNames;
+    "menu.separatorBackground": ThemeNames;
     /**
      * Background color of the selected menu item in the menubar.
      */
-    "menubar.selectionBackground": null | ThemeNames;
+    "menubar.selectionBackground": ThemeNames;
     /**
      * Border color of the selected menu item in the menubar.
      */
-    "menubar.selectionBorder": null | ThemeNames;
+    "menubar.selectionBorder": ThemeNames;
     /**
      * Foreground color of the selected menu item in the menubar.
      */
-    "menubar.selectionForeground": null | ThemeNames;
+    "menubar.selectionForeground": ThemeNames;
     /**
      * Border color on headers and the splitter in inline merge-conflicts.
      */
-    "merge.border": null | ThemeNames;
+    "merge.border": ThemeNames;
     /**
      * Common ancestor content background in inline merge-conflicts. The color must not be
      * opaque so as not to hide underlying decorations.
      */
-    "merge.commonContentBackground": null | ThemeNames;
+    "merge.commonContentBackground": ThemeNames;
     /**
      * Common ancestor header background in inline merge-conflicts. The color must not be opaque
      * so as not to hide underlying decorations.
      */
-    "merge.commonHeaderBackground": null | ThemeNames;
+    "merge.commonHeaderBackground": ThemeNames;
     /**
      * Current content background in inline merge-conflicts. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "merge.currentContentBackground": null | ThemeNames;
+    "merge.currentContentBackground": ThemeNames;
     /**
      * Current header background in inline merge-conflicts. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "merge.currentHeaderBackground": null | ThemeNames;
+    "merge.currentHeaderBackground": ThemeNames;
     /**
      * Incoming content background in inline merge-conflicts. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "merge.incomingContentBackground": null | ThemeNames;
+    "merge.incomingContentBackground": ThemeNames;
     /**
      * Incoming header background in inline merge-conflicts. The color must not be opaque so as
      * not to hide underlying decorations.
      */
-    "merge.incomingHeaderBackground": null | ThemeNames;
+    "merge.incomingHeaderBackground": ThemeNames;
     /**
      * The background color for changes.
      */
-    "mergeEditor.change.background": null | ThemeNames;
+    "mergeEditor.change.background": ThemeNames;
     /**
      * The background color for word changes.
      */
-    "mergeEditor.change.word.background": null | ThemeNames;
+    "mergeEditor.change.word.background": ThemeNames;
     /**
      * The background color for changes in base.
      */
-    "mergeEditor.changeBase.background": null | ThemeNames;
+    "mergeEditor.changeBase.background": ThemeNames;
     /**
      * The background color for word changes in base.
      */
-    "mergeEditor.changeBase.word.background": null | ThemeNames;
+    "mergeEditor.changeBase.word.background": ThemeNames;
     /**
      * The foreground color for changes in input 1.
      */
-    "mergeEditor.conflict.handled.minimapOverViewRuler": null | ThemeNames;
+    "mergeEditor.conflict.handled.minimapOverViewRuler": ThemeNames;
     /**
      * The border color of handled focused conflicts.
      */
-    "mergeEditor.conflict.handledFocused.border": null | ThemeNames;
+    "mergeEditor.conflict.handledFocused.border": ThemeNames;
     /**
      * The border color of handled unfocused conflicts.
      */
-    "mergeEditor.conflict.handledUnfocused.border": null | ThemeNames;
+    "mergeEditor.conflict.handledUnfocused.border": ThemeNames;
     /**
      * The background color of decorations in input 1.
      */
-    "mergeEditor.conflict.input1.background": null | ThemeNames;
+    "mergeEditor.conflict.input1.background": ThemeNames;
     /**
      * The background color of decorations in input 2.
      */
-    "mergeEditor.conflict.input2.background": null | ThemeNames;
+    "mergeEditor.conflict.input2.background": ThemeNames;
     /**
      * The foreground color for changes in input 1.
      */
-    "mergeEditor.conflict.unhandled.minimapOverViewRuler": null | ThemeNames;
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": ThemeNames;
     /**
      * The border color of unhandled focused conflicts.
      */
-    "mergeEditor.conflict.unhandledFocused.border": null | ThemeNames;
+    "mergeEditor.conflict.unhandledFocused.border": ThemeNames;
     /**
      * The border color of unhandled unfocused conflicts.
      */
-    "mergeEditor.conflict.unhandledUnfocused.border": null | ThemeNames;
+    "mergeEditor.conflict.unhandledUnfocused.border": ThemeNames;
     /**
      * The background of the "Conflicting Lines" text.
      */
-    "mergeEditor.conflictingLines.background": null | ThemeNames;
+    "mergeEditor.conflictingLines.background": ThemeNames;
     /**
      * Minimap background color.
      */
-    "minimap.background": null | ThemeNames;
+    "minimap.background": ThemeNames;
     /**
      * Minimap marker color for errors.
      */
-    "minimap.errorHighlight": null | ThemeNames;
+    "minimap.errorHighlight": ThemeNames;
     /**
      * Minimap marker color for find matches.
      */
-    "minimap.findMatchHighlight": null | ThemeNames;
+    "minimap.findMatchHighlight": ThemeNames;
     /**
      * Opacity of foreground elements rendered in the minimap. For example,null|string;
      * render the elements with 75% opacity.
      */
-    "minimap.foregroundOpacity": null | ThemeNames;
+    "minimap.foregroundOpacity": ThemeNames;
     /**
      * Minimap marker color for the editor selection.
      */
-    "minimap.selectionHighlight": null | ThemeNames;
+    "minimap.selectionHighlight": ThemeNames;
     /**
      * Minimap marker color for repeating editor selections.
      */
-    "minimap.selectionOccurrenceHighlight": null | ThemeNames;
+    "minimap.selectionOccurrenceHighlight": ThemeNames;
     /**
      * Minimap marker color for warnings.
      */
-    "minimap.warningHighlight": null | ThemeNames;
+    "minimap.warningHighlight": ThemeNames;
     /**
      * Minimap marker color for infos.
      */
-    "minimap.infoHighlight": null | ThemeNames;
+    "minimap.infoHighlight": ThemeNames;
     /**
      * Minimap gutter background color for lines that are added.
      */
-    "minimapGutter.addedBackground": null | ThemeNames;
+    "minimapGutter.addedBackground": ThemeNames;
     /**
      * Minimap gutter background color for lines that are deleted.
      */
-    "minimapGutter.deletedBackground": null | ThemeNames;
+    "minimapGutter.deletedBackground": ThemeNames;
     /**
      * Minimap gutter background color for lines that are modified.
      */
-    "minimapGutter.modifiedBackground": null | ThemeNames;
+    "minimapGutter.modifiedBackground": ThemeNames;
     /**
      * Minimap slider background color when clicked on.
      */
-    "minimapSlider.activeBackground": null | ThemeNames;
+    "minimapSlider.activeBackground": ThemeNames;
     /**
      * Minimap slider background color.
      */
-    "minimapSlider.background": null | ThemeNames;
+    "minimapSlider.background": ThemeNames;
     /**
      * Minimap slider background color when hovering.
      */
-    "minimapSlider.hoverBackground": null | ThemeNames;
+    "minimapSlider.hoverBackground": ThemeNames;
     /**
      * The border color for notebook cells.
      */
-    "notebook.cellBorderColor": null | ThemeNames;
+    "notebook.cellBorderColor": ThemeNames;
     /**
      * Cell editor background color.
      */
-    "notebook.cellEditorBackground": null | ThemeNames;
+    "notebook.cellEditorBackground": ThemeNames;
     /**
      * The background color of a cell when the cell is hovered.
      */
-    "notebook.cellHoverBackground": null | ThemeNames;
+    "notebook.cellHoverBackground": ThemeNames;
     /**
      * The color of the notebook cell insertion indicator.
      */
-    "notebook.cellInsertionIndicator": null | ThemeNames;
+    "notebook.cellInsertionIndicator": ThemeNames;
     /**
      * The background color of notebook cell status bar items.
      */
-    "notebook.cellStatusBarItemHoverBackground": null | ThemeNames;
+    "notebook.cellStatusBarItemHoverBackground": ThemeNames;
     /**
      * The color of the separator in the cell bottom toolbar
      */
-    "notebook.cellToolbarSeparator": null | ThemeNames;
+    "notebook.cellToolbarSeparator": ThemeNames;
     /**
      * Notebook background color.
      */
-    "notebook.editorBackground": null | ThemeNames;
+    "notebook.editorBackground": ThemeNames;
     /**
      * The background color of a cell when the cell is focused.
      */
-    "notebook.focusedCellBackground": null | ThemeNames;
+    "notebook.focusedCellBackground": ThemeNames;
     /**
      * The color of the cell's focus indicator borders when the cell is focused.
      */
-    "notebook.focusedCellBorder": null | ThemeNames;
+    "notebook.focusedCellBorder": ThemeNames;
     /**
      * The color of the notebook cell editor border.
      */
-    "notebook.focusedEditorBorder": null | ThemeNames;
+    "notebook.focusedEditorBorder": ThemeNames;
     /**
      * The color of the cell's top and bottom border when a cell is focused while the primary
      * focus is outside of the editor.
      */
-    "notebook.inactiveFocusedCellBorder": null | ThemeNames;
+    "notebook.inactiveFocusedCellBorder": ThemeNames;
     /**
      * The color of the cell's borders when multiple cells are selected.
      */
-    "notebook.inactiveSelectedCellBorder": null | ThemeNames;
+    "notebook.inactiveSelectedCellBorder": ThemeNames;
     /**
      * The color of the notebook output container background.
      */
-    "notebook.outputContainerBackgroundColor": null | ThemeNames;
+    "notebook.outputContainerBackgroundColor": ThemeNames;
     /**
      * The border color of the notebook output container.
      */
-    "notebook.outputContainerBorderColor": null | ThemeNames;
+    "notebook.outputContainerBorderColor": ThemeNames;
     /**
      * The background color of a cell when the cell is selected.
      */
-    "notebook.selectedCellBackground": null | ThemeNames;
+    "notebook.selectedCellBackground": ThemeNames;
     /**
      * The color of the cell's top and bottom border when the cell is selected but not focused.
      */
-    "notebook.selectedCellBorder": null | ThemeNames;
+    "notebook.selectedCellBorder": ThemeNames;
     /**
      * Background color of highlighted cell
      */
-    "notebook.symbolHighlightBackground": null | ThemeNames;
+    "notebook.symbolHighlightBackground": ThemeNames;
     /**
      * The color of the running cell decoration in the notebook editor overview ruler.
      */
-    "notebookEditorOverviewRuler.runningCellForeground": null | ThemeNames;
+    "notebookEditorOverviewRuler.runningCellForeground": ThemeNames;
     /**
      * Notebook scrollbar slider background color when clicked on.
      */
-    "notebookScrollbarSlider.activeBackground": null | ThemeNames;
+    "notebookScrollbarSlider.activeBackground": ThemeNames;
     /**
      * Notebook scrollbar slider background color.
      */
-    "notebookScrollbarSlider.background": null | ThemeNames;
+    "notebookScrollbarSlider.background": ThemeNames;
     /**
      * Notebook scrollbar slider background color when hovering.
      */
-    "notebookScrollbarSlider.hoverBackground": null | ThemeNames;
+    "notebookScrollbarSlider.hoverBackground": ThemeNames;
     /**
      * The error icon color of notebook cells in the cell status bar.
      */
-    "notebookStatusErrorIcon.foreground": null | ThemeNames;
+    "notebookStatusErrorIcon.foreground": ThemeNames;
     /**
      * The running icon color of notebook cells in the cell status bar.
      */
-    "notebookStatusRunningIcon.foreground": null | ThemeNames;
+    "notebookStatusRunningIcon.foreground": ThemeNames;
     /**
      * The error icon color of notebook cells in the cell status bar.
      */
-    "notebookStatusSuccessIcon.foreground": null | ThemeNames;
+    "notebookStatusSuccessIcon.foreground": ThemeNames;
     /**
      * Notifications center border color. Notifications slide in from the bottom right of the
      * window.
      */
-    "notificationCenter.border": null | ThemeNames;
+    "notificationCenter.border": ThemeNames;
     /**
      * Notifications center header background color. Notifications slide in from the bottom
      * right of the window.
      */
-    "notificationCenterHeader.background": null | ThemeNames;
+    "notificationCenterHeader.background": ThemeNames;
     /**
      * Notifications center header foreground color. Notifications slide in from the bottom
      * right of the window.
      */
-    "notificationCenterHeader.foreground": null | ThemeNames;
+    "notificationCenterHeader.foreground": ThemeNames;
     /**
      * Notification links foreground color. Notifications slide in from the bottom right of the
      * window.
      */
-    "notificationLink.foreground": null | ThemeNames;
+    "notificationLink.foreground": ThemeNames;
     /**
      * Notifications background color. Notifications slide in from the bottom right of the
      * window.
      */
-    "notifications.background": null | ThemeNames;
+    "notifications.background": ThemeNames;
     /**
      * Notifications border color separating from other notifications in the notifications
      * center. Notifications slide in from the bottom right of the window.
      */
-    "notifications.border": null | ThemeNames;
+    "notifications.border": ThemeNames;
     /**
      * Notifications foreground color. Notifications slide in from the bottom right of the
      * window.
      */
-    "notifications.foreground": null | ThemeNames;
+    "notifications.foreground": ThemeNames;
     /**
      * The color used for the icon of error notifications. Notifications slide in from the
      * bottom right of the window.
      */
-    "notificationsErrorIcon.foreground": null | ThemeNames;
+    "notificationsErrorIcon.foreground": ThemeNames;
     /**
      * The color used for the icon of info notifications. Notifications slide in from the bottom
      * right of the window.
      */
-    "notificationsInfoIcon.foreground": null | ThemeNames;
+    "notificationsInfoIcon.foreground": ThemeNames;
     /**
      * The color used for the icon of warning notifications. Notifications slide in from the
      * bottom right of the window.
      */
-    "notificationsWarningIcon.foreground": null | ThemeNames;
+    "notificationsWarningIcon.foreground": ThemeNames;
     /**
      * Notification toast border color. Notifications slide in from the bottom right of the
      * window.
      */
-    "notificationToast.border": null | ThemeNames;
+    "notificationToast.border": ThemeNames;
     /**
      * Panel background color. Panels are shown below the editor area and contain views like
      * output and integrated terminal.
      */
-    "panel.background": null | ThemeNames;
+    "panel.background": ThemeNames;
     /**
      * Panel border color to separate the panel from the editor. Panels are shown below the
      * editor area and contain views like output and integrated terminal.
      */
-    "panel.border": null | ThemeNames;
+    "panel.border": ThemeNames;
     /**
      * Drag and drop feedback color for the panel titles. Panels are shown below the editor area
      * and contain views like output and integrated terminal.
      */
-    "panel.dropBorder": null | ThemeNames;
+    "panel.dropBorder": ThemeNames;
     /**
      * Input box border for inputs in the panel.
      */
-    "panelInput.border": null | ThemeNames;
+    "panelInput.border": ThemeNames;
     /**
      * Panel section border color used when multiple views are stacked horizontally in the
      * panel. Panels are shown below the editor area and contain views like output and
      * integrated terminal. Panel sections are views nested within the panels.
      */
-    "panelSection.border": null | ThemeNames;
+    "panelSection.border": ThemeNames;
     /**
      * Drag and drop feedback color for the panel sections. The color should have transparency
      * so that the panel sections can still shine through. Panels are shown below the editor
      * area and contain views like output and integrated terminal. Panel sections are views
      * nested within the panels.
      */
-    "panelSection.dropBackground": null | ThemeNames;
+    "panelSection.dropBackground": ThemeNames;
     /**
      * Panel section header background color. Panels are shown below the editor area and contain
      * views like output and integrated terminal. Panel sections are views nested within the
      * panels.
      */
-    "panelSectionHeader.background": null | ThemeNames;
+    "panelSectionHeader.background": ThemeNames;
     /**
      * Panel section header border color used when multiple views are stacked vertically in the
      * panel. Panels are shown below the editor area and contain views like output and
      * integrated terminal. Panel sections are views nested within the panels.
      */
-    "panelSectionHeader.border": null | ThemeNames;
+    "panelSectionHeader.border": ThemeNames;
     /**
      * Panel section header foreground color. Panels are shown below the editor area and contain
      * views like output and integrated terminal. Panel sections are views nested within the
      * panels.
      */
-    "panelSectionHeader.foreground": null | ThemeNames;
+    "panelSectionHeader.foreground": ThemeNames;
     /**
      * Border color for the active panel title. Panels are shown below the editor area and
      * contain views like output and integrated terminal.
      */
-    "panelTitle.activeBorder": null | ThemeNames;
+    "panelTitle.activeBorder": ThemeNames;
     /**
      * Title color for the active panel. Panels are shown below the editor area and contain
      * views like output and integrated terminal.
      */
-    "panelTitle.activeForeground": null | ThemeNames;
+    "panelTitle.activeForeground": ThemeNames;
     /**
      * Title color for the inactive panel. Panels are shown below the editor area and contain
      * views like output and integrated terminal.
      */
-    "panelTitle.inactiveForeground": null | ThemeNames;
+    "panelTitle.inactiveForeground": ThemeNames;
     /**
      * Color of the peek view borders and arrow.
      */
-    "peekView.border": null | ThemeNames;
+    "peekView.border": ThemeNames;
     /**
      * Background color of the peek view editor.
      */
-    "peekViewEditor.background": null | ThemeNames;
+    "peekViewEditor.background": ThemeNames;
     /**
      * Match highlight color in the peek view editor.
      */
-    "peekViewEditor.matchHighlightBackground": null | ThemeNames;
+    "peekViewEditor.matchHighlightBackground": ThemeNames;
     /**
      * Match highlight border in the peek view editor.
      */
-    "peekViewEditor.matchHighlightBorder": null | ThemeNames;
+    "peekViewEditor.matchHighlightBorder": ThemeNames;
     /**
      * Background color of the gutter in the peek view editor.
      */
-    "peekViewEditorGutter.background": null | ThemeNames;
+    "peekViewEditorGutter.background": ThemeNames;
     /**
      * Background color of sticky scroll in the peek view editor.
      */
-    "peekViewEditorStickyScroll.background": null | ThemeNames;
+    "peekViewEditorStickyScroll.background": ThemeNames;
     /**
      * Background color of the peek view result list.
      */
-    "peekViewResult.background": null | ThemeNames;
+    "peekViewResult.background": ThemeNames;
     /**
      * Foreground color for file nodes in the peek view result list.
      */
-    "peekViewResult.fileForeground": null | ThemeNames;
+    "peekViewResult.fileForeground": ThemeNames;
     /**
      * Foreground color for line nodes in the peek view result list.
      */
-    "peekViewResult.lineForeground": null | ThemeNames;
+    "peekViewResult.lineForeground": ThemeNames;
     /**
      * Match highlight color in the peek view result list.
      */
-    "peekViewResult.matchHighlightBackground": null | ThemeNames;
+    "peekViewResult.matchHighlightBackground": ThemeNames;
     /**
      * Background color of the selected entry in the peek view result list.
      */
-    "peekViewResult.selectionBackground": null | ThemeNames;
+    "peekViewResult.selectionBackground": ThemeNames;
     /**
      * Foreground color of the selected entry in the peek view result list.
      */
-    "peekViewResult.selectionForeground": null | ThemeNames;
+    "peekViewResult.selectionForeground": ThemeNames;
     /**
      * Background color of the peek view title area.
      */
-    "peekViewTitle.background": null | ThemeNames;
+    "peekViewTitle.background": ThemeNames;
     /**
      * Color of the peek view title info.
      */
-    "peekViewTitleDescription.foreground": null | ThemeNames;
+    "peekViewTitleDescription.foreground": ThemeNames;
     /**
      * Color of the peek view title.
      */
-    "peekViewTitleLabel.foreground": null | ThemeNames;
+    "peekViewTitleLabel.foreground": ThemeNames;
     /**
      * Quick picker color for grouping borders.
      */
-    "pickerGroup.border": null | ThemeNames;
+    "pickerGroup.border": ThemeNames;
     /**
      * Quick picker color for grouping labels.
      */
-    "pickerGroup.foreground": null | ThemeNames;
+    "pickerGroup.foreground": ThemeNames;
     /**
      * The color of the icon for a port that has an associated running process.
      */
-    "ports.iconRunningProcessForeground": null | ThemeNames;
+    "ports.iconRunningProcessForeground": ThemeNames;
     /**
      * The color used for the problems error icon.
      */
-    "problemsErrorIcon.foreground": null | ThemeNames;
+    "problemsErrorIcon.foreground": ThemeNames;
     /**
      * The color used for the problems info icon.
      */
-    "problemsInfoIcon.foreground": null | ThemeNames;
+    "problemsInfoIcon.foreground": ThemeNames;
     /**
      * The color used for the problems warning icon.
      */
-    "problemsWarningIcon.foreground": null | ThemeNames;
+    "problemsWarningIcon.foreground": ThemeNames;
     /**
      * Profile badge background color. The profile badge shows on top of the settings gear icon
      * in the activity bar.
      */
-    "profileBadge.background": null | ThemeNames;
+    "profileBadge.background": ThemeNames;
     /**
      * Profile badge foreground color. The profile badge shows on top of the settings gear icon
      * in the activity bar.
      */
-    "profileBadge.foreground": null | ThemeNames;
+    "profileBadge.foreground": ThemeNames;
     /**
      * Background color of the progress bar that can show for long running operations.
      */
-    "progressBar.background": null | ThemeNames;
+    "progressBar.background": ThemeNames;
     /**
      * Quick picker background color. The quick picker widget is the container for pickers like
      * the command palette.
      */
-    "quickInput.background": null | ThemeNames;
+    "quickInput.background": ThemeNames;
     /**
      * Quick picker foreground color. The quick picker widget is the container for pickers like
      * the command palette.
      */
-    "quickInput.foreground": null | ThemeNames;
-    "quickInput.list.focusBackground": null | ThemeNames;
+    "quickInput.foreground": ThemeNames;
+    "quickInput.list.focusBackground": ThemeNames;
     /**
      * Quick picker background color for the focused item.
      */
-    "quickInputList.focusBackground": null | ThemeNames;
+    "quickInputList.focusBackground": ThemeNames;
     /**
      * Quick picker foreground color for the focused item.
      */
-    "quickInputList.focusForeground": null | ThemeNames;
+    "quickInputList.focusForeground": ThemeNames;
     /**
      * Quick picker icon foreground color for the focused item.
      */
-    "quickInputList.focusIconForeground": null | ThemeNames;
+    "quickInputList.focusIconForeground": ThemeNames;
     /**
      * Quick picker title background color. The quick picker widget is the container for pickers
      * like the command palette.
      */
-    "quickInputTitle.background": null | ThemeNames;
+    "quickInputTitle.background": ThemeNames;
     /**
      * Border color of active sashes.
      */
-    "sash.hoverBorder": null | ThemeNames;
+    "sash.hoverBorder": ThemeNames;
     /**
      * SCM Provider separator border.
      */
-    "scm.providerBorder": null | ThemeNames;
+    "scm.providerBorder": ThemeNames;
     /**
      * Scrollbar shadow to indicate that the view is scrolled.
      */
-    "scrollbar.shadow": null | ThemeNames;
+    "scrollbar.shadow": ThemeNames;
     /**
      * Scrollbar slider background color when clicked on.
      */
-    "scrollbarSlider.activeBackground": null | ThemeNames;
+    "scrollbarSlider.activeBackground": ThemeNames;
     /**
      * Scrollbar slider background color.
      */
-    "scrollbarSlider.background": null | ThemeNames;
+    "scrollbarSlider.background": ThemeNames;
     /**
      * Scrollbar slider background color when hovering.
      */
-    "scrollbarSlider.hoverBackground": null | ThemeNames;
+    "scrollbarSlider.hoverBackground": ThemeNames;
     /**
      * Color of the text in the search viewlet's completion message.
      */
-    "search.resultsInfoForeground": null | ThemeNames;
+    "search.resultsInfoForeground": ThemeNames;
     /**
      * Color of the Search Editor query matches.
      */
-    "searchEditor.findMatchBackground": null | ThemeNames;
+    "searchEditor.findMatchBackground": ThemeNames;
     /**
      * Border color of the Search Editor query matches.
      */
-    "searchEditor.findMatchBorder": null | ThemeNames;
+    "searchEditor.findMatchBorder": ThemeNames;
     /**
      * Search editor text input box border.
      */
-    "searchEditor.textInputBorder": null | ThemeNames;
+    "searchEditor.textInputBorder": ThemeNames;
     /**
      * The background color of text selections in the workbench (e.g. for input fields or text
      * areas). Note that this does not apply to selections within the editor.
      */
-    "selection.background": null | ThemeNames;
+    "selection.background": ThemeNames;
     /**
      * Settings editor checkbox background.
      */
-    "settings.checkboxBackground": null | ThemeNames;
+    "settings.checkboxBackground": ThemeNames;
     /**
      * Settings editor checkbox border.
      */
-    "settings.checkboxBorder": null | ThemeNames;
+    "settings.checkboxBorder": ThemeNames;
     /**
      * Settings editor checkbox foreground.
      */
-    "settings.checkboxForeground": null | ThemeNames;
+    "settings.checkboxForeground": ThemeNames;
     /**
      * Settings editor dropdown background.
      */
-    "settings.dropdownBackground": null | ThemeNames;
+    "settings.dropdownBackground": ThemeNames;
     /**
      * Settings editor dropdown border.
      */
-    "settings.dropdownBorder": null | ThemeNames;
+    "settings.dropdownBorder": ThemeNames;
     /**
      * Settings editor dropdown foreground.
      */
-    "settings.dropdownForeground": null | ThemeNames;
+    "settings.dropdownForeground": ThemeNames;
     /**
      * Settings editor dropdown list border. This surrounds the options and separates the
      * options from the description.
      */
-    "settings.dropdownListBorder": null | ThemeNames;
+    "settings.dropdownListBorder": ThemeNames;
     /**
      * The background color of a settings row when focused.
      */
-    "settings.focusedRowBackground": null | ThemeNames;
+    "settings.focusedRowBackground": ThemeNames;
     /**
      * The color of the row's top and bottom border when the row is focused.
      */
-    "settings.focusedRowBorder": null | ThemeNames;
+    "settings.focusedRowBorder": ThemeNames;
     /**
      * The color of the header container border.
      */
-    "settings.headerBorder": null | ThemeNames;
+    "settings.headerBorder": ThemeNames;
     /**
      * The foreground color for a section header or active title.
      */
-    "settings.headerForeground": null | ThemeNames;
+    "settings.headerForeground": ThemeNames;
     /**
      * The color of the modified setting indicator.
      */
-    "settings.modifiedItemIndicator": null | ThemeNames;
+    "settings.modifiedItemIndicator": ThemeNames;
     /**
      * Settings editor number input box background.
      */
-    "settings.numberInputBackground": null | ThemeNames;
+    "settings.numberInputBackground": ThemeNames;
     /**
      * Settings editor number input box border.
      */
-    "settings.numberInputBorder": null | ThemeNames;
+    "settings.numberInputBorder": ThemeNames;
     /**
      * Settings editor number input box foreground.
      */
-    "settings.numberInputForeground": null | ThemeNames;
+    "settings.numberInputForeground": ThemeNames;
     /**
      * The background color of a settings row when hovered.
      */
-    "settings.rowHoverBackground": null | ThemeNames;
+    "settings.rowHoverBackground": ThemeNames;
     /**
      * The color of the Settings editor splitview sash border.
      */
-    "settings.sashBorder": null | ThemeNames;
+    "settings.sashBorder": ThemeNames;
     /**
      * The foreground color for a section header or hovered title.
      */
-    "settings.settingsHeaderHoverForeground": null | ThemeNames;
+    "settings.settingsHeaderHoverForeground": ThemeNames;
     /**
      * Settings editor text input box background.
      */
-    "settings.textInputBackground": null | ThemeNames;
+    "settings.textInputBackground": ThemeNames;
     /**
      * Settings editor text input box border.
      */
-    "settings.textInputBorder": null | ThemeNames;
+    "settings.textInputBorder": ThemeNames;
     /**
      * Settings editor text input box foreground.
      */
-    "settings.textInputForeground": null | ThemeNames;
+    "settings.textInputForeground": ThemeNames;
     /**
      * Side bar background color. The side bar is the container for views like explorer and
      * search.
      */
-    "sideBar.background": null | ThemeNames;
+    "sideBar.background": ThemeNames;
     /**
      * Side bar border color on the side separating to the editor. The side bar is the container
      * for views like explorer and search.
      */
-    "sideBar.border": null | ThemeNames;
+    "sideBar.border": ThemeNames;
     /**
      * Drag and drop feedback color for the side bar sections. The color should have
      * transparency so that the side bar sections can still shine through. The side bar is the
      * container for views like explorer and search. Side bar sections are views nested within
      * the side bar.
      */
-    "sideBar.dropBackground": null | ThemeNames;
+    "sideBar.dropBackground": ThemeNames;
     /**
      * Side bar foreground color. The side bar is the container for views like explorer and
      * search.
      */
-    "sideBar.foreground": null | ThemeNames;
+    "sideBar.foreground": ThemeNames;
     /**
      * Side bar section header background color. The side bar is the container for views like
      * explorer and search. Side bar sections are views nested within the side bar.
      */
-    "sideBarSectionHeader.background": null | ThemeNames;
+    "sideBarSectionHeader.background": ThemeNames;
     /**
      * Side bar section header border color. The side bar is the container for views like
      * explorer and search. Side bar sections are views nested within the side bar.
      */
-    "sideBarSectionHeader.border": null | ThemeNames;
+    "sideBarSectionHeader.border": ThemeNames;
     /**
      * Side bar section header foreground color. The side bar is the container for views like
      * explorer and search. Side bar sections are views nested within the side bar.
      */
-    "sideBarSectionHeader.foreground": null | ThemeNames;
+    "sideBarSectionHeader.foreground": ThemeNames;
     /**
      * Side bar title foreground color. The side bar is the container for views like explorer
      * and search.
      */
-    "sideBarTitle.foreground": null | ThemeNames;
+    "sideBarTitle.foreground": ThemeNames;
     /**
      * Color to separate two editors from each other when shown side by side in an editor group
      * from top to bottom.
      */
-    "sideBySideEditor.horizontalBorder": null | ThemeNames;
+    "sideBySideEditor.horizontalBorder": ThemeNames;
     /**
      * Color to separate two editors from each other when shown side by side in an editor group
      * from left to right.
      */
-    "sideBySideEditor.verticalBorder": null | ThemeNames;
+    "sideBySideEditor.verticalBorder": ThemeNames;
     /**
      * Border color of the sash border.
      */
-    "simpleFindWidget.sashBorder": null | ThemeNames;
+    "simpleFindWidget.sashBorder": ThemeNames;
     /**
      * Status bar background color when a workspace or folder is opened. The status bar is shown
      * in the bottom of the window.
      */
-    "statusBar.background": null | ThemeNames;
+    "statusBar.background": ThemeNames;
     /**
      * Status bar border color separating to the sidebar and editor. The status bar is shown in
      * the bottom of the window.
      */
-    "statusBar.border": null | ThemeNames;
+    "statusBar.border": ThemeNames;
     /**
      * Status bar background color when a program is being debugged. The status bar is shown in
      * the bottom of the window
      */
-    "statusBar.debuggingBackground": null | ThemeNames;
+    "statusBar.debuggingBackground": ThemeNames;
     /**
      * Status bar border color separating to the sidebar and editor when a program is being
      * debugged. The status bar is shown in the bottom of the window
      */
-    "statusBar.debuggingBorder": null | ThemeNames;
+    "statusBar.debuggingBorder": ThemeNames;
     /**
      * Status bar foreground color when a program is being debugged. The status bar is shown in
      * the bottom of the window
      */
-    "statusBar.debuggingForeground": null | ThemeNames;
+    "statusBar.debuggingForeground": ThemeNames;
     /**
      * Status bar border color when focused on keyboard navigation. The status bar is shown in
      * the bottom of the window.
      */
-    "statusBar.focusBorder": null | ThemeNames;
+    "statusBar.focusBorder": ThemeNames;
     /**
      * Status bar foreground color when a workspace or folder is opened. The status bar is shown
      * in the bottom of the window.
      */
-    "statusBar.foreground": null | ThemeNames;
+    "statusBar.foreground": ThemeNames;
     /**
      * Status bar background color when no folder is opened. The status bar is shown in the
      * bottom of the window.
      */
-    "statusBar.noFolderBackground": null | ThemeNames;
+    "statusBar.noFolderBackground": ThemeNames;
     /**
      * Status bar border color separating to the sidebar and editor when no folder is opened.
      * The status bar is shown in the bottom of the window.
      */
-    "statusBar.noFolderBorder": null | ThemeNames;
+    "statusBar.noFolderBorder": ThemeNames;
     /**
      * Status bar foreground color when no folder is opened. The status bar is shown in the
      * bottom of the window.
      */
-    "statusBar.noFolderForeground": null | ThemeNames;
+    "statusBar.noFolderForeground": ThemeNames;
     /**
      * Status bar item background color when clicking. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.activeBackground": null | ThemeNames;
+    "statusBarItem.activeBackground": ThemeNames;
     /**
      * Status bar item background color when hovering an item that contains two hovers. The
      * status bar is shown in the bottom of the window.
      */
-    "statusBarItem.compactHoverBackground": null | ThemeNames;
+    "statusBarItem.compactHoverBackground": ThemeNames;
     /**
      * Status bar error items background color. Error items stand out from other status bar
      * entries to indicate error conditions. The status bar is shown in the bottom of the window.
      */
-    "statusBarItem.errorBackground": null | ThemeNames;
+    "statusBarItem.errorBackground": ThemeNames;
     /**
      * Status bar error items foreground color. Error items stand out from other status bar
      * entries to indicate error conditions. The status bar is shown in the bottom of the window.
      */
-    "statusBarItem.errorForeground": null | ThemeNames;
+    "statusBarItem.errorForeground": ThemeNames;
     /**
      * Status bar error items background color when hovering. Error items stand out from other
      * status bar entries to indicate error conditions. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.errorHoverBackground": null | ThemeNames;
+    "statusBarItem.errorHoverBackground": ThemeNames;
     /**
      * Status bar error items foreground color when hovering. Error items stand out from other
      * status bar entries to indicate error conditions. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.errorHoverForeground": null | ThemeNames;
+    "statusBarItem.errorHoverForeground": ThemeNames;
     /**
      * Status bar item border color when focused on keyboard navigation. The status bar is shown
      * in the bottom of the window.
      */
-    "statusBarItem.focusBorder": null | ThemeNames;
+    "statusBarItem.focusBorder": ThemeNames;
     /**
      * Status bar item background color when hovering. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.hoverBackground": null | ThemeNames;
+    "statusBarItem.hoverBackground": ThemeNames;
     /**
      * Status bar item foreground color when hovering. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.hoverForeground": null | ThemeNames;
+    "statusBarItem.hoverForeground": ThemeNames;
     /**
      * Status bar item background color when the workbench is offline.
      */
-    "statusBarItem.offlineBackground": null | ThemeNames;
+    "statusBarItem.offlineBackground": ThemeNames;
     /**
      * Status bar item foreground color when the workbench is offline.
      */
-    "statusBarItem.offlineForeground": null | ThemeNames;
+    "statusBarItem.offlineForeground": ThemeNames;
     /**
      * Status bar item background hover color when the workbench is offline.
      */
-    "statusBarItem.offlineHoverBackground": null | ThemeNames;
+    "statusBarItem.offlineHoverBackground": ThemeNames;
     /**
      * Status bar item foreground hover color when the workbench is offline.
      */
-    "statusBarItem.offlineHoverForeground": null | ThemeNames;
+    "statusBarItem.offlineHoverForeground": ThemeNames;
     /**
      * Status bar prominent items background color. Prominent items stand out from other status
      * bar entries to indicate importance. The status bar is shown in the bottom of the window.
      */
-    "statusBarItem.prominentBackground": null | ThemeNames;
+    "statusBarItem.prominentBackground": ThemeNames;
     /**
      * Status bar prominent items foreground color. Prominent items stand out from other status
      * bar entries to indicate importance. The status bar is shown in the bottom of the window.
      */
-    "statusBarItem.prominentForeground": null | ThemeNames;
+    "statusBarItem.prominentForeground": ThemeNames;
     /**
      * Status bar prominent items background color when hovering. Prominent items stand out from
      * other status bar entries to indicate importance. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.prominentHoverBackground": null | ThemeNames;
+    "statusBarItem.prominentHoverBackground": ThemeNames;
     /**
      * Status bar prominent items foreground color when hovering. Prominent items stand out from
      * other status bar entries to indicate importance. The status bar is shown in the bottom of
      * the window.
      */
-    "statusBarItem.prominentHoverForeground": null | ThemeNames;
+    "statusBarItem.prominentHoverForeground": ThemeNames;
     /**
      * Background color for the remote indicator on the status bar.
      */
-    "statusBarItem.remoteBackground": null | ThemeNames;
+    "statusBarItem.remoteBackground": ThemeNames;
     /**
      * Foreground color for the remote indicator on the status bar.
      */
-    "statusBarItem.remoteForeground": null | ThemeNames;
+    "statusBarItem.remoteForeground": ThemeNames;
     /**
      * Background color for the remote indicator on the status bar when hovering.
      */
-    "statusBarItem.remoteHoverBackground": null | ThemeNames;
+    "statusBarItem.remoteHoverBackground": ThemeNames;
     /**
      * Foreground color for the remote indicator on the status bar when hovering.
      */
-    "statusBarItem.remoteHoverForeground": null | ThemeNames;
+    "statusBarItem.remoteHoverForeground": ThemeNames;
     /**
      * Status bar warning items background color. Warning items stand out from other status bar
      * entries to indicate warning conditions. The status bar is shown in the bottom of the
      * window.
      */
-    "statusBarItem.warningBackground": null | ThemeNames;
+    "statusBarItem.warningBackground": ThemeNames;
     /**
      * Status bar warning items foreground color. Warning items stand out from other status bar
      * entries to indicate warning conditions. The status bar is shown in the bottom of the
      * window.
      */
-    "statusBarItem.warningForeground": null | ThemeNames;
+    "statusBarItem.warningForeground": ThemeNames;
     /**
      * Status bar warning items background color when hovering. Warning items stand out from
      * other status bar entries to indicate warning conditions. The status bar is shown in the
      * bottom of the window.
      */
-    "statusBarItem.warningHoverBackground": null | ThemeNames;
+    "statusBarItem.warningHoverBackground": ThemeNames;
     /**
      * Status bar warning items foreground color when hovering. Warning items stand out from
      * other status bar entries to indicate warning conditions. The status bar is shown in the
      * bottom of the window.
      */
-    "statusBarItem.warningHoverForeground": null | ThemeNames;
+    "statusBarItem.warningHoverForeground": ThemeNames;
     /**
      * The foreground color for array symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.arrayForeground": null | ThemeNames;
+    "symbolIcon.arrayForeground": ThemeNames;
     /**
      * The foreground color for boolean symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.booleanForeground": null | ThemeNames;
+    "symbolIcon.booleanForeground": ThemeNames;
     /**
      * The foreground color for class symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.classForeground": null | ThemeNames;
+    "symbolIcon.classForeground": ThemeNames;
     /**
      * The foreground color for color symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.colorForeground": null | ThemeNames;
+    "symbolIcon.colorForeground": ThemeNames;
     /**
      * The foreground color for constant symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.constantForeground": null | ThemeNames;
+    "symbolIcon.constantForeground": ThemeNames;
     /**
      * The foreground color for constructor symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.constructorForeground": null | ThemeNames;
+    "symbolIcon.constructorForeground": ThemeNames;
     /**
      * The foreground color for enumerator symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.enumeratorForeground": null | ThemeNames;
+    "symbolIcon.enumeratorForeground": ThemeNames;
     /**
      * The foreground color for enumerator member symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.enumeratorMemberForeground": null | ThemeNames;
+    "symbolIcon.enumeratorMemberForeground": ThemeNames;
     /**
      * The foreground color for event symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.eventForeground": null | ThemeNames;
+    "symbolIcon.eventForeground": ThemeNames;
     /**
      * The foreground color for field symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.fieldForeground": null | ThemeNames;
+    "symbolIcon.fieldForeground": ThemeNames;
     /**
      * The foreground color for file symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.fileForeground": null | ThemeNames;
+    "symbolIcon.fileForeground": ThemeNames;
     /**
      * The foreground color for folder symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.folderForeground": null | ThemeNames;
+    "symbolIcon.folderForeground": ThemeNames;
     /**
      * The foreground color for function symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.functionForeground": null | ThemeNames;
+    "symbolIcon.functionForeground": ThemeNames;
     /**
      * The foreground color for interface symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.interfaceForeground": null | ThemeNames;
+    "symbolIcon.interfaceForeground": ThemeNames;
     /**
      * The foreground color for key symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.keyForeground": null | ThemeNames;
+    "symbolIcon.keyForeground": ThemeNames;
     /**
      * The foreground color for keyword symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.keywordForeground": null | ThemeNames;
+    "symbolIcon.keywordForeground": ThemeNames;
     /**
      * The foreground color for method symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.methodForeground": null | ThemeNames;
+    "symbolIcon.methodForeground": ThemeNames;
     /**
      * The foreground color for module symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.moduleForeground": null | ThemeNames;
+    "symbolIcon.moduleForeground": ThemeNames;
     /**
      * The foreground color for namespace symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.namespaceForeground": null | ThemeNames;
+    "symbolIcon.namespaceForeground": ThemeNames;
     /**
      * The foreground color for null symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.nullForeground": null | ThemeNames;
+    "symbolIcon.nullForeground": ThemeNames;
     /**
      * The foreground color for number symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.numberForeground": null | ThemeNames;
+    "symbolIcon.numberForeground": ThemeNames;
     /**
      * The foreground color for object symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.objectForeground": null | ThemeNames;
+    "symbolIcon.objectForeground": ThemeNames;
     /**
      * The foreground color for operator symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.operatorForeground": null | ThemeNames;
+    "symbolIcon.operatorForeground": ThemeNames;
     /**
      * The foreground color for package symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.packageForeground": null | ThemeNames;
+    "symbolIcon.packageForeground": ThemeNames;
     /**
      * The foreground color for property symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.propertyForeground": null | ThemeNames;
+    "symbolIcon.propertyForeground": ThemeNames;
     /**
      * The foreground color for reference symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.referenceForeground": null | ThemeNames;
+    "symbolIcon.referenceForeground": ThemeNames;
     /**
      * The foreground color for snippet symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.snippetForeground": null | ThemeNames;
+    "symbolIcon.snippetForeground": ThemeNames;
     /**
      * The foreground color for string symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.stringForeground": null | ThemeNames;
+    "symbolIcon.stringForeground": ThemeNames;
     /**
      * The foreground color for struct symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.structForeground": null | ThemeNames;
+    "symbolIcon.structForeground": ThemeNames;
     /**
      * The foreground color for text symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.textForeground": null | ThemeNames;
+    "symbolIcon.textForeground": ThemeNames;
     /**
      * The foreground color for type parameter symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.typeParameterForeground": null | ThemeNames;
+    "symbolIcon.typeParameterForeground": ThemeNames;
     /**
      * The foreground color for unit symbols. These symbols appear in the outline, breadcrumb,
      * and suggest widget.
      */
-    "symbolIcon.unitForeground": null | ThemeNames;
+    "symbolIcon.unitForeground": ThemeNames;
     /**
      * The foreground color for variable symbols. These symbols appear in the outline,
      * breadcrumb, and suggest widget.
      */
-    "symbolIcon.variableForeground": null | ThemeNames;
+    "symbolIcon.variableForeground": ThemeNames;
     /**
      * Active tab background color in an active group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.activeBackground": null | ThemeNames;
+    "tab.activeBackground": ThemeNames;
     /**
      * Border on the bottom of an active tab. Tabs are the containers for editors in the editor
      * area. Multiple tabs can be opened in one editor group. There can be multiple editor
      * groups.
      */
-    "tab.activeBorder": null | ThemeNames;
+    "tab.activeBorder": ThemeNames;
     /**
      * Border to the top of an active tab. Tabs are the containers for editors in the editor
      * area. Multiple tabs can be opened in one editor group. There can be multiple editor
      * groups.
      */
-    "tab.activeBorderTop": null | ThemeNames;
+    "tab.activeBorderTop": ThemeNames;
     /**
      * Active tab foreground color in an active group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.activeForeground": null | ThemeNames;
+    "tab.activeForeground": ThemeNames;
     /**
      * Border on the top of modified active tabs in an active group. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.activeModifiedBorder": null | ThemeNames;
+    "tab.activeModifiedBorder": ThemeNames;
     /**
      * Border to separate tabs from each other. Tabs are the containers for editors in the
      * editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.border": null | ThemeNames;
+    "tab.border": ThemeNames;
     /**
      * Tab background color when hovering. Tabs are the containers for editors in the editor
      * area. Multiple tabs can be opened in one editor group. There can be multiple editor
      * groups.
      */
-    "tab.hoverBackground": null | ThemeNames;
+    "tab.hoverBackground": ThemeNames;
     /**
      * Border to highlight tabs when hovering. Tabs are the containers for editors in the editor
      * area. Multiple tabs can be opened in one editor group. There can be multiple editor
      * groups.
      */
-    "tab.hoverBorder": null | ThemeNames;
+    "tab.hoverBorder": ThemeNames;
     /**
      * Tab foreground color when hovering. Tabs are the containers for editors in the editor
      * area. Multiple tabs can be opened in one editor group. There can be multiple editor
      * groups.
      */
-    "tab.hoverForeground": null | ThemeNames;
+    "tab.hoverForeground": ThemeNames;
     /**
      * Inactive tab background color in an active group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.inactiveBackground": null | ThemeNames;
+    "tab.inactiveBackground": ThemeNames;
     /**
      * Inactive tab foreground color in an active group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.inactiveForeground": null | ThemeNames;
+    "tab.inactiveForeground": ThemeNames;
     /**
      * Border on the top of modified inactive tabs in an active group. Tabs are the containers
      * for editors in the editor area. Multiple tabs can be opened in one editor group. There
      * can be multiple editor groups.
      */
-    "tab.inactiveModifiedBorder": null | ThemeNames;
+    "tab.inactiveModifiedBorder": ThemeNames;
     /**
      * Border to separate pinned tabs from other tabs. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.lastPinnedBorder": null | ThemeNames;
+    "tab.lastPinnedBorder": ThemeNames;
     /**
      * Active tab background color in an unfocused group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.unfocusedActiveBackground": null | ThemeNames;
+    "tab.unfocusedActiveBackground": ThemeNames;
     /**
      * Border on the bottom of an active tab in an unfocused group. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedActiveBorder": null | ThemeNames;
+    "tab.unfocusedActiveBorder": ThemeNames;
     /**
      * Border to the top of an active tab in an unfocused group. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedActiveBorderTop": null | ThemeNames;
+    "tab.unfocusedActiveBorderTop": ThemeNames;
     /**
      * Active tab foreground color in an unfocused group. Tabs are the containers for editors in
      * the editor area. Multiple tabs can be opened in one editor group. There can be multiple
      * editor groups.
      */
-    "tab.unfocusedActiveForeground": null | ThemeNames;
+    "tab.unfocusedActiveForeground": ThemeNames;
     /**
      * Border on the top of modified active tabs in an unfocused group. Tabs are the containers
      * for editors in the editor area. Multiple tabs can be opened in one editor group. There
      * can be multiple editor groups.
      */
-    "tab.unfocusedActiveModifiedBorder": null | ThemeNames;
+    "tab.unfocusedActiveModifiedBorder": ThemeNames;
     /**
      * Tab background color in an unfocused group when hovering. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedHoverBackground": null | ThemeNames;
+    "tab.unfocusedHoverBackground": ThemeNames;
     /**
      * Border to highlight tabs in an unfocused group when hovering. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedHoverBorder": null | ThemeNames;
+    "tab.unfocusedHoverBorder": ThemeNames;
     /**
      * Tab foreground color in an unfocused group when hovering. Tabs are the containers for
      * editors in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedHoverForeground": null | ThemeNames;
+    "tab.unfocusedHoverForeground": ThemeNames;
     /**
      * Inactive tab background color in an unfocused group. Tabs are the containers for editors
      * in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedInactiveBackground": null | ThemeNames;
+    "tab.unfocusedInactiveBackground": ThemeNames;
     /**
      * Inactive tab foreground color in an unfocused group. Tabs are the containers for editors
      * in the editor area. Multiple tabs can be opened in one editor group. There can be
      * multiple editor groups.
      */
-    "tab.unfocusedInactiveForeground": null | ThemeNames;
+    "tab.unfocusedInactiveForeground": ThemeNames;
     /**
      * Border on the top of modified inactive tabs in an unfocused group. Tabs are the
      * containers for editors in the editor area. Multiple tabs can be opened in one editor
      * group. There can be multiple editor groups.
      */
-    "tab.unfocusedInactiveModifiedBorder": null | ThemeNames;
+    "tab.unfocusedInactiveModifiedBorder": ThemeNames;
     /**
      * 'Black' ANSI color in the terminal.
      */
-    "terminal.ansiBlack": null | ThemeNames;
+    "terminal.ansiBlack": ThemeNames;
     /**
      * 'Blue' ANSI color in the terminal.
      */
-    "terminal.ansiBlue": null | ThemeNames;
+    "terminal.ansiBlue": ThemeNames;
     /**
      * 'BrightBlack' ANSI color in the terminal.
      */
-    "terminal.ansiBrightBlack": null | ThemeNames;
+    "terminal.ansiBrightBlack": ThemeNames;
     /**
      * 'BrightBlue' ANSI color in the terminal.
      */
-    "terminal.ansiBrightBlue": null | ThemeNames;
+    "terminal.ansiBrightBlue": ThemeNames;
     /**
      * 'BrightCyan' ANSI color in the terminal.
      */
-    "terminal.ansiBrightCyan": null | ThemeNames;
+    "terminal.ansiBrightCyan": ThemeNames;
     /**
      * 'BrightGreen' ANSI color in the terminal.
      */
-    "terminal.ansiBrightGreen": null | ThemeNames;
+    "terminal.ansiBrightGreen": ThemeNames;
     /**
      * 'BrightMagenta' ANSI color in the terminal.
      */
-    "terminal.ansiBrightMagenta": null | ThemeNames;
+    "terminal.ansiBrightMagenta": ThemeNames;
     /**
      * 'BrightRed' ANSI color in the terminal.
      */
-    "terminal.ansiBrightRed": null | ThemeNames;
+    "terminal.ansiBrightRed": ThemeNames;
     /**
      * 'BrightWhite' ANSI color in the terminal.
      */
-    "terminal.ansiBrightWhite": null | ThemeNames;
+    "terminal.ansiBrightWhite": ThemeNames;
     /**
      * 'BrightYellow' ANSI color in the terminal.
      */
-    "terminal.ansiBrightYellow": null | ThemeNames;
+    "terminal.ansiBrightYellow": ThemeNames;
     /**
      * 'Cyan' ANSI color in the terminal.
      */
-    "terminal.ansiCyan": null | ThemeNames;
+    "terminal.ansiCyan": ThemeNames;
     /**
      * 'Green' ANSI color in the terminal.
      */
-    "terminal.ansiGreen": null | ThemeNames;
+    "terminal.ansiGreen": ThemeNames;
     /**
      * 'Magenta' ANSI color in the terminal.
      */
-    "terminal.ansiMagenta": null | ThemeNames;
+    "terminal.ansiMagenta": ThemeNames;
     /**
      * 'Red' ANSI color in the terminal.
      */
-    "terminal.ansiRed": null | ThemeNames;
+    "terminal.ansiRed": ThemeNames;
     /**
      * 'White' ANSI color in the terminal.
      */
-    "terminal.ansiWhite": null | ThemeNames;
+    "terminal.ansiWhite": ThemeNames;
     /**
      * 'Yellow' ANSI color in the terminal.
      */
-    "terminal.ansiYellow": null | ThemeNames;
+    "terminal.ansiYellow": ThemeNames;
     /**
      * The background color of the terminal, this allows coloring the terminal differently to
      * the panel.
      */
-    "terminal.background": null | ThemeNames;
+    "terminal.background": ThemeNames;
     /**
      * The color of the border that separates split panes within the terminal. This defaults to
      * panel.border.
      */
-    "terminal.border": null | ThemeNames;
+    "terminal.border": ThemeNames;
     /**
      * Background color when dragging on top of terminals. The color should have transparency so
      * that the terminal contents can still shine through.
      */
-    "terminal.dropBackground": null | ThemeNames;
+    "terminal.dropBackground": ThemeNames;
     /**
      * Color of the current search match in the terminal. The color must not be opaque so as not
      * to hide underlying terminal content.
      */
-    "terminal.findMatchBackground": null | ThemeNames;
+    "terminal.findMatchBackground": ThemeNames;
     /**
      * Border color of the current search match in the terminal.
      */
-    "terminal.findMatchBorder": null | ThemeNames;
+    "terminal.findMatchBorder": ThemeNames;
     /**
      * Color of the other search matches in the terminal. The color must not be opaque so as not
      * to hide underlying terminal content.
      */
-    "terminal.findMatchHighlightBackground": null | ThemeNames;
+    "terminal.findMatchHighlightBackground": ThemeNames;
     /**
      * Border color of the other search matches in the terminal.
      */
-    "terminal.findMatchHighlightBorder": null | ThemeNames;
+    "terminal.findMatchHighlightBorder": ThemeNames;
     /**
      * The foreground color of the terminal.
      */
-    "terminal.foreground": null | ThemeNames;
+    "terminal.foreground": ThemeNames;
     /**
      * Border color of the other search matches in the terminal.
      */
-    "terminal.hoverHighlightBackground": null | ThemeNames;
+    "terminal.hoverHighlightBackground": ThemeNames;
     /**
      * The selection background color of the terminal when it does not have focus.
      */
-    "terminal.inactiveSelectionBackground": null | ThemeNames;
+    "terminal.inactiveSelectionBackground": ThemeNames;
     /**
      * The selection background color of the terminal.
      */
-    "terminal.selectionBackground": null | ThemeNames;
+    "terminal.selectionBackground": ThemeNames;
     /**
      * The selection foreground color of the terminal. When this is null the selection
      * foreground will be retained and have the minimum contrast ratio feature applied.
      */
-    "terminal.selectionForeground": null | ThemeNames;
+    "terminal.selectionForeground": ThemeNames;
     /**
      * Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder.
      */
-    "terminal.tab.activeBorder": null | ThemeNames;
+    "terminal.tab.activeBorder": ThemeNames;
     /**
      * The default terminal command decoration background color.
      */
-    "terminalCommandDecoration.defaultBackground": null | ThemeNames;
+    "terminalCommandDecoration.defaultBackground": ThemeNames;
     /**
      * The terminal command decoration background color for error commands.
      */
-    "terminalCommandDecoration.errorBackground": null | ThemeNames;
+    "terminalCommandDecoration.errorBackground": ThemeNames;
     /**
      * The terminal command decoration background color for successful commands.
      */
-    "terminalCommandDecoration.successBackground": null | ThemeNames;
+    "terminalCommandDecoration.successBackground": ThemeNames;
     /**
      * The background color of the terminal cursor. Allows customizing the color of a character
      * overlapped by a block cursor.
      */
-    "terminalCursor.background": null | ThemeNames;
+    "terminalCursor.background": ThemeNames;
     /**
      * The foreground color of the terminal cursor.
      */
-    "terminalCursor.foreground": null | ThemeNames;
+    "terminalCursor.foreground": ThemeNames;
     /**
      * The overview ruler cursor color.
      */
-    "terminalOverviewRuler.cursorForeground": null | ThemeNames;
+    "terminalOverviewRuler.cursorForeground": ThemeNames;
     /**
      * Overview ruler marker color for find matches in the terminal.
      */
-    "terminalOverviewRuler.findMatchForeground": null | ThemeNames;
+    "terminalOverviewRuler.findMatchForeground": ThemeNames;
     /**
      * Color for the 'Errored' icon in the test explorer.
      */
-    "testing.iconErrored": null | ThemeNames;
+    "testing.iconErrored": ThemeNames;
     /**
      * Color for the 'failed' icon in the test explorer.
      */
-    "testing.iconFailed": null | ThemeNames;
+    "testing.iconFailed": ThemeNames;
     /**
      * Color for the 'passed' icon in the test explorer.
      */
-    "testing.iconPassed": null | ThemeNames;
+    "testing.iconPassed": ThemeNames;
     /**
      * Color for the 'Queued' icon in the test explorer.
      */
-    "testing.iconQueued": null | ThemeNames;
+    "testing.iconQueued": ThemeNames;
     /**
      * Color for the 'Skipped' icon in the test explorer.
      */
-    "testing.iconSkipped": null | ThemeNames;
+    "testing.iconSkipped": ThemeNames;
     /**
      * Color for the 'Unset' icon in the test explorer.
      */
-    "testing.iconUnset": null | ThemeNames;
+    "testing.iconUnset": ThemeNames;
     /**
      * Text color of test error messages shown inline in the editor.
      */
-    "testing.message.error.decorationForeground": null | ThemeNames;
+    "testing.message.error.decorationForeground": ThemeNames;
     /**
      * Margin color beside error messages shown inline in the editor.
      */
-    "testing.message.error.lineBackground": null | ThemeNames;
+    "testing.message.error.lineBackground": ThemeNames;
     /**
      * Text color of test info messages shown inline in the editor.
      */
-    "testing.message.info.decorationForeground": null | ThemeNames;
+    "testing.message.info.decorationForeground": ThemeNames;
     /**
      * Margin color beside info messages shown inline in the editor.
      */
-    "testing.message.info.lineBackground": null | ThemeNames;
+    "testing.message.info.lineBackground": ThemeNames;
     /**
      * Color of the peek view borders and arrow.
      */
-    "testing.peekBorder": null | ThemeNames;
+    "testing.peekBorder": ThemeNames;
     /**
      * Color of the peek view borders and arrow.
      */
-    "testing.peekHeaderBackground": null | ThemeNames;
+    "testing.peekHeaderBackground": ThemeNames;
     /**
      * Color for 'run' icons in the editor.
      */
-    "testing.runAction": null | ThemeNames;
+    "testing.runAction": ThemeNames;
     /**
      * Background color for block quotes in text.
      */
-    "textBlockQuote.background": null | ThemeNames;
+    "textBlockQuote.background": ThemeNames;
     /**
      * Border color for block quotes in text.
      */
-    "textBlockQuote.border": null | ThemeNames;
+    "textBlockQuote.border": ThemeNames;
     /**
      * Background color for code blocks in text.
      */
-    "textCodeBlock.background": null | ThemeNames;
+    "textCodeBlock.background": ThemeNames;
     /**
      * Foreground color for links in text when clicked on and on mouse hover.
      */
-    "textLink.activeForeground": null | ThemeNames;
+    "textLink.activeForeground": ThemeNames;
     /**
      * Foreground color for links in text.
      */
-    "textLink.foreground": null | ThemeNames;
+    "textLink.foreground": ThemeNames;
     /**
      * Foreground color for preformatted text segments.
      */
-    "textPreformat.foreground": null | ThemeNames;
+    "textPreformat.foreground": ThemeNames;
     /**
      * Color for text separators.
      */
-    "textSeparator.foreground": null | ThemeNames;
+    "textSeparator.foreground": ThemeNames;
     /**
      * Title bar background when the window is active.
      */
-    "titleBar.activeBackground": null | ThemeNames;
+    "titleBar.activeBackground": ThemeNames;
     /**
      * Title bar foreground when the window is active.
      */
-    "titleBar.activeForeground": null | ThemeNames;
+    "titleBar.activeForeground": ThemeNames;
     /**
      * Title bar border color.
      */
-    "titleBar.border": null | ThemeNames;
+    "titleBar.border": ThemeNames;
     /**
      * Title bar background when the window is inactive.
      */
-    "titleBar.inactiveBackground": null | ThemeNames;
+    "titleBar.inactiveBackground": ThemeNames;
     /**
      * Title bar foreground when the window is inactive.
      */
-    "titleBar.inactiveForeground": null | ThemeNames;
+    "titleBar.inactiveForeground": ThemeNames;
     /**
      * Toolbar background when holding the mouse over actions
      */
-    "toolbar.activeBackground": null | ThemeNames;
+    "toolbar.activeBackground": ThemeNames;
     /**
      * Toolbar background when hovering over actions using the mouse
      */
-    "toolbar.hoverBackground": null | ThemeNames;
+    "toolbar.hoverBackground": ThemeNames;
     /**
      * Toolbar outline when hovering over actions using the mouse
      */
-    "toolbar.hoverOutline": null | ThemeNames;
+    "toolbar.hoverOutline": ThemeNames;
     /**
      * Tree stroke color for the indentation guides that are not active.
      */
-    "tree.inactiveIndentGuidesStroke": null | ThemeNames;
+    "tree.inactiveIndentGuidesStroke": ThemeNames;
     /**
      * Tree stroke color for the indentation guides.
      */
-    "tree.indentGuidesStroke": null | ThemeNames;
+    "tree.indentGuidesStroke": ThemeNames;
     /**
      * Table border color between columns.
      */
-    "tree.tableColumnsBorder": null | ThemeNames;
+    "tree.tableColumnsBorder": ThemeNames;
     /**
      * Background color for odd table rows.
      */
-    "tree.tableOddRowsBackground": null | ThemeNames;
+    "tree.tableOddRowsBackground": ThemeNames;
     /**
      * Background color for the embedded editors on the Interactive Playground.
      */
-    "walkThrough.embeddedEditorBackground": null | ThemeNames;
+    "walkThrough.embeddedEditorBackground": ThemeNames;
     /**
      * Foreground color of the heading of each walkthrough step
      */
-    "walkthrough.stepTitle.foreground": null | ThemeNames;
+    "walkthrough.stepTitle.foreground": ThemeNames;
     /**
      * Background color for the Welcome page.
      */
-    "welcomePage.background": null | ThemeNames;
+    "welcomePage.background": ThemeNames;
     /**
      * Foreground color for the Welcome page progress bars.
      */
-    "welcomePage.progress.background": null | ThemeNames;
+    "welcomePage.progress.background": ThemeNames;
     /**
      * Background color for the Welcome page progress bars.
      */
-    "welcomePage.progress.foreground": null | ThemeNames;
+    "welcomePage.progress.foreground": ThemeNames;
     /**
      * Background color for the tiles on the Welcome page.
      */
-    "welcomePage.tileBackground": null | ThemeNames;
+    "welcomePage.tileBackground": ThemeNames;
     /**
      * Border color for the tiles on the Welcome page.
      */
-    "welcomePage.tileBorder": null | ThemeNames;
+    "welcomePage.tileBorder": ThemeNames;
     /**
      * Hover background color for the tiles on the Welcome.
      */
-    "welcomePage.tileHoverBackground": null | ThemeNames;
+    "welcomePage.tileHoverBackground": ThemeNames;
     /**
      * Border color of widgets such as find/replace inside the editor.
      */
-    "widget.border": null | ThemeNames;
+    "widget.border": ThemeNames;
     /**
      * Shadow color of widgets such as find/replace inside the editor.
      */
-    "widget.shadow": null | ThemeNames;
+    "widget.shadow": ThemeNames;
     /**
      * The color used for the border of the window when it is active. Only supported in the
      * macOS and Linux desktop client when using the custom title bar.
      */
-    "window.activeBorder": null | ThemeNames;
+    "window.activeBorder": ThemeNames;
     /**
      * The color used for the border of the window when it is inactive. Only supported in the
      * macOS and Linux desktop client when using the custom title bar.
      */
-    "window.inactiveBorder": null | ThemeNames;
+    "window.inactiveBorder": ThemeNames;
 
-    "errorLens.errorBackground": null | ThemeNames;
-    "errorLens.infoBackground": null | ThemeNames;
-    "errorLens.warningBackground": null | ThemeNames;
-    "errorLens.errorBackgroundLight": null | ThemeNames;
-    "errorLens.errorForeground": null | ThemeNames;
-    "errorLens.errorForegroundLight": null | ThemeNames;
-    "errorLens.errorMessageBackground": null | ThemeNames;
-    "errorLens.errorRangeBackground": null | ThemeNames;
-    "errorLens.hintBackground": null | ThemeNames;
-    "errorLens.hintBackgroundLight": null | ThemeNames;
-    "errorLens.hintForeground": null | ThemeNames;
-    "errorLens.hintForegroundLight": null | ThemeNames;
-    "errorLens.hintMessageBackground": null | ThemeNames;
-    "errorLens.hintRangeBackground": null | ThemeNames;
-    "errorLens.infoBackgroundLight": null | ThemeNames;
-    "errorLens.infoForeground": null | ThemeNames;
-    "errorLens.infoForegroundLight": null | ThemeNames;
-    "errorLens.infoMessageBackground": null | ThemeNames;
-    "errorLens.infoRangeBackground": null | ThemeNames;
-    "errorLens.statusBarErrorForeground": null | ThemeNames;
-    "errorLens.statusBarHintForeground": null | ThemeNames;
-    "errorLens.statusBarIconErrorForeground": null | ThemeNames;
-    "errorLens.statusBarIconWarningForeground": null | ThemeNames;
-    "errorLens.statusBarInfoForeground": null | ThemeNames;
-    "errorLens.statusBarWarningForeground": null | ThemeNames;
-    "errorLens.warningBackgroundLight": null | ThemeNames;
-    "errorLens.warningForeground": null | ThemeNames;
-    "errorLens.warningForegroundLight": null | ThemeNames;
-    "errorLens.warningMessageBackground": null | ThemeNames;
-    "errorLens.warningRangeBackground": null | ThemeNames;
+    "errorLens.errorBackground": ThemeNames;
+    "errorLens.infoBackground": ThemeNames;
+    "errorLens.warningBackground": ThemeNames;
+    "errorLens.errorBackgroundLight": ThemeNames;
+    "errorLens.errorForeground": ThemeNames;
+    "errorLens.errorForegroundLight": ThemeNames;
+    "errorLens.errorMessageBackground": ThemeNames;
+    "errorLens.errorRangeBackground": ThemeNames;
+    "errorLens.hintBackground": ThemeNames;
+    "errorLens.hintBackgroundLight": ThemeNames;
+    "errorLens.hintForeground": ThemeNames;
+    "errorLens.hintForegroundLight": ThemeNames;
+    "errorLens.hintMessageBackground": ThemeNames;
+    "errorLens.hintRangeBackground": ThemeNames;
+    "errorLens.infoBackgroundLight": ThemeNames;
+    "errorLens.infoForeground": ThemeNames;
+    "errorLens.infoForegroundLight": ThemeNames;
+    "errorLens.infoMessageBackground": ThemeNames;
+    "errorLens.infoRangeBackground": ThemeNames;
+    "errorLens.statusBarErrorForeground": ThemeNames;
+    "errorLens.statusBarHintForeground": ThemeNames;
+    "errorLens.statusBarIconErrorForeground": ThemeNames;
+    "errorLens.statusBarIconWarningForeground": ThemeNames;
+    "errorLens.statusBarInfoForeground": ThemeNames;
+    "errorLens.statusBarWarningForeground": ThemeNames;
+    "errorLens.warningBackgroundLight": ThemeNames;
+    "errorLens.warningForeground": ThemeNames;
+    "errorLens.warningForegroundLight": ThemeNames;
+    "errorLens.warningMessageBackground": ThemeNames;
+    "errorLens.warningRangeBackground": ThemeNames;
 
-    "issues.closed": null | ThemeNames;
-    "issues.newIssueDecoration": null | ThemeNames;
-    "issues.open": null | ThemeNames;
-    "markdown.extension.editor.codeSpan.background": null | ThemeNames;
-    "markdown.extension.editor.codeSpan.border": null | ThemeNames;
-    "markdown.extension.editor.formattingMark.foreground": null | ThemeNames;
-    "markdown.extension.editor.trailingSpace.background": null | ThemeNames;
-    "pullRequests.closed": null | ThemeNames;
-    "pullRequests.draft": null | ThemeNames;
-    "pullRequests.merged": null | ThemeNames;
-    "pullRequests.notification": null | ThemeNames;
-    "pullRequests.open": null | ThemeNames;
+    "issues.closed": ThemeNames;
+    "issues.newIssueDecoration": ThemeNames;
+    "issues.open": ThemeNames;
+    "markdown.extension.editor.codeSpan.background": ThemeNames;
+    "markdown.extension.editor.codeSpan.border": ThemeNames;
+    "markdown.extension.editor.formattingMark.foreground": ThemeNames;
+    "markdown.extension.editor.trailingSpace.background": ThemeNames;
+    "pullRequests.closed": ThemeNames;
+    "pullRequests.draft": ThemeNames;
+    "pullRequests.merged": ThemeNames;
+    "pullRequests.notification": ThemeNames;
+    "pullRequests.open": ThemeNames;
 }

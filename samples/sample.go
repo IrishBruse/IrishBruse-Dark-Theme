@@ -40,3 +40,7 @@ func main() {
 		fmt.Println(test)
 	}
 }
+
+func test(i int) int {
+	return i
+}

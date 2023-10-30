@@ -27,6 +27,7 @@
         "theme",
         "color-theme"
     ],
+    "editor.semanticHighlighting.enabled": true,
     "contributes": {
         "themes": [
             {

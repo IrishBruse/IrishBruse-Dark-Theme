@@ -1,5 +1,7 @@
 import * as fs from "fs";
-import editor from "./editor";
+import editor from "./theme/Editor";
+import textmate from "./theme/Textmate";
+import semanticColors from "./theme/SemanticColors";
 
 console.clear();
 
@@ -9,10 +11,10 @@ try {
 
 const darkThemeGreen = {
     _name: "dark-theme-green",
+
     Dark: "#191d1f",
     Normal: "#1e2224",
     Light: "#23272a",
-
     Input: "#32383d",
     Border: "#32383d",
     Scrollbar: "#32383d99",
@@ -23,7 +25,7 @@ const darkThemeGreen = {
     // Text
     TextDarker: "#828282",
     TextDark: "#9b9b9b",
-    Text: "#d4d4d4",
+    Text: "#c0c0c0",
     TextPlaceholder: "#d4d4d480",
     // Indent
     IndentActive: "#86c332",
@@ -68,7 +70,7 @@ const darkThemeGreen = {
     // Error Lense
     ErrorLensError: "#e45454",
     ErrorLensInfo: "#00b7e4",
-    ErrorLensHint: "##2faf64",
+    ErrorLensHint: "#91b859",
     ErrorLensWarning: "#ff942f",
     // Syntax Highlighting
     Number: "#b5cea8",
@@ -77,7 +79,7 @@ const darkThemeGreen = {
     Comment: "#606060",
     Meta: "#707070",
     Namespace: "#707070",
-    String: "#ce9178",
+    String: "#d7957f",
     Method: "#dcdcaa",
     Operator: "#c94e67",
     Local: "#9cdcfe",
@@ -87,7 +89,7 @@ const darkThemeGreen = {
     Object: "#4ec9b0",
     Struct: "#82c97a",
     Enum: "#cbd67e",
-    Interface: "#82c97a",
+    Interface: "#dbbe66",
     //
     Transparent: "#00000000",
     "?": "#FF00FF",
@@ -185,8 +187,8 @@ let lightThemeGreen: Theme = {
 type HEX = `#${string}`;
 type Theme = typeof darkThemeGreen;
 type ThemeKeys = keyof Omit<typeof darkThemeGreen, "_name">;
-export type ThemeNames = ThemeKeys | null | HEX;
-
+export type ThemeNames = ThemeKeys | HEX | null;
+export type ThemeType = ThemeNames | "bold" | "italic" | "underline" | "bold italic";
 
 const palletes: Record<string, Theme> = {
     "dark-theme-green": darkThemeGreen,
@@ -206,8 +208,8 @@ try {
 
         let pal: Theme = palletes[theme];
         output.colors = ProcessEditorColors(pal);
-        // output.colors = combine("./src/textmate/");
-        // output.colors = combine("./src/semantic/");
+        output.tokenColors = ProcessTextmateColors(pal);
+        output.semanticTokenColors = ProcessSemanticColors(pal);
 
         var outputText = JSON.stringify(output, null, 4);
         fs.writeFileSync(`../themes/${pal._name}.json`, outputText);
@@ -217,8 +219,6 @@ try {
     console.error(error);
 }
 
-console.log();
-
 function ProcessEditorColors(pal: Theme) {
     let res = {};
     Object.entries(editor).forEach(([key, value]) => {
@@ -227,51 +227,63 @@ function ProcessEditorColors(pal: Theme) {
     return res;
 }
 
+function ProcessSemanticColors(pal: Theme) {
+    let res = {};
+    Object.entries(semanticColors).forEach(([key, value]) => {
+        if (typeof value === "string") {
+            res[key] = replaceVariables(value, pal);
+        }
+        else {
+            res[key] = value;
+            if (value !== null) {
+                res[key].foreground = replaceVariables(value?.foreground, pal);
+            }
+        }
+    });
+    return res;
+}
+
+function ProcessTextmateColors(pal: Theme) {
+    let res = [];
+    let map: Map<string, string[]> = new Map()
+    Object.entries(textmate).forEach(([key, value]) => {
+        const color = replaceVariables(value, pal)
+        let t = map.get(color);
+        let array = t === undefined ? [] : t;
+        array.push(key);
+        map.set(color, array)
+    });
+
+    console.log(map);
+
+    map.forEach((scope, color) => {
+        let setting: any = {};
+
+        if (color.startsWith("#")) {
+            setting.foreground = color;
+        } else {
+            setting.fontStyle = color;
+        }
+
+        res.push({
+            "scope": scope,
+            "settings": setting
+        })
+    });
+
+    return res;
+}
+
 function replaceVariables(
     text: string | null,
     palette: Theme
 ): string | null {
     if (text === null) return null;
-    else if (text.startsWith("#")) return text;
-    else if (!text.startsWith("#")) return palette[text];
+    else if (text == "bold") return text;
+    else if (text == "italic") return text;
+    else if (text == "underline") return text;
+    else if (text == "bold italic") return text;
+    else if (text?.startsWith("#")) return text;
+    else if (!text?.startsWith("#")) return palette[text];
     else return "#ff0000";
-}
-
-function convertToVscode(tokenColors) {
-    let tokens = [];
-    let sort = {};
-
-    for (const token of Object.entries(tokenColors)) {
-        const key: string = token[0];
-        const value: string = token[1] as string;
-
-        let newToken = {
-            scope: [key],
-            settings: {
-                fontStyle: undefined,
-                foreground: undefined,
-            },
-        };
-
-        if (
-            value === "$bold" ||
-            value === "$italic" ||
-            value === "$underline" ||
-            value === "$strikethrough"
-        ) {
-            newToken.settings.fontStyle = value.replace("$", "");
-        } else {
-            newToken.settings.foreground = value;
-        }
-
-        if (sort[value] === undefined) {
-            sort[value] = [];
-        }
-
-        sort[value].push(newToken);
-
-        tokens.push(newToken);
-    }
-
-    return tokens;
 }
